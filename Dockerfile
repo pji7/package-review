@@ -9,9 +9,7 @@ FROM debian:bullseye
 RUN echo "deb-src http://deb.debian.org/debian bullseye main" >> /etc/apt/sources.list
 
 # Fix locale
-ENV LANG=en_US.UTF-8
-ENV LANGUAGE=en_US:en
-ENV LC_ALL=en_US.UTF-8
+ENV LC_ALL=C.UTF-8
 
 # Apt update && upgrade
 RUN apt update -y
@@ -37,7 +35,7 @@ RUN apt install -y \
   python3-pip \
   flawfinder \
   cppcheck \
-  clang-tools 
+  clang-tools
 #  tree
 #  vim 
 
