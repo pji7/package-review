@@ -40,4 +40,4 @@ with open(output_csv, "w", newline='', encoding='utf-8') as f:
     writer.writerow(["CWE", "Error ID", "Severity", "Message", "Verbose", "File", "Line", "Column"])
     writer.writerows(results)
 
-print(f"✅ 提取完成，结果保存到: {output_csv}")
+print(f"Extracting process completed: {output_csv}")
