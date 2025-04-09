@@ -2,7 +2,7 @@
 
 IMAGE_NAME="sast_runner:latest"
 DOCKERFILE_PATH="."
-SOURCE_LIST_DIR="/home/sourcelist"
+SOURCE_LIST_DIR="/home/data"
 OUTPUT_BASE="./results"
 
 # Step 1: Build the Docker image

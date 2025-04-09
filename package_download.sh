@@ -1,6 +1,6 @@
 #!/bin/bash
 # ================= Configuration =================
-SOURCE_LIST="/home/sourcelist/pack_list.txt"
+SOURCE_LIST="/home/data/pack_list.txt"
 INPUT_DIR="/home/input"
 TEMP_DIR="/home/temp"
 
@@ -66,7 +66,7 @@ while read -r package; do
   echo "Done with $package"
   echo
 
-  echo "🧹 Cleaning up temp directory..."
+  echo "Cleaning up temp directory..."
   rm -rf "$TEMP_DIR"/*
 done < "$SOURCE_LIST"
 

@@ -49,5 +49,5 @@ RUN mkdir -p \
   /home/input \
   /home/output \
   /home/semgrep \
-  /home/sourcelist 
+  /home/data 
 
