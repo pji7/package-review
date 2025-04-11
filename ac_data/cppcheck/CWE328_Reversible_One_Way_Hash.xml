@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6542582092099335643">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7630692140766926458">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_03.c" line="134" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2602335693052765403">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_03.c" line="235" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10670768888752199516">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_06.c" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9644617941785701122">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_06.c" line="139" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11610410921193547277">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_06.c" line="240" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6516141720131499419">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_07.c" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="8132987775611451424">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_07.c" line="139" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9485863692486899955">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD2_07.c" line="240" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14843284836421537422">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7066964712717611768">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_03.c" line="134" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9816636984975448712">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_03.c" line="235" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9990039491755623360">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_06.c" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7987489161499106343">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_06.c" line="139" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5137976108634944605">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_06.c" line="240" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="719876546542040864">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_07.c" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="8702994647609650893">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_07.c" line="139" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12657158320507360775">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_MD5_07.c" line="240" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1585396307625071874">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5450085861082191435">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_03.c" line="134" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9851399886630353522">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_03.c" line="235" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8584749196808588301">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_06.c" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="840944166818839969">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_06.c" line="139" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13370010855400344986">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_06.c" line="240" column="25"/>
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16694517482375657157">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_07.c" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12708735094707355523">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_07.c" line="139" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="18016314664081139834">
+            <location file="/home/input/C/testcases/CWE328_Reversible_One_Way_Hash/CWE328_Reversible_One_Way_Hash__w32_SHA1_07.c" line="240" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

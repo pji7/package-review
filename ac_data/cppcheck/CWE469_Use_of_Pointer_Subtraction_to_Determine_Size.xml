@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7990418145103222294">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11208279941065251388">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_03.c" line="53" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9371337381060416051">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_03.c" line="80" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1524316210418966070">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="441364545866985921">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_06.c" line="58" column="25"/>
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4699183166460059591">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_06.c" line="85" column="25"/>
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1829931527760103131">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="13441974228347915379">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_07.c" line="58" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13490532591024183175">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__char_07.c" line="85" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8452441422309548352">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17002855446493740271">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_03.c" line="53" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11271692282655253384">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_03.c" line="80" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5512112022676341173">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2306179628275558387">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_06.c" line="58" column="25"/>
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9277262768938832778">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_06.c" line="85" column="25"/>
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8566446613177168230">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="53985290163875771">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_07.c" line="58" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1069135955649546005">
+            <location file="/home/input/C/testcases/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size/CWE469_Use_of_Pointer_Subtraction_to_Determine_Size__wchar_t_07.c" line="85" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

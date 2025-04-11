@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="5379447000555041869">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_01.c" line="29" column="28"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="8234754755667399966">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_01.c" line="60" column="28"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="8246563160194624807">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_02.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="11432284015424451540">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_02.c" line="71" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="12223350552951294271">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_02.c" line="102" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13151995094520330381">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2616654476636755758">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_03.c" line="63" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="846869351776465199">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_03.c" line="99" column="9"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="17359698345107095314">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_03.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="6578744289884016406">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_03.c" line="71" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="8396053506717464226">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_03.c" line="102" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="11527223603648816591">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_04.c" line="37" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="3128980460093269171">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_04.c" line="77" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="8398191652093370381">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_04.c" line="108" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="11804931923585550940">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_05.c" line="37" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="10263884023011796205">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_05.c" line="77" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="7691218304158224738">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_05.c" line="108" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="806291649992230992">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="33" column="25"/>
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12822480510828457964">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="68" column="25"/>
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8910887996149215197">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="104" column="25"/>
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="9328123036009535893">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="36" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="15296651923235025576">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="76" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="1777848677681677056">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_06.c" line="107" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7944037601391422978">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_07.c" line="33" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="9217202344496252676">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_07.c" line="68" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6830509765485531990">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_07.c" line="104" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="14258981871187680576">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_07.c" line="36" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="1464077061405544952">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_07.c" line="76" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="14019434944922821855">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_07.c" line="107" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="15167152438811267873">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_08.c" line="44" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="14401381127119950460">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_08.c" line="84" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="7427051049846546714">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_08.c" line="115" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="944353666027087361">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_09.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="10617177737184777521">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_09.c" line="71" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="747043308764088171">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_09.c" line="102" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="9011130934628825366">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_10.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="14956582695418379664">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_10.c" line="71" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="6002211163393693751">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_10.c" line="102" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="16620912944448542495">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_11.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="3595842332359872180">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_11.c" line="71" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="6959995608523245225">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_11.c" line="102" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="9945603459653376395">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_12.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="12653520942668884668">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_12.c" line="57" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="3059273527012912791">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_12.c" line="92" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="11148083918679978326">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_12.c" line="118" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="3299158617997197225">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_13.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="250633356137475435">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_13.c" line="71" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="7265026274842466180">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_13.c" line="102" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="3891388659052686287">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_14.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="1703462609739409331">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_14.c" line="71" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="8083950401266458458">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_14.c" line="102" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="5105030872895390180">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_15.c" line="32" column="28"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="3178500958201868041">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_15.c" line="77" column="28"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="7575153808275147684">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_15.c" line="110" column="28"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="156682807853330268">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_16.c" line="31" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="4357252591704857109">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_16.c" line="67" column="32"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="193850424588845055">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_18.c" line="31" column="28"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;passwordLen&apos; is assigned a value that is never used." verbose="Variable &apos;passwordLen&apos; is assigned a value that is never used." cwe="563" hash="15142210522118497733">
+            <location file="/home/input/C/testcases/CWE615_Info_Exposure_by_Comment/CWE615_Info_Exposure_by_Comment__w32_18.c" line="65" column="28"/>
+            <symbol>passwordLen</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

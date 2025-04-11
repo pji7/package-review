@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="854715500823815993">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15429455568684459743">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_03.c" line="49" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1716833588808433347">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_03.c" line="75" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13060112373818755756">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15018252369480196407">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_06.c" line="54" column="25"/>
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1425309006421083695">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_06.c" line="80" column="25"/>
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="17010299855867672153">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="185744411890295853">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_07.c" line="54" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8686540826540758333">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__modify_local_07.c" line="80" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="12196732770045543006">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_01.c" line="27" column="22"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="2412177921137987963">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_01.c" line="27" column="33"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="4358564098416585819">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_01.c" line="27" column="45"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="15115076626698461437">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_02.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="9283463518876488932">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_02.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="5290105157218034763">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_02.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6370994089502066227">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16206754731799713032">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_03.c" line="49" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7229242143698541748">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_03.c" line="74" column="9"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="15877674056776393595">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_03.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="11821941168751169941">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_03.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="8123561301918982728">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_03.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="12103502597413800655">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_04.c" line="35" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="13543184007390471129">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_04.c" line="35" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="260018727183331194">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_04.c" line="35" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="14857830871050931825">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_05.c" line="35" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="16579303788284825633">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_05.c" line="35" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="3421606068728420522">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_05.c" line="35" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9229180724665883064">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2905862351272482284">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="54" column="25"/>
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15940684689390821430">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="79" column="25"/>
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="12215451965911130739">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="34" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="3562450471362404879">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="34" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="16329754035943365612">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_06.c" line="34" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10004076344180666385">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3344591566360167600">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_07.c" line="54" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="17166198989053963650">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_07.c" line="79" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="14514240333932461931">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_07.c" line="34" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="3889223048557486356">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_07.c" line="34" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="11340899518301502503">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_07.c" line="34" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="2718921514714120975">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_08.c" line="42" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="7161816686456803471">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_08.c" line="42" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="8860926219408321230">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_08.c" line="42" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="9145850456654080844">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_09.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="9895056211070843298">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_09.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="17822682937766688309">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_09.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="1469462645619401293">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_10.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="5957235846353356072">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_10.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="502040129588584603">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_10.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="6917967474015052872">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_11.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="2361631965835198087">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_11.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="3928102167781727842">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_11.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="3307138938091684701">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_12.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="581306286632980931">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_12.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="10509426631361535987">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_12.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="12427467723232446559">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_13.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="8870732059483330155">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_13.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="15495289912402447514">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_13.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="697516241787432317">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_14.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="7487502435402501773">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_14.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="15658197198067253256">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_14.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="7124812548634350710">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_15.c" line="30" column="22"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="14158237723639876055">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_15.c" line="30" column="33"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="5456095545698998469">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_15.c" line="30" column="45"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="7959489274117233593">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_16.c" line="29" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="8442186022181573111">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_16.c" line="29" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="224952789882525180">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_16.c" line="29" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="4974814901015193029">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_17.c" line="30" column="26"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="9761861888346305022">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_17.c" line="30" column="37"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="8207616955140341070">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_17.c" line="30" column="49"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charFirst&apos; is never used." verbose="struct member &apos;Anonymous1::charFirst&apos; is never used." cwe="563" hash="11298150207905388814">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_18.c" line="29" column="22"/>
+            <symbol>Anonymous1::charFirst</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charSecond&apos; is never used." verbose="struct member &apos;Anonymous1::charSecond&apos; is never used." cwe="563" hash="17968207287650352034">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_18.c" line="29" column="33"/>
+            <symbol>Anonymous1::charSecond</symbol>
+        </error>
+        <error id="unusedStructMember" severity="style" msg="struct member &apos;Anonymous1::charThird&apos; is never used." verbose="struct member &apos;Anonymous1::charThird&apos; is never used." cwe="563" hash="9829920917237198352">
+            <location file="/home/input/C/testcases/CWE188_Reliance_on_Data_Memory_Layout/CWE188_Reliance_on_Data_Memory_Layout__union_18.c" line="29" column="45"/>
+            <symbol>Anonymous1::charThird</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

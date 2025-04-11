@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="throwInNoexceptFunction" severity="error" msg="Exception thrown in function declared not to throw exceptions." verbose="Exception thrown in function declared not to throw exceptions." cwe="398" hash="449475544549157077">
+            <location file="/home/input/C/testcases/CWE440_Expected_Behavior_Violation/CWE440_Expected_Behavior_Violation__exception_01.cpp" line="21" column="2"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

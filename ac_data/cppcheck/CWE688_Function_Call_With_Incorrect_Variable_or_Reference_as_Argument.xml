@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="5853642975389929650">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_01.c" line="28" column="9"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="7799544840480165715">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_02.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="8522660576442526614">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_03.c" line="30" column="13"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1351625665052880741">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_03.c" line="24" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1154038041414926633">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_03.c" line="43" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6153949056358954380">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_03.c" line="63" column="9"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="324611924299255498">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_04.c" line="36" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="14558650271418969911">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_05.c" line="36" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="1074583314859791561">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_06.c" line="35" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5322283087848796846">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_06.c" line="29" column="25"/>
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5053659640161222497">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_06.c" line="48" column="25"/>
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16978620355070569180">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_06.c" line="68" column="25"/>
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3586997349832126642">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_07.c" line="29" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="15156241987854574707">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_07.c" line="48" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5284482268673448134">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_07.c" line="68" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="17893379560295089435">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_07.c" line="35" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="5881965864706261659">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_08.c" line="43" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="13685393253420723633">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_09.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="2517484723192994234">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_10.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="13155306266148904161">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_11.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="14105946784297155134">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_12.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="14906634435825477375">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_13.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="14894685666150021433">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_14.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="7187001545394843104">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_15.c" line="31" column="9"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="3298265937773061075">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_16.c" line="30" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="3443966191466877107">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_17.c" line="31" column="13"/>
+        </error>
+        <error id="invalidPrintfArgType_s" severity="warning" msg="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." verbose="%s in format string (no. 1) requires &apos;char *&apos; but the argument type is &apos;signed int&apos;." cwe="686" hash="4161220512204765623">
+            <location file="/home/input/C/testcases/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument/CWE688_Function_Call_With_Incorrect_Variable_or_Reference_as_Argument__basic_18.c" line="30" column="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

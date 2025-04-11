@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8709896737940179427">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c" line="24" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="364864895150413405">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c" line="44" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9468689922544749607">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c" line="65" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7774400345079510909">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c" line="29" column="25"/>
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3231265834633163930">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c" line="49" column="25"/>
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9893948303611735868">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c" line="70" column="25"/>
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11708471610995359526">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c" line="29" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="4129531250439154216">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c" line="49" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11429746997021577092">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c" line="70" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6633622234224290389">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c" line="24" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5161958322468903714">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c" line="44" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10237439721612806605">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c" line="65" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12188828665105887459">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c" line="29" column="25"/>
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17311139138063554447">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c" line="49" column="25"/>
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14045840223444457774">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c" line="70" column="25"/>
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1648109314621888094">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c" line="29" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="17065291779574789035">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c" line="49" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="547022164580799984">
+            <location file="/home/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c" line="70" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

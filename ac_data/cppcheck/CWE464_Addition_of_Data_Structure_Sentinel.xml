@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="5604540905435055127">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c" line="31" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c" line="24" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="12214141308382031213">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c" line="54" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c" line="52" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9894517761711638430">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12029477141388408423">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c" line="56" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1354094221118577367">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c" line="82" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16129487484581912269">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c" line="29" column="25"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2114403016604161221">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c" line="60" column="25"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7108187002333068152">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c" line="86" column="25"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7007498368740522316">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="7969480585011058058">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_07.c" line="62" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2389383536055016150">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_07.c" line="88" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="16613238146739300538">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c" line="33" column="18" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c" line="24" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="14581054773951266154">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c" line="65" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c" line="61" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="17620885061040418930">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c" line="31" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c" line="24" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="9249336960130517587">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c" line="58" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c" line="56" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="3167798322229123689">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="35" column="18" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="28" column="19" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="5216060949625883843">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="67" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="65" column="19" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="7351528582075145474">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="28" column="14" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="23" column="10" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="12356742528025997181">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="65" column="14" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c" line="60" column="10" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="17822892654314255187">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="35" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="28" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="9073936002235317811">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="62" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="60" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dataRef&apos; can be reduced." verbose="The scope of the variable &apos;dataRef&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7689823246919796674">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="27" column="11"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dataRef&apos; can be declared with const" verbose="Variable &apos;dataRef&apos; can be declared with const" cwe="398" hash="2753829346708639913">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="59" column="11" info="Variable &apos;dataRef&apos; can be declared with const"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dataRef" verbose="Uninitialized variable: dataRef" cwe="457" hash="16969594646256270455">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="38" column="21"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="27" column="21" info="Assignment &apos;dataRef=data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dataRef" verbose="Uninitialized variable: dataRef" cwe="457" hash="13481139329451326659">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="64" column="21"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp" line="59" column="21" info="Assignment &apos;dataRef=data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="16120271783734789318">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c" line="38" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c" line="31" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="5073424484025413418">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c" line="66" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c" line="64" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="13992202935142440619">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c" line="44" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c" line="37" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="265338423174214944">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c" line="72" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c" line="70" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="9427484322469682997">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c" line="46" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c" line="39" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="2912884809513294338">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c" line="76" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c" line="74" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="18093607112803246462">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c" line="48" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c" line="41" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="2975893408628719699">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c" line="78" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c" line="76" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="12335629636620896274">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c" line="34" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c" line="27" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="10002280086732811649">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c" line="52" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c" line="50" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="14083371427743789694">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c" line="34" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c" line="27" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="7671228915508832697">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c" line="52" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c" line="50" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="11126232565047634694">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c" line="34" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c" line="27" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="12938755539252822434">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c" line="52" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c" line="50" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="9541924057644853198">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c" line="34" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c" line="27" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="4624617255109136479">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c" line="52" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c" line="50" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="7960717854362677091">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_63a.c" line="34" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_63a.c" line="27" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="15864548246976124713">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_63a.c" line="51" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_63a.c" line="49" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="977175122880041411">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_64a.c" line="34" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_64a.c" line="27" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="14332722894820080608">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_64a.c" line="51" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_64a.c" line="49" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="700575954661697487">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c" line="36" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c" line="29" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="12608540002636669399">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c" line="55" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c" line="53" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="9139947465076632418">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c" line="35" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c" line="28" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="13791117794071226257">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c" line="55" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c" line="53" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="18311800369043370306">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c" line="40" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c" line="33" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="9791525856148534216">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c" line="59" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c" line="57" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="11835686430116377427">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c" line="37" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c" line="30" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="7997146518398678405">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c" line="56" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c" line="54" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="2854327777978312710">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp" line="41" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp" line="34" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="1807024273046148390">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp" line="65" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp" line="63" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="11341696392859207546">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp" line="41" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp" line="34" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="3828323641607757492">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp" line="65" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp" line="63" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="12380742206449601547">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp" line="41" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp" line="34" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="13931374926116539675">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp" line="65" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp" line="63" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17804159887055305184">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7998819465517937171">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4968844521277792460">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="10538273763506437988">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6074137696622246999">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3203480379836744579">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="8010775247745557089">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" line="35" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" line="28" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="4630267072336042872">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" line="51" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp" line="49" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16921471758282383125">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="33" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3127215624844192785">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="43" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8013084828473433487">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="33" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13641348639858894191">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="43" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base&apos; which is inherited by class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base&apos; which is inherited by class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="13902191690380924420">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="21" column="1"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base</symbol>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base&apos; which is inherited by class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base&apos; which is inherited by class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="9930804545450210618">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="21" column="1"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base</symbol>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="14055313920339504711">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="33" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16685914845005491561">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="43" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="156086605045908979">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" line="35" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" line="28" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="8879480758738303172">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" line="52" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp" line="50" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11754362550673241276">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83.h" line="27" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="14493606871356969762">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83.h" line="41" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7861345541281784165">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83.h" line="27" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="265955580322930457">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83.h" line="41" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="16011448943054066567">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B.cpp" line="27" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B.cpp" line="25" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12392687655017037975">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83.h" line="27" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="15843058805074657144">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83.h" line="41" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16728162065292787237">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84.h" line="27" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5428127200422835419">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84.h" line="41" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8683400046366421114">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84.h" line="27" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16454245883125589000">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84.h" line="41" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;data&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;data&apos; is reassigned a value before the old one has been used." cwe="563" hash="13101995914347732018">
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B.cpp" line="27" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B.cpp" line="25" column="10" info="data is assigned"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10748387900990669158">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84.h" line="27" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="14444209346901165516">
+            <location file0="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84a.cpp" file="/home/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84.h" line="41" column="5"/>
+            <symbol>CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

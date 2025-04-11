@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="16825370659174480429">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_01.c" line="28" column="37" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="16067837030994715861">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_01.c" line="43" column="37" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="14316032263808763080">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_02.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="15666483525817608942">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_02.c" line="54" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="8447171848500100491">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_02.c" line="74" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="528513745364170110">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_03.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="5620863781733613763">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_03.c" line="54" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="356429107883496907">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_03.c" line="74" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3180230367899913689">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8255685898607812279">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_03.c" line="44" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11880208250044442210">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_03.c" line="69" column="9"/>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="335298878342445572">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_04.c" line="36" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="11545269858381373489">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_04.c" line="60" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="12631039335726368448">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_04.c" line="80" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="9947545163260936566">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_05.c" line="36" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="3940419758934029699">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_05.c" line="60" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="14167393109671661542">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_05.c" line="80" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="13911428085487832322">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="35" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="16464085310726591793">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="59" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="8902147642204964575">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="79" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13680903461484502489">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="289223368279735070">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="49" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16821590879848448104">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="74" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="11041921647277564118">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_07.c" line="35" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="15517557540977329379">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_07.c" line="59" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="14039561219557622683">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_07.c" line="79" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8914660821498810500">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="5442866855869878796">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_07.c" line="49" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8325124327811753046">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_07.c" line="74" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="7930263951548087792">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_08.c" line="43" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="13947428270850858833">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_08.c" line="67" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="8889287545548312838">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_08.c" line="87" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="1177756316521295768">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_09.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="10184498976586892883">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_09.c" line="54" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="12474751281351548603">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_09.c" line="74" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="14146917467976025933">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_10.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="10880054063566958123">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_10.c" line="54" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="13898231480489650128">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_10.c" line="74" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="3659559372271308536">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_11.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="9803174435152307826">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_11.c" line="54" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="11352434605041792750">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_11.c" line="74" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="11651950066572705519">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_12.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="1233000531467205123">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_12.c" line="40" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="3076382162131552630">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_12.c" line="64" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="13076871972235175072">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_12.c" line="79" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="11302704513511881792">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_13.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="9529763588520334789">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_13.c" line="54" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="4008561924938834988">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_13.c" line="74" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="14839869413752432958">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_14.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="1140492043577621518">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_14.c" line="54" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="8920791170385659839">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_14.c" line="74" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="18218492108509481225">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_15.c" line="31" column="37" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="15986756154188098548">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_15.c" line="60" column="37" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="13219758879400664907">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_15.c" line="82" column="37" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="12712822399089207814">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_16.c" line="30" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="11111451957065115294">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_16.c" line="50" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="2628191461998784730">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_17.c" line="31" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="14239931470125374015">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_17.c" line="51" column="41" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="14550643185272923909">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_18.c" line="30" column="37" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="invalidFunctionArg" severity="error" msg="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." verbose="Invalid sqrt() argument nr 1. The value is -1 but the valid values are &apos;0.0:&apos;." cwe="628" hash="13250679690794583157">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__sqrt_18.c" line="48" column="37" info="Invalid argument"/>
+            <symbol>sqrt</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5521975027662790235">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_03.c" line="24" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16685371425072837942">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_03.c" line="42" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13309550655016472625">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_03.c" line="67" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7216935969998227666">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_06.c" line="29" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9379771689636529414">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_06.c" line="47" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15473046632101911106">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_06.c" line="72" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10074037978498778760">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_07.c" line="29" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="10133473451764298891">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_07.c" line="47" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3355661638693611456">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__strtol_07.c" line="72" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16568404476711792814">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_03.c" line="24" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9037529026970903684">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_03.c" line="45" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="156411799145555229">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_03.c" line="73" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="805004728701889170">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_06.c" line="29" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13457562303841385993">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_06.c" line="50" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16984841786077920454">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_06.c" line="78" column="25"/>
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11354697156701998066">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_07.c" line="29" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="18414767076008518708">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_07.c" line="50" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12823921796274400825">
+            <location file="/home/input/C/testcases/CWE391_Unchecked_Error_Condition/CWE391_Unchecked_Error_Condition__wcstombs_07.c" line="78" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

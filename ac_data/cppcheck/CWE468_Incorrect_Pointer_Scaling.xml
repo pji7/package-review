@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="183317754285389344">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10634593501319847109">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c" line="42" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4147189074525891371">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c" line="63" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17392222854242447666">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15010833196460212391">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c" line="47" column="25"/>
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6415196088819929558">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c" line="68" column="25"/>
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9047351167810835240">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="4284326970913047732">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c" line="47" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6449624110871446161">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c" line="68" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7461874622389061858">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8345610665629902518">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c" line="42" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12979126524272490425">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c" line="63" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3558842086509341286">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9407632568056244749">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c" line="47" column="25"/>
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2060942990644343704">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c" line="68" column="25"/>
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6155828434827225819">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="16163202900646821109">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c" line="47" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5802126165200756163">
+            <location file="/home/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c" line="68" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

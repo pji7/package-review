@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4254605472127221315">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c" line="49" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4560544706027635700">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c" line="147" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8657722735876223987">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c" line="221" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13345350726588221466">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c" line="54" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c" line="48" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="396667894456537787">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c" line="152" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c" line="48" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="126953994293973885">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c" line="226" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c" line="48" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15785952635815856169">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c" line="54" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="14104430794523864920">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c" line="152" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11044720300641654369">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c" line="226" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11936417508904177377">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c" line="43" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2184222934207363804">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c" line="132" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2332624344635126298">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c" line="206" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14574851866851141422">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c" line="48" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c" line="42" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14428884564443841095">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c" line="137" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c" line="42" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11669051020013041794">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c" line="211" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c" line="42" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1538692461112120561">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c" line="48" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="11418270334034992622">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c" line="137" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9271425775166394981">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c" line="211" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14446097862527818080">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_03.c" line="41" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17310831816561351724">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_06.c" line="46" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_06.c" line="40" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8943931937425293485">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_07.c" line="46" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2826214164768199138">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_03.c" line="41" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1455621077656002888">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_06.c" line="46" column="25"/>
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_06.c" line="40" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14944136151011207844">
+            <location file="/home/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_07.c" line="46" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

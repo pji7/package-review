@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="8529466762658693664">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_02.c" line="36" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_02.c" line="28" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="18415374085002162414">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_02.c" line="87" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_02.c" line="79" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4615575186717296662">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5528398048823924120">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_03.c" line="53" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9948662587835054430">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_03.c" line="79" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12504274282992378169">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7598823036163655324">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_06.c" line="57" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11835420077128848083">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_06.c" line="83" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3392745712391108433">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_07.c" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="17984610618860005879">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_07.c" line="59" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9236566686131251193">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_07.c" line="85" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="11597827928969358398">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_16.c" line="37" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_16.c" line="28" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="10307146225463755746">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_16.c" line="63" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_16.c" line="54" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="6580022207070099611">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_32.c" line="31" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_32.c" line="25" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="13538583093626352611">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_32.c" line="62" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_32.c" line="56" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="1996400834131720696">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_32.c" line="28" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="1834823582350207609">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_32.c" line="59" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="7695031235359981539">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_33.cpp" line="30" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="16843552604896529520">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_74a.cpp" line="36" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8576080844345769660">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17919144832228338521">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="12036084440720931210">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="12491059670646923683">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2680578670600396831">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="10479195507664095692">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11498442877560077646">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7274064229823938878">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9100922178457012219">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8438260739731083930">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__char_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_cat_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_cat_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="9190488904117537073">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__char_cat_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__char_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_cat_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_cat_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="4415545589861810285">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__char_cat_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4301247619092476168">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2447869474883223705">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11051872140028576364">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12608159761681674814">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8555635120608848449">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3435091302351562005">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9225969563654160840">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12137192430020310653">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2774622784327721339">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2954448903536039521">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16896903841663799807">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="833932318347127042">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5283071678162211665">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="18051703689730529889">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_cat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_cat_84_goodG2B</symbol>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="15229006538273764012">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_02.c" line="37" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_02.c" line="28" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="15483637073955785204">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_02.c" line="92" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_02.c" line="83" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7121406400384966243">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17454686352077485403">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_03.c" line="55" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2303912883059463783">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_03.c" line="83" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17364281423882859154">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7190992587923196883">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="315570573913075775">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_06.c" line="87" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10041181535749155990">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_07.c" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="8259742294770339156">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_07.c" line="61" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3729046911891019789">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_07.c" line="89" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="3325962957739353340">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_16.c" line="38" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_16.c" line="28" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="13426109300576083665">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_16.c" line="66" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_16.c" line="56" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="17581007997584374090">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_32.c" line="31" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_32.c" line="25" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10046165368491303650">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_32.c" line="64" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_32.c" line="58" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="16696003061103184725">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_32.c" line="28" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="14521676081671359298">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_32.c" line="61" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="11666676079918242734">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_33.cpp" line="30" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="9655743740711462254">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_74a.cpp" line="36" column="10"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2891019324423660465">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6683925905578240429">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2716009924714768165">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5777747448674531347">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1627935132287751724">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17909896399470817178">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2615238440693100911">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11625229839985933849">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9118593938260328265">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15723204561382264536">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_ncat_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_ncat_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="14833014619585165529">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__char_ncat_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_ncat_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__char_ncat_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="16194993826444939144">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__char_ncat_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5666247989234973583">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="10608979763080421619">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16287232914674233670">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12046921385549624992">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="4254302791574495933">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3720628554197622435">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5669170090495886100">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8330359244819681400">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12692596745795109368">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="13063067992502394132">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="13171581797794923904">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17007754852618345915">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8488921106239775314">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__char_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__char_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6462020732867372000">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__char_ncat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__char_ncat_84_goodG2B</symbol>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="18265033401673704392">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_02.c" line="36" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_02.c" line="28" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="15065726308342203447">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_02.c" line="87" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_02.c" line="79" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10253319073013643673">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3178264668232405088">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_03.c" line="53" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2003917781055540851">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_03.c" line="79" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9375349676831781622">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6610148069125804328">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_06.c" line="57" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15777010523696188982">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_06.c" line="83" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16300603528440563867">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_07.c" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3304755161253272191">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_07.c" line="59" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8800778234501543800">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_07.c" line="85" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="5062657692738475872">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_16.c" line="37" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_16.c" line="28" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="15613287934972170198">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_16.c" line="63" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_16.c" line="54" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="16714272446570123877">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_32.c" line="31" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_32.c" line="25" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="17198888854996451292">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_32.c" line="62" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_32.c" line="56" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="12689405590141711654">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_32.c" line="28" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="4781937540276832124">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_32.c" line="59" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="8170454041127665416">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_33.cpp" line="30" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="14101110118061306190">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_74a.cpp" line="36" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15178266535306203082">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16570651754056175358">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11007263640935242307">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="12108045288208565595">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3719946297909953765">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16163650850492711180">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="529297206152725797">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13741227253652147449">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2571852098527185109">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5930463438972798081">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="16659111880729005293">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_cat_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="9435944113428908731">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8128085141102093890">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2750650671969574552">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17218722801363761685">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7720237784955010765">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="13292137919727024655">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2494175531367599457">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7262475915460212179">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17516262485882688011">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3181477055743856259">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3571149205191080690">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6969647180925465327">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="15492747366752392619">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12515730484105162122">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10442114123128044358">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_cat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_cat_84_goodG2B</symbol>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="6354241785041695066">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_02.c" line="37" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_02.c" line="28" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="3645344652168055098">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_02.c" line="92" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_02.c" line="83" column="8" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13731910390295610449">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11558981276734433425">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_03.c" line="55" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2679707433097056471">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_03.c" line="83" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14432049921354648540">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16701226651104955006">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6808305575764402504">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_06.c" line="87" column="25"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_06.c" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13631214223521668972">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_07.c" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="373075939294806432">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_07.c" line="61" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11991340251022161502">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_07.c" line="89" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="4695889117016094713">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_16.c" line="38" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_16.c" line="28" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="arrayIndexOutOfBoundsCond" severity="warning" msg="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." verbose="Either the condition &apos;1&apos; is redundant or the array &apos;source[100]&apos; is accessed at index 100, which is out of bounds." cwe="788" hash="9804969301862491353">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_16.c" line="66" column="15" info="Array index out of bounds"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_16.c" line="56" column="11" info="Assuming that condition &apos;1&apos; is not redundant"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="15415751042486461213">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_32.c" line="31" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_32.c" line="25" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10111477222017840223">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_32.c" line="64" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_32.c" line="58" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="1890592961482658891">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_32.c" line="28" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="5285333025515898841">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_32.c" line="61" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="7834562373310742836">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_33.cpp" line="30" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="unusedVariable" severity="style" msg="Unused variable: dataBuffer" verbose="Unused variable: dataBuffer" cwe="563" hash="17824053223763569061">
+            <location file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_74a.cpp" line="36" column="13"/>
+            <symbol>dataBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="10323492640521886631">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7419745570717131999">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7667882707733629433">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9789451131553730107">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1525021238037108596">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="822246672373341751">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_81.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1724173329216100427">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5618119277031341424">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="18000340618302964956">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5420768971038451894">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="11209136313348065619">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_base&apos; which is inherited by class &apos;CWE665_Improper_Initialization__wchar_t_ncat_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="8055021584325145194">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="23" column="1"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_82_base</symbol>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9585115816377942152">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="35" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5286163956895963310">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="45" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_82.h" line="27" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10388528857931171062">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11932745592972652097">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10823934108640887527">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8722364862571856109">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3787949004781906200">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8556390023622472429">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_83.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7177778647405014075">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17816104097187860485">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84_bad.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="1964064051085526823">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10489347369265007726">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3666239353788027594">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84.h" line="29" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5094973007852491365">
+            <location file0="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84a.cpp" file="/home/input/C/testcases/CWE665_Improper_Initialization/CWE665_Improper_Initialization__wchar_t_ncat_84.h" line="43" column="5"/>
+            <symbol>CWE665_Improper_Initialization__wchar_t_ncat_84_goodG2B</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

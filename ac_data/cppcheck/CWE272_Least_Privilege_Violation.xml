@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8736631467141020727">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16769388796293641132">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_03.c" line="73" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6572046066366939591">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_03.c" line="120" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1231504353088117726">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13057976436767672024">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c" line="78" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1887825722158903561">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c" line="125" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="240138678931057144">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3572518056677730570">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_07.c" line="78" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10563303124284236248">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_07.c" line="125" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2802535980052513959">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="769711774652741407">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_03.c" line="69" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7606059946895895970">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_03.c" line="111" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3861035299917530185">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15280669120482502379">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c" line="74" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8355307029203169932">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c" line="116" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6157528876291355191">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="17238968135202822882">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_07.c" line="74" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16311735371062551995">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_07.c" line="116" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15722476303918956453">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17716372517558235480">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_03.c" line="60" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16746028461740991280">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_03.c" line="96" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15162663769001197331">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16198321157025493351">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c" line="65" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9288542599413739964">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c" line="101" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13007299218509846887">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="5390917840666701731">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_07.c" line="65" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6410455687137084721">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_07.c" line="101" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14957279626183904815">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8593900033907887395">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_03.c" line="54" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2117871290426016871">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_03.c" line="84" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3593314711258740597">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17885955860388251222">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13446247377415332410">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c" line="89" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3457341587047273796">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2160722838482536068">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_07.c" line="59" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7504722211341896888">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_07.c" line="89" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11894730996222088069">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15379142149899686079">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_03.c" line="56" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11484004584359644388">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_03.c" line="88" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1758274126228270086">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7857814075579279088">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c" line="61" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11406151056737628780">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c" line="93" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14621644257543041019">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="4850821157033881657">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_07.c" line="61" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13749437954941391921">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_07.c" line="93" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9823822704111586413">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5242314461681849989">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_03.c" line="57" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15684138298111517460">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_03.c" line="89" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17621198258231660316">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6205759569387817667">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c" line="62" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8449419218811498610">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c" line="94" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11084170077460354519">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="13057946636074496331">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_07.c" line="62" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3808938602108057559">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_07.c" line="94" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8767308574973672279">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1693168686520517521">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_03.c" line="57" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13889732042253670841">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_03.c" line="89" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4707764365377547663">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15941354619332943363">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c" line="62" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7994343792030847238">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c" line="94" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8037636275792366226">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="16094036030286693206">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_07.c" line="62" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6962958555578297856">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_07.c" line="94" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4988244319101765063">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2969349718151899243">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_03.c" line="73" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="85245926430473984">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_03.c" line="120" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13497875629919623078">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9041478335846745708">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c" line="78" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11272003916572825300">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c" line="125" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10594197577271452709">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="686691452188066095">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_07.c" line="78" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7036251627733992998">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_07.c" line="125" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13703856844099500749">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16146582462117346058">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_03.c" line="69" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16335948950218530891">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_03.c" line="111" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10060078524422965591">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5022671093047444078">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c" line="74" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17211255948481932756">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c" line="116" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8881415571219604073">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="14171040087679902201">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_07.c" line="74" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5885718580639875545">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_07.c" line="116" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9293141254280906184">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17267616704535319262">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_03.c" line="60" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3817728323747913669">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_03.c" line="96" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14636462296278036978">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16378583676302617553">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c" line="65" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3411480076688544639">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c" line="101" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1397687276268316803">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="18440375403560041808">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_07.c" line="65" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6130449319375621372">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_07.c" line="101" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2099170014853278019">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1038839086120465593">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_03.c" line="54" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="411043176805332053">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_03.c" line="84" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15252576442869239290">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8757309913313006997">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14556568635254619421">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c" line="89" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10336371340205949142">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="7424157319302315344">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_07.c" line="59" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9187175955952059570">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_07.c" line="89" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1086166451375517964">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6703304612356578670">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_03.c" line="56" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11077476189350205946">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_03.c" line="88" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12231841673124870308">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17496566721375547705">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c" line="61" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8791569072784010860">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c" line="93" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16769482216204306076">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="1464401629182985310">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_07.c" line="61" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14329075313378549916">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_07.c" line="93" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4326169958694971261">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17299625558312763779">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_03.c" line="57" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17473348333064142867">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_03.c" line="89" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8180465813840384552">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5284481485700390188">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c" line="62" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5645050691825180686">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c" line="94" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5092006958399389799">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="11404825562637560139">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_07.c" line="62" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8821788738203757787">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_07.c" line="94" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6217353351815305135">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15243695627188749994">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_03.c" line="57" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3565281061708020169">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_03.c" line="89" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="392636722313303083">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6334679639764639105">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c" line="62" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12676597304727462363">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c" line="94" column="25"/>
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11953626962707769737">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="4034219985640128736">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_07.c" line="62" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5469345193435019018">
+            <location file="/home/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_07.c" line="94" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

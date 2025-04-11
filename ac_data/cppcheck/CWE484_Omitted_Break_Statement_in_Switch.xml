@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3012524649710311984">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8694144739426016839">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_03.c" line="52" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15606450625164850126">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_03.c" line="85" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12886869504424509438">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11754519644610746690">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_06.c" line="57" column="25"/>
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11603396300463866306">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_06.c" line="90" column="25"/>
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9584637297325275872">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="16251202021498094212">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_07.c" line="57" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12785747495482992423">
+            <location file="/home/input/C/testcases/CWE484_Omitted_Break_Statement_in_Switch/CWE484_Omitted_Break_Statement_in_Switch__basic_07.c" line="90" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

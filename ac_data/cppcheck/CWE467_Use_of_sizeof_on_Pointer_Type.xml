@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="13929174251400656339">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c" line="25" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="13583960661556042342">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c" line="27" column="13"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6854799539885460553">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2104721417509419013">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c" line="43" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3216950121498179179">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c" line="65" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="8415858920208871100">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="13691201551508296216">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c" line="33" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="8168081819377982124">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c" line="33" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6105331758184279680">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8717507296115488495">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c" line="48" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3158480748566423952">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c" line="70" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="4761556985224504904">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c" line="32" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="18400844454804735317">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2058836700379251807">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c" line="48" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2937205160440890985">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c" line="70" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="7658535067000128760">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c" line="32" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="15964394407597651159">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c" line="40" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="18165261557830422509">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="16462755720218372157">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="15304187653641109934">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="13962879724756767281">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="3524355295740806311">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="2435929174354978548">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="13915024136855690960">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c" line="28" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="648223564078759015">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="15241271582766046329">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c" line="28" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badChar&apos; used instead of size of its data." verbose="Size of pointer &apos;badChar&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badChar)&apos;." cwe="467" hash="12161957878791249323">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c" line="27" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="2802684967510755753">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c" line="25" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="15613873076469253550">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c" line="27" column="13"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5148065874426097764">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6191321737167083110">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c" line="43" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3981778875941689798">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c" line="65" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="12966909451322182533">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="8408546698514101205">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c" line="33" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="8857135062528706407">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c" line="33" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3412889244847301611">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1184628432201129761">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c" line="48" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10750339272750023666">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c" line="70" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="1028511909606758453">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c" line="32" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="4530413421064856775">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="9133942693002081851">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c" line="48" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="17416409228650869379">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c" line="70" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="1617443103337081944">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c" line="32" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="6392934404237030477">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c" line="40" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="8236323176209125304">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="5123786716281009868">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="11684551263972266352">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="16306205762303672754">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="3423586379168499931">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="7773206626989995464">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="17629633924886954864">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c" line="28" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="2120554651780645718">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="12761105503723604241">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c" line="28" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badInt&apos; used instead of size of its data." verbose="Size of pointer &apos;badInt&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badInt)&apos;." cwe="467" hash="11024583413186235443">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c" line="27" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="8780941132360374825">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c" line="25" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="7574952057436487429">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c" line="27" column="13"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7245738035602300210">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14785488452226363878">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c" line="43" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1911217751224066383">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c" line="65" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="16669171373876738233">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="2927372382745022064">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c" line="33" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="9828765304469342338">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c" line="33" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10722025731438722614">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3149501186691697837">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c" line="48" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15691771541715022963">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c" line="70" column="25"/>
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="12513162755561989542">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c" line="32" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9471001869802220766">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="1280603735435839183">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c" line="48" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10065528846507874626">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c" line="70" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="5590010963919082956">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c" line="32" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="5150822026041432433">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c" line="40" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="14890191007014203354">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="17506283679377199148">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="16050981730234519439">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="11407314512168755891">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="13069821095524474252">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="16956893297907991960">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="1118328915211014542">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c" line="28" column="9"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="922092647670330874">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c" line="27" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="16782612582603010078">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c" line="28" column="13"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;badShort&apos; used instead of size of its data." verbose="Size of pointer &apos;badShort&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*badShort)&apos;." cwe="467" hash="10252394574655973612">
+            <location file="/home/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c" line="27" column="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

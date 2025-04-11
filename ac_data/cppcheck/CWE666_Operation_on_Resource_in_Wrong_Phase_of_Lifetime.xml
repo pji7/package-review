@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6448097926487342953">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_03.c" line="46" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3722002313205524545">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_03.c" line="139" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8562945968722411971">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8237993789138074577">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_06.c" line="51" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16592304602106791951">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_06.c" line="144" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1700463937961855239">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="18167577874587910213">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_07.c" line="51" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="16421833266877814451">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_07.c" line="144" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2051619691469170317">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_bind_listen_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9986201741443391841">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_03.c" line="46" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14642751186042259893">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_03.c" line="139" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7242357075731921832">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7447522176370706439">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_06.c" line="51" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8082932628882856849">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_06.c" line="144" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16392067767355709482">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5543893343698996096">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_07.c" line="51" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3200321302380810989">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_07.c" line="144" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13520395481662370165">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__accept_listen_bind_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8459759817715387806">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_03.c" line="46" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14704298211570817476">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_03.c" line="139" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6977937884696322441">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14658775087811196905">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_06.c" line="51" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2588211486854721384">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_06.c" line="144" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6077635974706351207">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12800868841682979701">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_07.c" line="51" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3616543786963442180">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_07.c" line="144" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2761584382762151896">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__bind_accept_listen_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18081814385192530477">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_03.c" line="46" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9275441243828635459">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_03.c" line="139" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15283996341390856694">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11118802920495496476">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_06.c" line="51" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2171318749813224996">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_06.c" line="144" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1926591661418644851">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11458276547646528382">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_07.c" line="51" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3207713902475680277">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_07.c" line="144" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13634884264785449068">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_accept_bind_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6687593273011936036">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_03.c" line="46" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10422317447863146956">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_03.c" line="139" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5430476714125009578">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7823513403429308562">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_06.c" line="51" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12117107227798866268">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_06.c" line="144" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11793845898558095980">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8011074137729725387">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_07.c" line="51" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="11716997781174722903">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_07.c" line="144" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11751185175164317168">
+            <location file="/home/input/C/testcases/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime/CWE666_Operation_on_Resource_in_Wrong_Phase_of_Lifetime__listen_bind_accept_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning pointer to local variable &apos;charString&apos; that will be invalid when returning." verbose="Returning pointer to local variable &apos;charString&apos; that will be invalid when returning." cwe="562" hash="5543595495169239079">
+            <location file="/home/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c" line="17" column="12"/>
+            <location file="/home/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c" line="14" column="10" info="Variable created here."/>
+            <location file="/home/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c" line="17" column="12" info="Array decayed to pointer here."/>
+        </error>
+        <error id="returnDanglingLifetime" severity="error" msg="Returning pointer to local variable &apos;charString&apos; that will be invalid when returning." verbose="Returning pointer to local variable &apos;charString&apos; that will be invalid when returning." cwe="562" hash="5053533141566693272">
+            <location file="/home/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c" line="20" column="12"/>
+            <location file="/home/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c" line="14" column="10" info="Variable created here."/>
+            <location file="/home/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c" line="17" column="21" info="Address of variable taken here."/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

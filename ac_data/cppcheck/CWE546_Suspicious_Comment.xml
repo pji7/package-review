@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="147102820502286563">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15955178530112624104">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c" line="39" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="395901744418581746">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_03.c" line="54" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17686379235322756511">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14126569221603522210">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_06.c" line="44" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7021625185944003754">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3777619802195015666">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="17930717063035066679">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_07.c" line="44" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9801838530153816761">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__BUG_07.c" line="59" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16882421673545353275">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8571812235875738155">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_03.c" line="39" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6801210167008855775">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_03.c" line="54" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15767973737788699072">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15708801888512499116">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c" line="44" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13995786536180437537">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10399732310498125855">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2747469624143683886">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_07.c" line="44" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6354667490205269921">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__FIXME_07.c" line="59" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9368922469260550463">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7339039959740412149">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_03.c" line="39" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="379025124763221731">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_03.c" line="54" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14383348966370037053">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12934715694150690372">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_06.c" line="44" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4292400518754046349">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12635274267207809837">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="5182532630338394077">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c" line="44" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2768435510341949093">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__HACK_07.c" line="59" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15604116638388878846">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12944673133503641902">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_03.c" line="39" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9599017263204832612">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_03.c" line="54" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13263886674654330107">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3439447886302264113">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_06.c" line="44" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1992605436523268842">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="4444827662818618162">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3973187402754500743">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_07.c" line="44" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7725273602425348040">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__LATER_07.c" line="59" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10072832903042966162">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3145840390363280271">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_03.c" line="39" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9987250487367660020">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_03.c" line="54" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="991770882133379194">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17940875132688076298">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_06.c" line="44" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10878013968160508079">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_06.c" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="17667404664520723985">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="4184896457956778324">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_07.c" line="44" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="4524095688355989974">
+            <location file="/home/input/C/testcases/CWE546_Suspicious_Comment/CWE546_Suspicious_Comment__TODO_07.c" line="59" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

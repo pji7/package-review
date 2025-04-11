@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6578048454250734861">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10199487566748938010">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_03.c" line="92" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12949208870168005648">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_03.c" line="159" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5853242899398075700">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2110478366248418189">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c" line="97" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3407474549443410978">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c" line="164" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2917286561404669578">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_07.c" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="16664113243501739488">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_07.c" line="97" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1692952510414777305">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_07.c" line="164" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5824412453561174736">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8679612047433701794">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_03.c" line="93" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4499208161172328745">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_03.c" line="160" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16025824602937373016">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1958476144007476578">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c" line="98" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17872704210014670363">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c" line="165" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="17706988759566374522">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_07.c" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="8638883686564366700">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_07.c" line="98" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9096873645567829566">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_07.c" line="165" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9210483445142675201">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7633516739700261454">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_03.c" line="92" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11421654726523676279">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_03.c" line="159" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4504086572445000003">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11428842049286317421">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c" line="97" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10932996157498058915">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c" line="164" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9504648340507080743">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_07.c" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="14898399001960500207">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_07.c" line="97" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2030343656498192433">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_07.c" line="164" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="13621459063210765594">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_01.c" line="37" column="28"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="13082605266043806079">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_02.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5588421394092001610">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="331726950657374575">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_03.c" line="92" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13886265301887364432">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_03.c" line="159" column="9"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="3729638069704884479">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_03.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="14304720193925594235">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_04.c" line="45" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="12803028890363686967">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_05.c" line="45" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="77953714290432421">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16877381331205924427">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c" line="97" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16573880936455426628">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c" line="164" column="25"/>
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c" line="30" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="9918226439892048120">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c" line="44" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16085541419722331437">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_07.c" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="11365854917445453695">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_07.c" line="97" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13535396564570509322">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_07.c" line="164" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="11634090331083176519">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_07.c" line="44" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="17907002173580197168">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_08.c" line="52" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="5969239680254410765">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_09.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="840256241179587603">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_10.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="7016288151822557742">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_11.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="18115513940877651030">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_12.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="4644956580737652551">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_13.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="7977825603701033941">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_14.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="10178153459708695667">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_15.c" line="40" column="28"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="10451963601961484153">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_16.c" line="39" column="32"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;hashData&apos; is assigned a value that is never used." verbose="Variable &apos;hashData&apos; is assigned a value that is never used." cwe="563" hash="13442754993015714131">
+            <location file="/home/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_18.c" line="39" column="28"/>
+            <symbol>hashData</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

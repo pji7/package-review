@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3096223825248881134">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8681567231612479669">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_03.c" line="41" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18164008392813030172">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_03.c" line="61" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14432439675376315054">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14750553339638020883">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_06.c" line="46" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6292839191569832943">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_06.c" line="66" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14959094675463395029">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12745027641352692242">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_07.c" line="46" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10906780317089553764">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__addition_07.c" line="66" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5071077931794461041">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11589582836602463012">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_03.c" line="38" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2845411715844786727">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_03.c" line="56" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17055667637927547142">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4947379766430558491">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_06.c" line="43" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="545373414724683113">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_06.c" line="61" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7036492670262380742">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2133289940557053701">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_07.c" line="43" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10241588390021674995">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_block_07.c" line="61" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18207286992451942984">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14711725396522135265">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_03.c" line="44" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7470978651969575122">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_03.c" line="68" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10985374946412415243">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9071153112803445550">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_06.c" line="49" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16871177162488121866">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_06.c" line="73" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3442098890890237430">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12665085515706437514">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_07.c" line="49" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9035408624250272455">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_case_07.c" line="73" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5509608957265641562">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8283691225989348173">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_03.c" line="47" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4815970405130482616">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_03.c" line="74" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17997403880119803883">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9505406604742016378">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_06.c" line="52" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16487469155758898452">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_06.c" line="79" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="342740846908903917">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="8965106077550501651">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_07.c" line="52" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16631780539577346097">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_else_07.c" line="79" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2084505061524563525">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16846653617128131893">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_03.c" line="42" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1049510225065983997">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_03.c" line="64" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4313633444540410373">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11108086095031802645">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_06.c" line="47" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6397017110508452829">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_06.c" line="69" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5800368977964085966">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="1303036897200857160">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_07.c" line="47" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1453008078627884622">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_for_07.c" line="69" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4161624696125951504">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="393577996438363007">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_03.c" line="47" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10099266766141921225">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_03.c" line="74" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7784200242929758738">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10575067234509543665">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_06.c" line="52" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5963276426483276779">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_06.c" line="79" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12339020650579705390">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="10307378284232312084">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_07.c" line="52" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10686802076714414407">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_if_07.c" line="79" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5097076077144440016">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3935179504159273247">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_03.c" line="42" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4066308026786160792">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_03.c" line="64" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14673652175387554615">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11218804530404634106">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_06.c" line="47" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11122318834607868620">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_06.c" line="69" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15356968135458975874">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3552872411669621208">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_07.c" line="47" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="321147034208157766">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__empty_while_07.c" line="69" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="9129525272418212474">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_01.c" line="26" column="16"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="17957562957489141042">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_02.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17327259314153691493">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_03.c" line="22" column="9"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="2056584161159408950">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_03.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2096003691161580335">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_03.c" line="41" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3031519295074426242">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_03.c" line="61" column="9"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="17191321694156783547">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_04.c" line="34" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="5011838541142440434">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_05.c" line="34" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8251824022424332047">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="9252664292638075231">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_06.c" line="33" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13176051174896075819">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_06.c" line="46" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16493307884149237264">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_06.c" line="66" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15795564992758864496">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="4495927774312451708">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_07.c" line="46" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3868152522169324389">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_07.c" line="66" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="1610686403756353723">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_07.c" line="33" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="14791649168496001302">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_08.c" line="41" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="16036793920932612810">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_09.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="4662180789621548572">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_10.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="16676478509878367087">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_11.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="8307551738714982398">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_12.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="6918869758251852307">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_13.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="4007354023821820899">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_14.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="10660772027499318444">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_15.c" line="29" column="16"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="13737655507225576699">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_16.c" line="28" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="6686254998968371889">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_17.c" line="29" column="20"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="selfAssignment" severity="warning" msg="Redundant assignment of &apos;intOne&apos; to itself." verbose="Redundant assignment of &apos;intOne&apos; to itself." cwe="398" hash="5706099096175741130">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__equals_18.c" line="28" column="16"/>
+            <symbol>intOne</symbol>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="14864680956800395549">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_01.c" line="23" column="5"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="12698432448423397732">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_02.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14115882847204752904">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14422651889046661678">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_03.c" line="37" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13353727920421296987">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_03.c" line="52" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="8049138970998740583">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_03.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="8884643883708996476">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_04.c" line="31" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="3669933923458135416">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_05.c" line="31" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14730794970560373023">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7084354359616538907">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_06.c" line="42" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2758090211532788895">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_06.c" line="57" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="10232493387579190391">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_06.c" line="30" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11560402065174071905">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="17975866633216433832">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_07.c" line="42" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2587514497417194865">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_07.c" line="57" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="14262015429961785074">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_07.c" line="30" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="13268490682868204602">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_08.c" line="38" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="12874958169080563869">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_09.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="16289192424601682981">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_10.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="3952194094288063730">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_11.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="10335515203029138083">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_12.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="4541620369959509457">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_13.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="3589616502747927279">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_14.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="2689296693976101974">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_15.c" line="26" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="1224121276494038435">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_16.c" line="25" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="11408626686845718063">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_17.c" line="26" column="9"/>
+        </error>
+        <error id="constStatement" severity="warning" msg="Redundant code: Found a statement that begins with numeric constant." verbose="Redundant code: Found a statement that begins with numeric constant." cwe="398" hash="9830305776102619415">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__five_18.c" line="25" column="5"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6204595529994095180">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11387908400536738743">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_03.c" line="37" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14616398728061178577">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_03.c" line="52" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13742036797630170922">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1306385904059160018">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_06.c" line="42" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="211424990170796572">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_06.c" line="57" column="25"/>
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5681731457533071291">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="6882028587798315339">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_07.c" line="42" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5792248596889012333">
+            <location file="/home/input/C/testcases/CWE398_Poor_Code_Quality/CWE398_Poor_Code_Quality__semicolon_07.c" line="57" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="2255860005048095196">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c" line="28" column="9"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="15089833388050397401">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="6014212973541143267">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c" line="30" column="13"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11351504441599614056">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c" line="25" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2820298322955280979">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c" line="43" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11902084905950835451">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c" line="62" column="9"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="10225710215471414744">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c" line="36" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="6713953990070256503">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c" line="36" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="16168643840074269091">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c" line="35" column="13"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11594632126701796364">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c" line="30" column="25"/>
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9052450243377479369">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c" line="48" column="25"/>
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12223347836537886654">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c" line="67" column="25"/>
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c" line="24" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6919170944019393267">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c" line="30" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="18363446757802791970">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c" line="48" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9775169756192271614">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c" line="67" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="7407468625723530913">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c" line="35" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="781806259060620318">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c" line="43" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="566190460184598414">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="8104372895501623451">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="5251472258995084157">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="12997209161919647146">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="4691339845380344757">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="9453213866545360473">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="13802313633342389894">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c" line="31" column="9"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="12118884813157378215">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_16.c" line="30" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="14325122132490729745">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_17.c" line="31" column="13"/>
+        </error>
+        <error id="wrongPrintfScanfArgNum" severity="error" msg="sprintf format string requires 2 parameters but only 1 is given." verbose="sprintf format string requires 2 parameters but only 1 is given." cwe="685" hash="11390906474360960500">
+            <location file="/home/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_18.c" line="30" column="9"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

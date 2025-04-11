@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="14261404274208489969">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_01.c" line="31" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_01.c" line="30" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="12140574693731938749">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_01.c" line="75" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_01.c" line="74" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13592024344817003975">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15393326018827794729">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_03.c" line="78" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3961831717894827206">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_03.c" line="131" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8454962438568658611">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c" line="35" column="25"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2257136410837919830">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c" line="82" column="25"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12197040775240628226">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c" line="135" column="25"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2377106578518501194">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_07.c" line="37" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="1225147117497879221">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_07.c" line="84" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7955058276045550701">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_07.c" line="137" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="7320515180392186561">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_12.c" line="33" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_12.c" line="30" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="6079659407662780476">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_12.c" line="98" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_12.c" line="95" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="17008636281798986504">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_31.c" line="31" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_31.c" line="30" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="6791670482256034868">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_31.c" line="79" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_31.c" line="78" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." cwe="563" hash="15063194370901030670">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="35" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="34" column="25" info="password is initialized"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." cwe="563" hash="11320072777044551293">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="88" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="87" column="25" info="password is initialized"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;password&apos; shadows outer variable" verbose="Local variable &apos;password&apos; shadows outer variable" cwe="398" hash="7171259174913395266">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="34" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="28" column="12" info="Shadowed declaration"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;password&apos; shadows outer variable" verbose="Local variable &apos;password&apos; shadows outer variable" cwe="398" hash="12331981629696271153">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="87" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c" line="81" column="12" info="Shadowed declaration"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="6791053867951812449">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_33.cpp" line="35" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_33.cpp" line="34" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16809064595408903935">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_33.cpp" line="83" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_33.cpp" line="82" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="12700551579166501088">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_34.c" line="38" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_34.c" line="37" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="6742545805676054450">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_34.c" line="87" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_34.c" line="86" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="7691569109473224972">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_41.c" line="58" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_41.c" line="57" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="13293484540964316104">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_41.c" line="107" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_41.c" line="106" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="17883634030210102979">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_44.c" line="60" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_44.c" line="59" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="4725763966859770211">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_44.c" line="111" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_44.c" line="110" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="10538759057987787876">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_45.c" line="62" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_45.c" line="61" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="1949197169323119172">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_45.c" line="113" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_45.c" line="112" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="14409066006418055810">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16619509205380278748">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8303145243941534620">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="10542379326359076270">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="237288124321831843">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8795181709370762074">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="2314455938254555901">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16493205889062240646">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="7820797782823247278">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="17036655091344807784">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63a.c" line="58" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63a.c" line="57" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="15445303216136544116">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="2436229586687667174">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64a.c" line="58" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64a.c" line="57" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8242823479422813731">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65a.c" line="36" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65a.c" line="35" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="14394712204744320976">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65a.c" line="62" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65a.c" line="61" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="5873704861193090195">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66a.c" line="35" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66a.c" line="34" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="4924403633633081896">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66a.c" line="62" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66a.c" line="61" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="2577352687725963339">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67a.c" line="40" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67a.c" line="39" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="4287229919617297781">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67a.c" line="66" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67a.c" line="65" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="2270132874336749848">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68a.c" line="37" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68a.c" line="36" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="9708207344763513805">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68a.c" line="63" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68a.c" line="62" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="6892219975320792866">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72a.cpp" line="39" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72a.cpp" line="38" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="11853015859871808454">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72a.cpp" line="70" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72a.cpp" line="69" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="7711748315842834745">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73a.cpp" line="39" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73a.cpp" line="38" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16164896460986736755">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73a.cpp" line="70" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73a.cpp" line="69" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="17466274283111871612">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74a.cpp" line="39" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74a.cpp" line="38" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="7000908701604937148">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74a.cpp" line="70" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74a.cpp" line="69" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8881034839731534979">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="37" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11277973479121616902">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4331589312529800674">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="37" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8753631536977754047">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="602445333284694503">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="37" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17523532891170699764">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="11998743769293220561">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" line="30" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" line="29" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="3310224272554316996">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" line="53" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp" line="52" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5194036801266361112">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7252979880020341005">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="18266715146576934905">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13105086132837873496">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="15951103337268032810">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="24" column="1"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_base</symbol>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="3181660077352895043">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="24" column="1"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_base</symbol>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17503556547039859439">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4934170572919580447">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="6130538134919898332">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" line="30" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" line="29" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="9970794375947062603">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" line="54" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp" line="53" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5025393774941857551">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16206743543742603496">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10845241058749165361">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17159980704162249629">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="1978312891695128791">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="454335800673458237">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7025878882214538421">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2601818223052227563">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="13851558718688102142">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10441249632671816746">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17477890476909570081">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9359570351263344606">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="4414233016627351875">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_01.c" line="31" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_01.c" line="30" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="7169483225871787771">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_01.c" line="75" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_01.c" line="74" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1717974427682954024">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_03.c" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16743427544524676397">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_03.c" line="78" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11806441139333315028">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_03.c" line="131" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13816510784067599394">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c" line="35" column="25"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4202423923829107758">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c" line="82" column="25"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9997431737790531582">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c" line="135" column="25"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2233170761807201614">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_07.c" line="37" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="10479590365063733945">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_07.c" line="84" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1578064190302297071">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_07.c" line="137" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="12035334112812428832">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_12.c" line="33" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_12.c" line="30" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="12334214696842094483">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_12.c" line="98" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_12.c" line="95" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8162402658068090024">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_31.c" line="31" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_31.c" line="30" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="4395461968576159626">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_31.c" line="79" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_31.c" line="78" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." cwe="563" hash="9523788296700586320">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="35" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="34" column="28" info="password is initialized"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;password&apos;. The initialized value is overwritten before it is read." cwe="563" hash="5841090880200707106">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="88" column="18" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="87" column="28" info="password is initialized"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;password&apos; shadows outer variable" verbose="Local variable &apos;password&apos; shadows outer variable" cwe="398" hash="779588546384389266">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="34" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="28" column="15" info="Shadowed declaration"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;password&apos; shadows outer variable" verbose="Local variable &apos;password&apos; shadows outer variable" cwe="398" hash="3905002111746398762">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="87" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c" line="81" column="15" info="Shadowed declaration"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16849488983151519346">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_33.cpp" line="35" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_33.cpp" line="34" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="4641095138708137505">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_33.cpp" line="83" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_33.cpp" line="82" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8234943830691415409">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_34.c" line="38" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_34.c" line="37" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="10049489433215034666">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_34.c" line="87" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_34.c" line="86" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="1255008067468380300">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_41.c" line="58" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_41.c" line="57" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16030908947157163859">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_41.c" line="107" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_41.c" line="106" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="13111714424921663728">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_44.c" line="60" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_44.c" line="59" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8794765645289918484">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_44.c" line="111" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_44.c" line="110" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="7259670769451465645">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_45.c" line="62" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_45.c" line="61" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8794655112204181851">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_45.c" line="113" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_45.c" line="112" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="5795802534958599942">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="9658078874005284450">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="13110844175881150221">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="17162693709542390472">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="14563505453696583782">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="13741807432855173672">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16845172549189420088">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="1079570710588777809">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54a.c" line="59" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54a.c" line="58" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="1574725028070489638">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8609072681946662564">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63a.c" line="58" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63a.c" line="57" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="17104069384196414167">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64a.c" line="34" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64a.c" line="33" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="3894344211119166398">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64a.c" line="58" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64a.c" line="57" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="11742086507944604862">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65a.c" line="36" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65a.c" line="35" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="11171442188467300009">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65a.c" line="62" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65a.c" line="61" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="13103266435827271542">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66a.c" line="35" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66a.c" line="34" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="16763982873742787578">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66a.c" line="62" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66a.c" line="61" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="12647878374228614571">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67a.c" line="40" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67a.c" line="39" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="2121954496187334660">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67a.c" line="66" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67a.c" line="65" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="3559467029670843590">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68a.c" line="37" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68a.c" line="36" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="1625277058684415526">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68a.c" line="63" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68a.c" line="62" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="2725722902152150730">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72a.cpp" line="39" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72a.cpp" line="38" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="11296451845381120275">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72a.cpp" line="70" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72a.cpp" line="69" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="10140507729177141051">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73a.cpp" line="39" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73a.cpp" line="38" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="14908836276257098671">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73a.cpp" line="70" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73a.cpp" line="69" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="9313703373840578136">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74a.cpp" line="39" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74a.cpp" line="38" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="12232626896322050909">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74a.cpp" line="70" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74a.cpp" line="69" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16002670292226945469">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="37" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7063965498073020641">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9079633815866504469">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="37" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="177880146687313777">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13343347185513947869">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="37" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6320800433239808223">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h" line="29" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="719338245282142223">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" line="30" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" line="29" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="6691969676052400119">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" line="53" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp" line="52" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2527611780137076599">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7849089072946302789">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17339309933044329053">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11215851920447921701">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="5191072771928968694">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="24" column="1"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_base</symbol>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_base&apos; which is inherited by class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="1721579831433807528">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="24" column="1"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_base</symbol>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11984670344686453605">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="36" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7394181936940503913">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h" line="28" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="2233324682502181452">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" line="30" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" line="29" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="redundantAssignment" severity="style" msg="Variable &apos;password&apos; is reassigned a value before the old one has been used." verbose="Variable &apos;password&apos; is reassigned a value before the old one has been used." cwe="563" hash="8705626910459737478">
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" line="54" column="14" info="password is overwritten"/>
+            <location file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp" line="53" column="14" info="password is assigned"/>
+            <symbol>password</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3231954894978984583">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="14568432065069023958">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12535890656982702435">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5904804384915530243">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11012116842222210522">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11172680512535108437">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="15270688843111507309">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8038116757603407383">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12568483415872558923">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10033611117452881283">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16236874223583441386">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h" line="30" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6994062343307452586">
+            <location file0="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84a.cpp" file="/home/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h" line="44" column="5"/>
+            <symbol>CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16633568644158858964">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_03.c" line="50" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10462721647879791612">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_03.c" line="77" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10677048500730064289">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_03.c" line="105" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="937352363243129554">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_06.c" line="54" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1404244065352205360">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_06.c" line="81" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2169554368823871583">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_06.c" line="109" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12334931707972674071">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_07.c" line="56" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="13603116081942366263">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_07.c" line="83" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="4801930348040840293">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_07.c" line="111" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="17613209606556171877">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_32.c" line="53" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_32.c" line="47" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="15262943408841835729">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_32.c" line="86" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_32.c" line="80" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11491570132518749398">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1728213138784863004">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7551972350225833637">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="973673695025044250">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8969913098426271984">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16947687603593237011">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1074178447188258925">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4736695734387208083">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="14239841325186875492">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1890988181753656958">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_popen_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_popen_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="8231042355537098272">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_popen_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_popen_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="12220805312206237320">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11013130979203502219">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6409889985861783618">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="14069035571580422756">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5706909444399560634">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9372474954147712376">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2354138294221338802">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17880107155748652184">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="1365346451900757502">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9894345580564431288">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9359912443035509309">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6529601435702697773">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16322607398249049091">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="13923664916029573153">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="1558387926813668580">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_popen_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_popen_84_goodG2B</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8629728738060933645">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_03.c" line="48" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3894643537013799591">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_03.c" line="72" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13277001634835293752">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_03.c" line="97" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1572009507747162242">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_06.c" line="52" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_06.c" line="43" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15307714189836236224">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_06.c" line="76" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_06.c" line="43" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2106654715379653687">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_06.c" line="101" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_06.c" line="43" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10218111751256370755">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_07.c" line="54" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12512843941115715899">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_07.c" line="78" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14976830045148890035">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_07.c" line="103" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="15392245154567208637">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_31.c" line="52" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_31.c" line="45" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10681685476165748340">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_31.c" line="77" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_31.c" line="70" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="16402222228232576655">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="51" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="45" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="6465753355084780606">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="57" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="45" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="13882527908448942860">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="81" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="75" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="11639542841227387946">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="87" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_32.c" line="75" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="5198201999469198986">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_33.cpp" line="55" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_33.cpp" line="48" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="18408907125467265190">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_33.cpp" line="80" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_33.cpp" line="73" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="2496667568291029130">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_34.c" line="59" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_34.c" line="51" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="7310151783657765095">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_34.c" line="85" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_34.c" line="77" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="14097975929958424788">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="18144007818890622937">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17407710123180650273">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8612292175861129923">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6244126236761384860">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8453903871016505714">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="18280614254641550596">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15006705002531249841">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7251138319908528439">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="12004794574638728142">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_system_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_system_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="18445137121386877147">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_system_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__char_system_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="1410652903088783975">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3623986268747000857">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2842400869717313281">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="875929852211985055">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16884484612335677231">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8002263005293692123">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5109148911931360286">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7400748464003234141">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8078074372990739966">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7823099603640974780">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="15681066058151989703">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12886239802549093289">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11655006896802437568">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6127805396538256574">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__char_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5163299384170752483">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__char_system_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__char_system_84_goodG2B</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13042487709737959715">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_03.c" line="50" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18148347894780038178">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_03.c" line="77" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14160088950013156100">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_03.c" line="105" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3928367991716521912">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_06.c" line="54" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11005909411215720355">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_06.c" line="81" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5167860082239424065">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_06.c" line="109" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15074937254222009509">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_07.c" line="56" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="10237754397894865798">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_07.c" line="83" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8880029633822897624">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_07.c" line="111" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8088959609018266612">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_32.c" line="53" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_32.c" line="47" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8529126826330099650">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_32.c" line="86" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_32.c" line="80" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4812253130025380413">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9479707047866825374">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11013638890967307010">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7115846652916529885">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6861981756990915107">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16033697092690206661">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13576768494459722889">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5383340836054317804">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1106508979626192699">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2977755143536605765">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="16610619934830020703">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="9156166970167120211">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="14061200090556681255">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16782052151957604505">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="15334175297356744563">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11929893453788133497">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2712425378806416068">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5160734789382142614">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9985533176345866320">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="18121331422056356902">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7035790760343634711">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5563974473723562014">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6424121548417398172">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="3278428770555941910">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7431106262854426642">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5995783218514251917">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_popen_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_popen_84_goodG2B</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5340570618309860804">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_03.c" line="48" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3338797353561826594">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_03.c" line="72" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7927046620346279879">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_03.c" line="97" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1613709749713941884">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_06.c" line="52" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_06.c" line="43" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17147858107054799999">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_06.c" line="76" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_06.c" line="43" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2297975005081005695">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_06.c" line="101" column="25"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_06.c" line="43" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3663057470808561623">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_07.c" line="54" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="18377791866323177572">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_07.c" line="78" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9904846390190842755">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_07.c" line="103" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="12874188080434911317">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_31.c" line="52" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_31.c" line="45" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="13197413722985820959">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_31.c" line="77" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_31.c" line="70" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="2253781114393123446">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="51" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="45" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="3558462196511316323">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="57" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="45" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="11003195769155410117">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="81" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="75" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="3666925497223382320">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="87" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_32.c" line="75" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8705037781791734391">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_33.cpp" line="55" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_33.cpp" line="48" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10548462124172238316">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_33.cpp" line="80" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_33.cpp" line="73" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="18160267215766459066">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_34.c" line="59" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_34.c" line="51" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="6632732838936990370">
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_34.c" line="85" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_34.c" line="77" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="350998876148362208">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="194118813759320917">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16598013722318198797">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17967529695852814282">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7721449151442334588">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="50" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17060988338588007588">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="60" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_81.h" line="42" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9874136092509284247">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="10209070806027176131">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1510390207838610850">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="18355557219675134057">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="6410727092427820979">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_base&apos; which is inherited by class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="7687009608898450180">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="37" column="1"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_82_base</symbol>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="8737378206134523644">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="49" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15207085464196585426">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="59" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_82.h" line="41" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8077573369202997086">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11990473761230794641">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10358322320393203529">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17748200584991915937">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="15357756537327614656">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12152455654367535978">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_83.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6106927862325161148">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5498352798768928455">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84_bad.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12841663479165091578">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9564657981706572373">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="13510138962377001591">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84.h" line="43" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="15451040554773385786">
+            <location file0="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84a.cpp" file="/home/input/C/testcases/CWE426_Untrusted_Search_Path/CWE426_Untrusted_Search_Path__wchar_t_system_84.h" line="57" column="5"/>
+            <symbol>CWE426_Untrusted_Search_Path__wchar_t_system_84_goodG2B</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

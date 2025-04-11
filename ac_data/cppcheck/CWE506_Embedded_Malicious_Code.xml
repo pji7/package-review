@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16195461654112808114">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_03.c" line="43" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12749071317270894457">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_06.c" line="48" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_06.c" line="42" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13600964565713720262">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_07.c" line="48" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3981424824573932752">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_03.c" line="44" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12717207865122203642">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_06.c" line="49" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_06.c" line="43" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10547788845234076370">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_07.c" line="49" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13370666354934553121">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_03.c" line="30" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9807727964216544115">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_03.c" line="99" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13364363692680172559">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_03.c" line="121" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8133239680346978670">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c" line="35" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c" line="29" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18040358695111485792">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c" line="104" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c" line="29" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17824762744017038701">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c" line="126" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c" line="29" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1488306161114148463">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_07.c" line="35" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3069077046441223715">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_07.c" line="104" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7378829355831253115">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_07.c" line="126" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2010438965657474303">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5838585057648735076">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_03.c" line="86" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1088950017211767731">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_03.c" line="108" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10922838401005136698">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c" line="33" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11728376704987226123">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c" line="91" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9101224112517757965">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c" line="113" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12391297843142137571">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_07.c" line="33" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="7779230631843342012">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_07.c" line="91" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="4405545381047023136">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_07.c" line="113" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1309927089828167351">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_01.c" line="33" column="25"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="4018324668311923050">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_02.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13697634170069883040">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_03.c" line="29" column="9"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1619590476725379723">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_03.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="17080248259092012956">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_04.c" line="40" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13056373909429374080">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_05.c" line="40" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9157381388321573604">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_06.c" line="34" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_06.c" line="28" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="11216236348323168531">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_06.c" line="40" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6654267698902421689">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_07.c" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="8045637741526084292">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_07.c" line="40" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7720998079520605238">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_08.c" line="43" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="9076908623566592299">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_09.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="4353200786765636041">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_10.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="4002759022358244622">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_11.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="4094618631562487184">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_13.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6235676546345752795">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_14.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="616343918858568765">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_15.c" line="36" column="25"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="8767703795209286516">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_16.c" line="35" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7592332516376095753">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_17.c" line="36" column="29"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;hostIP&apos; can be reduced." verbose="The scope of the variable &apos;hostIP&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="14679785010112257352">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_18.c" line="35" column="25"/>
+            <symbol>hostIP</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="302273791487708818">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_03.c" line="33" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9134388037486539625">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_03.c" line="87" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2779402102977701960">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_03.c" line="113" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9852574946489348741">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c" line="38" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c" line="32" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12850462291665599115">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c" line="92" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c" line="32" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7142701452174274511">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c" line="118" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c" line="32" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="766477757368809485">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_07.c" line="38" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="255024113235260270">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_07.c" line="92" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2861272307291989883">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_07.c" line="118" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1588045021065911580">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_03.c" line="33" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4465364876389662566">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_03.c" line="87" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4908747201485433672">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_03.c" line="113" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2310651837655344217">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c" line="38" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c" line="32" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8401864176598394149">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c" line="92" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c" line="32" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11672861497505226615">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c" line="118" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c" line="32" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12209575890372256224">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_07.c" line="38" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="13012029577824893827">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_07.c" line="92" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8090218023814363715">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_07.c" line="118" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16824890970808492435">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_03.c" line="32" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1225137543406418654">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_03.c" line="86" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8334389224826190046">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_03.c" line="112" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15982858741464266015">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c" line="37" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c" line="31" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13631796036457155959">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c" line="91" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c" line="31" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7201909428497851187">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c" line="117" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c" line="31" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3228155157035132628">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_07.c" line="37" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="9934569117503636405">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_07.c" line="91" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16345201561274414539">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_07.c" line="117" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14696601067603599981">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_03.c" line="26" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3441192641919897773">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="360485969990909618">
+            <location file="/home/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

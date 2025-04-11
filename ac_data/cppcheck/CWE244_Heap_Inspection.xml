@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3505451569046800219">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12513748983109739885">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_03.c" line="78" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14911576475964109631">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_03.c" line="133" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8335109462422818134">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7207773331644155509">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c" line="83" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6304273032823265407">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c" line="138" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11951674949948484258">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2159942154928036118">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_07.c" line="83" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8077868536827162786">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_07.c" line="138" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13038402663215510991">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2378492177909252188">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_03.c" line="86" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10332494010814443386">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_03.c" line="145" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7185159757272583356">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14922056608395892755">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c" line="91" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10097449145402405764">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c" line="150" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11284741051262825657">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="15698552958235384328">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_07.c" line="91" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15661447407556713225">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_07.c" line="150" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7978259191697857465">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13021971445683299378">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_03.c" line="78" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17197331650843063851">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_03.c" line="133" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13931353555667634550">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9769380237621056469">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c" line="83" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7975796987569745251">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c" line="138" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12075081607369642047">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="11497817344749494897">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_07.c" line="83" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1338490778857522054">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_07.c" line="138" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12918845288645814795">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_03.c" line="26" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12277430145529113375">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_03.c" line="86" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15942125345470626925">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_03.c" line="145" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6347630620839108790">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c" line="31" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8769693868715878660">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c" line="91" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16901003803236516695">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c" line="150" column="25"/>
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5602607454140656658">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_07.c" line="31" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="16918945838771853274">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_07.c" line="91" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14458392929844067597">
+            <location file="/home/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_07.c" line="150" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

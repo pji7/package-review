@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="15356506978541441738">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_02.cpp" line="48" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="9095105364233457004">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_02.cpp" line="119" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="1751380274492167766">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_02.cpp" line="176" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="17671484061486954531">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="48" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="4107923833446185775">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="119" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="7017508123486265548">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="176" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5548498970496834356">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="30" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14143566114942391804">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="39" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12355626832589180709">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="60" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14169765718628371245">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="69" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3446170000884926286">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="96" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12538468221649100564">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="105" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11681248845463909689">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="127" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9744482718001033017">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="141" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1099967447812743291">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="158" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1531894002814612943">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_03.cpp" line="167" column="9"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="9672162716383720950">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_04.cpp" line="54" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="2354782618458331057">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_04.cpp" line="125" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="13515078961104884017">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_04.cpp" line="182" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="11112041442481678989">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_05.cpp" line="54" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="5345408012530088169">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_05.cpp" line="125" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="4028438650712278524">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_05.cpp" line="182" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="15564523531391941064">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="53" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="4722463838667873626">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="124" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="1783232347203602008">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="181" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18048818647211466173">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="35" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10321965513348301760">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="44" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16745477834655415738">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="65" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8024567632521149765">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="74" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="502117108056776370">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="101" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17594708406232340017">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="110" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2617988828545031085">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="132" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5569423484154260968">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="146" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="661576451544720434">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="163" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1097561699930071413">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="172" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3488404372792320565">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="35" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10682982936520650569">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="44" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="247315004729607636">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="65" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="9586056392168510266">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="74" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6411922481394911348">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="101" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13063221061844663323">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="110" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2706656607376816319">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="132" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="4487302815962962463">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="146" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1550250542066327886">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="163" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3172855257880420685">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="172" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="17627849654017135174">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="53" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="8282185541052718984">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="124" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="8256491755710768023">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_07.cpp" line="181" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="16912112469844440007">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_08.cpp" line="61" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="8730820270033814311">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_08.cpp" line="132" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="12120654965650611220">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_08.cpp" line="189" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="17934044204625209736">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="39" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="30" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="6435763982959196001">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="105" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="96" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="1645101703826185650">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="167" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="158" column="8" info="First condition"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="1103989864057239747">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="48" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="9312089530868663233">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="119" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="12254431553759042458">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_09.cpp" line="176" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="1625623815114288519">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="39" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="30" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="7216681224499403650">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="105" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="96" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="3299366125547600374">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="167" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="158" column="8" info="First condition"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="6211206975446701859">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="48" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="7491389382328174587">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="119" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="9843320471885602098">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_10.cpp" line="176" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="14765505806211605510">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_11.cpp" line="47" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="8677917559826952451">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_11.cpp" line="118" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="9551605517350215630">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_11.cpp" line="175" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="3100918320813919022">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="38" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="29" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="1594659128599426820">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="104" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="95" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="1608899277179685398">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="166" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="157" column="25" info="First condition"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="10040289226099614317">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="47" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="9717474621114095186">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="118" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="17357914434109049704">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_13.cpp" line="175" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="4976014034613462661">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="38" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="29" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="14811258205206397119">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="104" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="95" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="15542601896352802763">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="166" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="157" column="18" info="First condition"/>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="1033224800005469572">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="47" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="5371110631830242079">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="118" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="memleak" severity="error" msg="Memory leak: data" verbose="Memory leak: data" cwe="401" hash="17989297286240434965">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_14.cpp" line="175" column="1"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="6297708904155731434">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="33" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="26" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="8468654456305708165">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="42" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="26" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="13180287503036353722">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="64" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="57" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="7090245533660952311">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="73" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="57" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="489725222966455508">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="78" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_malloc_partial_init_17.cpp" line="57" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5689457094040185051">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="29" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16850230104283543284">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="34" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17800405511876053534">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="54" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1871549084864001669">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="59" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14502347389085242466">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="85" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9190638307471351935">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="90" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10737231120994803909">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="111" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5837178984319922638">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="125" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17351588537397547733">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="141" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6605248662901102160">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_03.cpp" line="150" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14046168864317528247">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="34" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4391754692136711789">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="39" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14480493337325825116">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="59" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4730948134286232118">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="64" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13173682049666211744">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="90" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8014812617508489256">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="95" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3294086080648784189">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="116" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5466758953714898916">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="130" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="672920344737168620">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="146" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2364942838385344944">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="155" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2129770303547883728">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="17030407514126129121">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="39" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3449765669417168761">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="59" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="6961188893288410616">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="64" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7315991871634106665">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="90" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3853649640052464866">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="95" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="15166647595645664556">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="116" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13037750154527852564">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="130" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13879297766155419680">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="146" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12904637130886439204">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_07.cpp" line="155" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="14124391671073444203">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_09.cpp" line="34" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_09.cpp" line="29" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="8517534645599937430">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_09.cpp" line="90" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_09.cpp" line="85" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="16301090189750559362">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_09.cpp" line="150" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_09.cpp" line="141" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="13038517911316123181">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_10.cpp" line="34" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_10.cpp" line="29" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="18311294196722007517">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_10.cpp" line="90" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_10.cpp" line="85" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="118947464937375771">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_10.cpp" line="150" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_10.cpp" line="141" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="13581594256740745674">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_13.cpp" line="33" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_13.cpp" line="28" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="13496795178975894515">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_13.cpp" line="89" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_13.cpp" line="84" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="15489809398032022878">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_13.cpp" line="149" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_13.cpp" line="140" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="16423466736728925217">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_14.cpp" line="33" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_14.cpp" line="28" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="13129165839626580390">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_14.cpp" line="89" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_14.cpp" line="84" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="4726593742216388487">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_14.cpp" line="149" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_14.cpp" line="140" column="18" info="First condition"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="15936506592693430755">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_17.cpp" line="37" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_17.cpp" line="26" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="15793766393870293750">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_17.cpp" line="63" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_17.cpp" line="52" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="13546656113218492829">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_17.cpp" line="68" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_no_init_17.cpp" line="52" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13841547324229990998">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="29" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1347992689095403804">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="38" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15080518860480736168">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="58" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="818221516485130311">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="67" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14466891573771157575">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="93" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4566034216772232612">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="102" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4531344573857601826">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="123" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7092578098596969088">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="137" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3094643814911941966">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="153" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17532209605033545670">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_03.cpp" line="162" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2610600018375812710">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="34" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11907739921581407060">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="43" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14720680787558169855">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="63" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6785874010356032273">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="72" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7878841561439234740">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="98" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12257852769497413932">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="107" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3214163514402196570">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="128" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3964260097173252437">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="142" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17778635592152714682">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="158" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="798264023131659011">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="167" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_06.cpp" line="23" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6799492082503470128">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3685816511786951147">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="43" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15756424716419681106">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="63" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3227317786141544437">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="72" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11915334785165106604">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="98" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7585304306751172174">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="107" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="14042311971579414035">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="128" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2725677215781843649">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="142" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13255536501973889949">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="158" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2057920757688939204">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_07.cpp" line="167" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="4058264519104629946">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_09.cpp" line="38" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_09.cpp" line="29" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="15017397542981756198">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_09.cpp" line="102" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_09.cpp" line="93" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="8772743359218474892">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_09.cpp" line="162" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_09.cpp" line="153" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="20547975508320477">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_10.cpp" line="38" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_10.cpp" line="29" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="12930841519615436917">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_10.cpp" line="102" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_10.cpp" line="93" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="11457300768214207232">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_10.cpp" line="162" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_10.cpp" line="153" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="9990032114929367668">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_13.cpp" line="37" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_13.cpp" line="28" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="13733415628936201050">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_13.cpp" line="101" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_13.cpp" line="92" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="17350607146103599972">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_13.cpp" line="161" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_13.cpp" line="152" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="2033760278234631321">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_14.cpp" line="37" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_14.cpp" line="28" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="1454042715957490909">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_14.cpp" line="101" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_14.cpp" line="92" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="14519450265839413927">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_14.cpp" line="161" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_14.cpp" line="152" column="18" info="First condition"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="14276635611103258183">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="32" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="26" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="2480791713168508586">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="41" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="26" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="4815835658681093311">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="62" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="56" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="9232855520771845263">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="71" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="56" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;i&apos; shadows outer variable" verbose="Local variable &apos;i&apos; shadows outer variable" cwe="398" hash="12632756607782617365">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="76" column="17" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__twointsclass_array_new_partial_init_17.cpp" line="56" column="9" info="Shadowed declaration"/>
+            <symbol>i</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1203749077036378403">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_02.c" line="26" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="5648131808568483513">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_02.c" line="46" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="5339322975543895910">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_02.c" line="68" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12255360669773321012">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="27" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12138187085822430249">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="32" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2350039764639632345">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="47" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2623154465745249328">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="52" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5216768561335815859">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="69" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="147954110827002697">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="74" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16116048601591913618">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="86" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6948950665545893035">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="96" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="367809963279574258">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="107" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11052264352842513865">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="112" column="9"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6519239415997421320">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="26" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7448024124622640447">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="46" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1125651981217721214">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_03.c" line="68" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="16947991213109207531">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_04.c" line="32" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="6142680918657953822">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_04.c" line="52" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="2388058843788243611">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_04.c" line="74" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="364114551152691331">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_05.c" line="32" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="8598162650557983480">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_05.c" line="52" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="15952454259326141919">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_05.c" line="74" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2536798328653416542">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10263242337132614820">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="37" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5431177726574520069">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="52" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15274099954690512005">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="57" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17512559152894221191">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="74" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16169089710104405274">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="79" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12766896995667547686">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="91" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10133258852637204684">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="101" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9751931584235445517">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="112" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18239426324651556081">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="117" column="25"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13622311248429035956">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="31" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="2119115127798090641">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="51" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="14251477871837615482">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_06.c" line="73" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7398295787691915014">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="32" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13505852117597752082">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="37" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="16803929530977870978">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="52" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="5911218540971568895">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="57" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14927359052229813661">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="74" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8935684912652978883">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="79" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="13911130421004343778">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="91" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9016085078215301498">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="101" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15590609924323825952">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="112" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11559868640406484145">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="117" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="13786828205865156072">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="31" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="8684175051663422416">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="51" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="9657034606631444318">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_07.c" line="73" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="9290047479086954088">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_08.c" line="39" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="5029672570963931272">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_08.c" line="59" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="17357725792344074564">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_08.c" line="81" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="13157348057211097271">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="32" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="27" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="2812068549709119147">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="74" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="69" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="5849212764195035110">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="112" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="107" column="8" info="First condition"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="18011126364696707699">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="26" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="15212687728889954825">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="46" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7569233336964745078">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_09.c" line="68" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="4873993237972785769">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="32" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="27" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="920523841591792864">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="74" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="69" column="8" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="1344612856414173441">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="112" column="8" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="107" column="8" info="First condition"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="9821926104510043120">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="26" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="18333678601702978938">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="46" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="3043462324974111827">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_10.c" line="68" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="14982050863937301426">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_11.c" line="26" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="14381266226831316249">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_11.c" line="46" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7360185185631453887">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_11.c" line="68" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="3485015708837219150">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="32" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="27" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="2450088650269739665">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="74" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="69" column="25" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="12001990901569952992">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="112" column="25" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="107" column="25" info="First condition"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="4900088979158688094">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="26" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="5345919351520874920">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="46" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="15186842306396217817">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_13.c" line="68" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="11116892800447723412">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="32" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="27" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="2986965903065384678">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="74" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="69" column="18" info="First condition"/>
+        </error>
+        <error id="duplicateCondition" severity="style" msg="The if condition is the same as the previous if condition" verbose="The if condition is the same as the previous if condition" cwe="398" hash="16664340032139620827">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="112" column="18" info="Second condition"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="107" column="18" info="First condition"/>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="15657411349440941223">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="26" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="11179331195744855761">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="46" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="16149826626136446497">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_14.c" line="68" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="9194642938542032562">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_16.c" line="48" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;data&apos; can be reduced." verbose="The scope of the variable &apos;data&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="10174582681878733324">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_17.c" line="48" column="15"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="4607825304277557045">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_63b.c" line="48" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_63b.c" line="46" column="20" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="17122966377118880917">
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_64b.c" line="57" column="10" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE457_Use_of_Uninitialized_Variable/s02/CWE457_Use_of_Uninitialized_Variable__wchar_t_pointer_64b.c" line="55" column="20" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

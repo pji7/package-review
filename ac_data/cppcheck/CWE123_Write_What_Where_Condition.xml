@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18392961569380669821">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_03.c" line="64" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="704492340214739071">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_03.c" line="152" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5341783404944743024">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_03.c" line="192" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17888590183831901021">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_06.c" line="68" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_06.c" line="55" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16799122904577404844">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_06.c" line="156" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_06.c" line="55" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2747071286427138162">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_06.c" line="196" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_06.c" line="55" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="18014836079871285991">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_07.c" line="70" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="8514961820819010226">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_07.c" line="158" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14751888221059792077">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_07.c" line="198" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="1205191078258708865">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_31.c" line="117" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_31.c" line="57" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10906236992162020742">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_31.c" line="157" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_31.c" line="146" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8670241609504925515">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="67" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="57" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="17631377420938575219">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="122" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="57" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="16963084206839223201">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="161" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="151" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="15109837196142943961">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="167" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_32.c" line="151" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dataRef&apos; can be reduced." verbose="The scope of the variable &apos;dataRef&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="1582810374160622181">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="150" column="16"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8362037945680051803">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="120" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="60" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="3718711140455442929">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="160" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="149" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dataRef&apos; can be declared with const" verbose="Variable &apos;dataRef&apos; can be declared with const" cwe="398" hash="13936073579047462885">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="150" column="16" info="Variable &apos;dataRef&apos; can be declared with const"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.list" verbose="Uninitialized struct member: data.list" cwe="457" hash="9405009186422279735">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="61" column="26"/>
+            <symbol>data.list</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.list" verbose="Uninitialized struct member: data.list" cwe="457" hash="1937003238298504688">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="150" column="26"/>
+            <symbol>data.list</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dataRef" verbose="Uninitialized variable: dataRef" cwe="457" hash="10149198084552492478">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="160" column="26"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_33.cpp" line="150" column="26" info="Assignment &apos;dataRef=data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="15539829394437577150">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_34.c" line="124" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_34.c" line="63" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8366305726729844788">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_34.c" line="165" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_34.c" line="153" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13852757375008637719">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="129705578762026510">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15008295582987516415">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17687947870183824626">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13585344323493833621">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16613430287246078245">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2756374871561487385">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="12006527688230380615">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3050634177006375720">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2934939080663171466">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="10482904037648077134">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="34" column="1"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_82_base</symbol>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__connect_socket_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="9523122794117112135">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="34" column="1"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_82_base</symbol>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="5785388521391461124">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="247842282761287115">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="7142091835559078907">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83_bad.cpp" line="46" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17357589940824628720">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9256561709335144621">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="3461269332132631987">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8472713724986181092">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10630900996880491640">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2266113636776418724">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="1627653275762822529">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_83_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="7516362188105838192">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84_bad.cpp" line="46" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7064473278187840553">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="11503713147810280483">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="13688338049427425983">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2889616543572920228">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16008658393245133586">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="4824103024445088438">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16626054690000732885">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__connect_socket_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__connect_socket_84_goodG2B</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13616389151620328504">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_03.c" line="43" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15043980112029723687">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_03.c" line="86" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="929942079656797869">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_03.c" line="126" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1421288967212871176">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c" line="47" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c" line="34" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8853684915136372123">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c" line="90" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c" line="34" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11391676632057604357">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c" line="130" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_06.c" line="34" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="442094937321085286">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_07.c" line="49" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="15428142281420787387">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_07.c" line="92" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1412129584675498104">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_07.c" line="132" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="7871763813382673486">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_31.c" line="51" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_31.c" line="36" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="5105915777398102286">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_31.c" line="91" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_31.c" line="80" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="1407016171651331631">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="46" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="36" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10207110049152989200">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="56" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="36" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="4636858185828056050">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="95" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="85" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8927523949156905062">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="101" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_32.c" line="85" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dataRef&apos; can be reduced." verbose="The scope of the variable &apos;dataRef&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="12509357440918419780">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="40" column="16"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dataRef&apos; can be reduced." verbose="The scope of the variable &apos;dataRef&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="3246852109352905518">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="84" column="16"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="5319981054212540333">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="54" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="39" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="9768982311858788681">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="94" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="83" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dataRef&apos; can be declared with const" verbose="Variable &apos;dataRef&apos; can be declared with const" cwe="398" hash="15986735265280382371">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="84" column="16" info="Variable &apos;dataRef&apos; can be declared with const"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.list" verbose="Uninitialized struct member: data.list" cwe="457" hash="296507420222586958">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="40" column="26"/>
+            <symbol>data.list</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.list" verbose="Uninitialized struct member: data.list" cwe="457" hash="13387294382365810713">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="84" column="26"/>
+            <symbol>data.list</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dataRef" verbose="Uninitialized variable: dataRef" cwe="457" hash="15649746197874127221">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="54" column="26"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="48" column="50" info="Assuming condition is false"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="40" column="26" info="Assignment &apos;dataRef=data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dataRef" verbose="Uninitialized variable: dataRef" cwe="457" hash="14245618258340615536">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="94" column="26"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_33.cpp" line="84" column="26" info="Assignment &apos;dataRef=data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="6062743401184314514">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_34.c" line="58" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_34.c" line="42" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="1017322668995332652">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_34.c" line="99" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_34.c" line="87" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9279787483719225342">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4283753682689265005">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4854222771836790638">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3368841460178038942">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4559367248421619979">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9532464519562070601">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4252318757524503900">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="410831001701370566">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7560982535692245353">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11596503027480851749">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__fgets_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__fgets_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="7372812419488837494">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="34" column="1"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_82_base</symbol>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__fgets_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__fgets_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="15388387779357427115">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="34" column="1"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_82_base</symbol>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15137389167983779716">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1742917354085259143">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="11269827231998632947">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83_bad.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16631125502802007503">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2293061787414755986">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_83_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="1525879609744222105">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83_goodG2B.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="16438292930326726572">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9361664800980587120">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2406690365799364123">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="6542461802696105636">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_83_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="17366856256416951527">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84_bad.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8992909822970029216">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="17417510561102201865">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_84_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="3065305173057028674">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84_goodG2B.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="4516455107340306253">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="14701386193501373355">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10008085777493478547">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__fgets_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="12836286072051929073">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__fgets_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__fgets_84_goodG2B</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11506077466053007087">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_03.c" line="64" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4930600844373361587">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_03.c" line="165" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15896297745069512998">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_03.c" line="205" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14781793090994575800">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_06.c" line="68" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_06.c" line="55" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11246016671702154232">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_06.c" line="169" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_06.c" line="55" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14391578645547630625">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_06.c" line="209" column="25"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_06.c" line="55" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="6843231552118138451">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_07.c" line="70" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12251097003806770985">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_07.c" line="171" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="13255733515478904644">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_07.c" line="211" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10862519331272231378">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_31.c" line="130" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_31.c" line="57" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="1917558275532781920">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_31.c" line="170" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_31.c" line="159" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="6244663525106553254">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="67" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="57" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="93217754940979054">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="135" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="57" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="332968408683863779">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="174" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="164" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="4472209246052243971">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="180" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_32.c" line="164" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;dataRef&apos; can be reduced." verbose="The scope of the variable &apos;dataRef&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="7906429708095690328">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="163" column="16"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="613648301658951452">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="133" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="60" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="10438606204640838525">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="173" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="162" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="constVariable" severity="style" msg="Variable &apos;dataRef&apos; can be declared with const" verbose="Variable &apos;dataRef&apos; can be declared with const" cwe="398" hash="13689185869578420354">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="163" column="16" info="Variable &apos;dataRef&apos; can be declared with const"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.list" verbose="Uninitialized struct member: data.list" cwe="457" hash="3911564388859102968">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="61" column="26"/>
+            <symbol>data.list</symbol>
+        </error>
+        <error id="uninitStructMember" severity="error" msg="Uninitialized struct member: data.list" verbose="Uninitialized struct member: data.list" cwe="457" hash="5487210241288043979">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="163" column="26"/>
+            <symbol>data.list</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: dataRef" verbose="Uninitialized variable: dataRef" cwe="457" hash="5492257974217566060">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="173" column="26"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_33.cpp" line="163" column="26" info="Assignment &apos;dataRef=data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>dataRef</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="6768213424360696720">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_34.c" line="137" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_34.c" line="63" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="3721223271998421758">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_34.c" line="178" column="19" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_34.c" line="166" column="15" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="12093157139802159644">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16651587835974181391">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6877107576912224940">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="12966982050990400009">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11882177819661507980">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="47" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6526035682074539596">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="57" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_81.h" line="39" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="10551537516135601262">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="14303165643309492777">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17026594471641196184">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17159106316772491588">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="852370973312843560">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="34" column="1"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_82_base</symbol>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_base&apos; which is inherited by class &apos;CWE123_Write_What_Where_Condition__listen_socket_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="3289653766511350994">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="34" column="1"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_82_base</symbol>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2200666258681694450">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="46" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="2918306092035178800">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="56" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_82.h" line="38" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="2637783748606893918">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83_bad.cpp" line="46" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="8838501578952368341">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="940043006392958155">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="2001151650508499414">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="2272661977814476300">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="9887995059360281521">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="10940206615540393858">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_83_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="18036601999330035261">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_83.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_83_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="764817192275820867">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84_bad.cpp" line="46" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="7203772261116563141">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="14332082124009370124">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84_bad.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B</symbol>
+        </error>
+        <error id="useInitializationList" severity="performance" msg="Variable &apos;data&apos; is assigned in constructor body. Consider performing initialization in initialization list." verbose="When an object of a class is created, the constructors of all member variables are called consecutively in the order the variables are declared, even if you don&apos;t explicitly write them to the initialization list. You could avoid assigning &apos;data&apos; a value by passing the value to the constructor in the initialization list." cwe="398" hash="4551844817958397844">
+            <location file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B.cpp" line="25" column="5"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="13763647378376064815">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="18189389814891924899">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_bad&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_bad&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5182942346357782296">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84.h" line="40" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_84_bad</symbol>
+        </error>
+        <error id="noExplicitConstructor" severity="style" msg="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit." verbose="Class &apos;CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B&apos; has a constructor with 1 argument that is not explicit. Such constructors should in general be explicit for type safety reasons. Using the explicit keyword in the constructor means some mistakes when using the class can be avoided." cwe="398" hash="5174964839326079564">
+            <location file0="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84a.cpp" file="/home/input/C/testcases/CWE123_Write_What_Where_Condition/CWE123_Write_What_Where_Condition__listen_socket_84.h" line="54" column="5"/>
+            <symbol>CWE123_Write_What_Where_Condition__listen_socket_84_goodG2B</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

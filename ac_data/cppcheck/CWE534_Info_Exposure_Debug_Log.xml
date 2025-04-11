@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15954115890784876963">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_01.c" line="63" column="17" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_01.c" line="64" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="7243762233084940713">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_01.c" line="113" column="17" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_01.c" line="114" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="3483116851794046306">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_02.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_02.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15154632419302270040">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_02.c" line="124" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_02.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="17388842162481191713">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_02.c" line="174" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_02.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="7866612308829693132">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="16925362854220667841">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="124" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="615601023884000984">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="174" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17648699972022645954">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="27" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9372661467680644388">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="81" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6865483544814454447">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_03.c" line="136" column="9"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="16482368567200103961">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_04.c" line="71" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_04.c" line="72" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="4860241443953581496">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_04.c" line="130" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_04.c" line="131" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="9852374503913124920">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_04.c" line="180" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_04.c" line="181" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="4554418629873816103">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_05.c" line="71" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_05.c" line="72" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15419596414471167982">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_05.c" line="130" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_05.c" line="131" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15313924630981995353">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_05.c" line="180" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_05.c" line="181" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="4670945235725267403">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="70" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="71" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15575569210615934349">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="129" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="130" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15502177465931639954">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="179" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="180" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11117760576324763483">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10039584029495361558">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="86" column="25"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5445329526799557833">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="141" column="25"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5812580001717235615">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="32" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12179637423398896010">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="86" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="12862011276369004127">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="141" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="10444387964709814619">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="70" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="71" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="12371544123395850499">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="129" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="130" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2981319621831187340">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="179" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_07.c" line="180" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="5502668362260181190">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_08.c" line="78" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_08.c" line="79" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="5581887079696576891">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_08.c" line="137" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_08.c" line="138" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="8924197428261653496">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_08.c" line="187" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_08.c" line="188" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="11438723146865730710">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_09.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_09.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="8208933677905825212">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_09.c" line="124" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_09.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="14355186294553796550">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_09.c" line="174" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_09.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="12649367642259572016">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_10.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_10.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="7116214525255167860">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_10.c" line="124" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_10.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="10003406330029134642">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_10.c" line="174" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_10.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2317592832367296558">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_11.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_11.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2253775706983472768">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_11.c" line="124" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_11.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="491963833032945493">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_11.c" line="174" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_11.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="7105426232037118074">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="498397369077445612">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="110" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="111" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="17784915522000901074">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="164" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="165" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="12864222388881759676">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="209" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_12.c" line="210" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="6981566524833868283">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_13.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_13.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="3649603440515929697">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_13.c" line="124" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_13.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="8280448404277988608">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_13.c" line="174" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_13.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="16155584689057159936">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_14.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_14.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="1848072031861736334">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_14.c" line="124" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_14.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="4724179911193534371">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_14.c" line="174" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_14.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15632215581830703657">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_15.c" line="66" column="17" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_15.c" line="67" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="14667027314010027457">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_15.c" line="130" column="17" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_15.c" line="131" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2226057548754322908">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_15.c" line="182" column="17" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_15.c" line="183" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="13474737965959475643">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_16.c" line="65" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_16.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="13702367877567218055">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_16.c" line="120" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_16.c" line="121" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="12110550809168391871">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_17.c" line="66" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_17.c" line="67" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2249383751542770962">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_17.c" line="121" column="21" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_17.c" line="122" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="5704229153120362862">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_18.c" line="65" column="17" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_18.c" line="66" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="12512060824368857906">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_18.c" line="118" column="17" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_char_18.c" line="119" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2893144615510772809">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_01.c" line="63" column="18" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_01.c" line="64" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2764602018828332337">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_01.c" line="113" column="18" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_01.c" line="114" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="17543452061048124623">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_02.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_02.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="16568467824482468775">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_02.c" line="124" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_02.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="8934322918989026618">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_02.c" line="174" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_02.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15349086482450656272">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="13483255566738080984">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="124" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="18136205351184246678">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="174" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12181922683906866959">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="27" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="690113367887080854">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="81" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10035457546455547911">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_03.c" line="136" column="9"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="16791121824904134542">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_04.c" line="71" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_04.c" line="72" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15260623954674919207">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_04.c" line="130" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_04.c" line="131" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="3316066239652486521">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_04.c" line="180" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_04.c" line="181" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15035348116286258225">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_05.c" line="71" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_05.c" line="72" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="222753403438409339">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_05.c" line="130" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_05.c" line="131" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="1956343076179432183">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_05.c" line="180" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_05.c" line="181" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="5454686041999747845">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="70" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="71" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="18311419707100396228">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="129" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="130" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="4846161558893985509">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="179" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="180" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9032450154131704291">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1711498724466677454">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="86" column="25"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1954782543019243184">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="141" column="25"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_06.c" line="26" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1527486396289234657">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="32" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="3703927326891841551">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="86" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5421238934707292622">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="141" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="13559832361399370644">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="70" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="71" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="18048264132235872009">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="129" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="130" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="9141781538003098226">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="179" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_07.c" line="180" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="12424252993080105398">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_08.c" line="78" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_08.c" line="79" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="16772848981857671895">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_08.c" line="137" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_08.c" line="138" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="594744415379545476">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_08.c" line="187" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_08.c" line="188" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="3760149795606776996">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_09.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_09.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="4242742300334721558">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_09.c" line="124" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_09.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15126678469086668221">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_09.c" line="174" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_09.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="11058531803966695001">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_10.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_10.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2474686857323474822">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_10.c" line="124" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_10.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="14485578718900008558">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_10.c" line="174" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_10.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="18146909133343807578">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_11.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_11.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="17195783074194497091">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_11.c" line="124" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_11.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="17255610008026963403">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_11.c" line="174" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_11.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="8544343325436005512">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15076159957116610415">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="110" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="111" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="3345428431090666346">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="164" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="165" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="11998812993969905679">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="209" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_12.c" line="210" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2235111989148286612">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_13.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_13.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="12620998475373608697">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_13.c" line="124" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_13.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="3478977422982403983">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_13.c" line="174" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_13.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="2509115152021510111">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_14.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_14.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="1641190768589747470">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_14.c" line="124" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_14.c" line="125" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="6045023146862394238">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_14.c" line="174" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_14.c" line="175" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="16731999134640234179">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_15.c" line="66" column="18" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_15.c" line="67" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="14944995379286824718">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_15.c" line="130" column="18" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_15.c" line="131" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="7732109076081783343">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_15.c" line="182" column="18" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_15.c" line="183" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="6452332017909441761">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_16.c" line="65" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_16.c" line="66" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="5846050346072263191">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_16.c" line="120" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_16.c" line="121" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="11775414473718312776">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_17.c" line="66" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_17.c" line="67" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15356431710907746347">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_17.c" line="121" column="22" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_17.c" line="122" column="16" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="15985349404161461307">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_18.c" line="65" column="18" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_18.c" line="66" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="nullPointerRedundantCheck" severity="warning" msg="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." verbose="Either the condition &apos;if(pFile)&apos; is redundant or there is possible null pointer dereference: pFile." cwe="476" hash="7382538596921676384">
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_18.c" line="118" column="18" info="Null pointer dereference"/>
+            <location file="/home/input/C/testcases/CWE534_Info_Exposure_Debug_Log/CWE534_Info_Exposure_Debug_Log__w32_wchar_t_18.c" line="119" column="12" info="Assuming that condition &apos;if(pFile)&apos; is not redundant"/>
+            <symbol>pFile</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

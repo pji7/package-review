@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12844155198218912102">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_03.cpp" line="29" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="580127120353720854">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_03.cpp" line="58" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12320931860208678000">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_03.cpp" line="93" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15146355936229042672">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_06.cpp" line="34" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8378890557150371402">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_06.cpp" line="63" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="7647284452779398357">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_06.cpp" line="98" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3116082591503911664">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_07.cpp" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2901831219046418397">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_07.cpp" line="63" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2097169603015981147">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_07.cpp" line="98" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3961224116201462978">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_03.cpp" line="29" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15726530796203165760">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_03.cpp" line="58" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12713327103002018775">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_03.cpp" line="93" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9423722086440182756">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_06.cpp" line="34" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16430110086235619815">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_06.cpp" line="63" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9740650751102384560">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_06.cpp" line="98" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="700018914346268193">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_07.cpp" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12982278392530978541">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_07.cpp" line="63" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2190791827921029715">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_07.cpp" line="98" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8206417407601538728">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_03.cpp" line="29" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3149719975137452500">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_03.cpp" line="65" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5104644636236630008">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_03.cpp" line="100" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15250299301852374777">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp" line="34" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5764636288863163801">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp" line="70" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1499861737575909132">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp" line="105" column="25"/>
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp" line="25" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="8787677545235867869">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_07.cpp" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="10640171388573834228">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_07.cpp" line="70" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="1920966933979775029">
+            <location file="/home/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_07.cpp" line="105" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

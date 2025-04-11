@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8554540431069206378">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c" line="46" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3523881858763994076">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c" line="150" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5588663461492171232">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c" line="244" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16987826270324146716">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c" line="51" column="25"/>
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4142439118037795934">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c" line="155" column="25"/>
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14986210994264122513">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c" line="249" column="25"/>
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c" line="45" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="538186670847604710">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c" line="51" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="977969578823431970">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c" line="155" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="446991579574754381">
+            <location file="/home/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c" line="249" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

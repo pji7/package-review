@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="9720193982254793355">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c" line="25" column="20" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c" line="23" column="21" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="10734757984018424002">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c" line="25" column="20"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="10104750916678297776">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="8734040232826232514">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="1332771411870135167">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16295164623560015831">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c" line="22" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8084930642717103352">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c" line="42" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="14212070959270675610">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c" line="63" column="9"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="3196443046124442283">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="4628962598771112541">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c" line="33" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c" line="31" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="8491622869556420790">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c" line="33" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="13947882307226594635">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c" line="33" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c" line="31" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="11502848197106205357">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c" line="33" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="9400855174209695415">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="32" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="30" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13498249605826989356">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="27" column="25"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9670594490056194340">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="47" column="25"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6890416164778566250">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="68" column="25"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="9272745996183056907">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c" line="32" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15425160819296714234">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c" line="27" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="7255321967630512560">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c" line="47" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9509345384473015404">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c" line="68" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="15888131615807397309">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c" line="32" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c" line="30" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="10196082571844200957">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c" line="32" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="12461262543761937610">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c" line="40" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c" line="38" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="849928350674567043">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c" line="40" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="7658820925033727878">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="17663715815556790322">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="4891430693667260448">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="14634724463750579684">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="16535782928946797974">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="7286030413553964161">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="7918233514429632413">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="9096292145792609542">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="12516528757272927098">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="8621895812159007746">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="4350323182608143575">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="14967691546790572908">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="4988677803855193716">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c" line="28" column="20" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c" line="26" column="21" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="626283917751874648">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c" line="28" column="20"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="10199582616810354148">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c" line="27" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c" line="25" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="3835730578661289841">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c" line="27" column="24"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="10193870418777194327">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c" line="28" column="24" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c" line="26" column="25" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;intRand&apos;. The initialized value is overwritten before it is read." cwe="563" hash="9899683584921926175">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c" line="27" column="20" info="intRand is overwritten"/>
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c" line="25" column="21" info="intRand is initialized"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;intRand&apos; is assigned a value that is never used." verbose="Variable &apos;intRand&apos; is assigned a value that is never used." cwe="563" hash="16680868636839979746">
+            <location file="/home/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c" line="27" column="20"/>
+            <symbol>intRand</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

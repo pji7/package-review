@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;intRand1==(intRand2-1)&apos; is always true" verbose="Condition &apos;intRand1==(intRand2-1)&apos; is always true" cwe="571" hash="16218560910989667341">
+            <location file="/home/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__n_equals_m_minus_one_01.c" line="16" column="18" info="Condition &apos;intRand1==(intRand2-1)&apos; is always true"/>
+            <location file="/home/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__n_equals_m_minus_one_01.c" line="12" column="20" info="Assignment &apos;intRand1=30&apos;, assigned value is 30"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10917978473370108616">
+            <location file="/home/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_const_five_01.c" line="15" column="27"/>
+            <location file="/home/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_const_five_01.c" line="8" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="4930010419503630759">
+            <location file="/home/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_five_01.c" line="15" column="20" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="15216795037386824183">
+            <location file="/home/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__two_equals_two_01.c" line="13" column="11"/>
+        </error>
+        <error id="unsignedPositive" severity="style" msg="Unsigned expression &apos;uIntBad&apos; can&apos;t be negative so it is unnecessary to test it." verbose="Unsigned expression &apos;uIntBad&apos; can&apos;t be negative so it is unnecessary to test it." cwe="570" hash="13283719214786302035">
+            <location file="/home/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__unsigned_int_01.c" line="16" column="17" info="Unsigned positive"/>
+            <symbol>uIntBad</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17118526322154512000">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_03.c" line="32" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5177132307795685350">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_03.c" line="125" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="10305771547154206345">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_03.c" line="219" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12502009897515121571">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_06.c" line="37" column="25"/>
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_06.c" line="31" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="1139146813119128250">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_06.c" line="130" column="25"/>
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_06.c" line="31" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="16623233680760869987">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_06.c" line="224" column="25"/>
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_06.c" line="31" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="5090670525700394721">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_07.c" line="37" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="6766646176054437115">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_07.c" line="130" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="7797731151454613875">
+            <location file="/home/input/C/testcases/CWE223_Omission_of_Security_Relevant_Information/CWE223_Omission_of_Security_Relevant_Information__w32_07.c" line="224" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

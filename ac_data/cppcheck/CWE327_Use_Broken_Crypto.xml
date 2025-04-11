@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3581718410520903579">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9515812492306169931">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_03.c" line="130" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8014756126361699780">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2679170161861210176">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c" line="33" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="18072075380316638436">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c" line="135" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="920243720779914477">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="9653680534065994104">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_07.c" line="33" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2627848421520761395">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_07.c" line="135" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="15508134719167376792">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13540595864259984204">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="13983881660718602157">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_03.c" line="130" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11060762782579303893">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12813841879996961297">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c" line="33" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5171616400252509457">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c" line="135" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11239970505808358808">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="3552621269432230809">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_07.c" line="33" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="17843369116911956966">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_07.c" line="135" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="17552344086420793842">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="2632675122012134587">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8005686277392930150">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_03.c" line="130" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12134635307100219213">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_03.c" line="233" column="9"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3648610629614925912">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c" line="33" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11731233656762921496">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c" line="135" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="8387224614770526701">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c" line="238" column="25"/>
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c" line="27" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10282093283425396388">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_07.c" line="33" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="7164295291417654110">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_07.c" line="135" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="14619271722917403103">
+            <location file="/home/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_07.c" line="238" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>

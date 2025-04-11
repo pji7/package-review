@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="2.3"/>
+    <errors>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="9117565067700891778">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_01.cpp" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="8160630685293565759">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_02.cpp" line="49" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5176626767650881722">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_02.cpp" line="71" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="6478837729363025745">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_03.cpp" line="31" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="397749725575165831">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_03.cpp" line="52" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5383555196897602546">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_03.cpp" line="74" column="9"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="6995669293534289241">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_03.cpp" line="49" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="17958964495960000395">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_03.cpp" line="71" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="16024500305544273133">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_04.cpp" line="55" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="3707248787282844195">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_04.cpp" line="77" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="15130319076745544675">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_05.cpp" line="55" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="15332125929639440897">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_05.cpp" line="77" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="3605437447216020795">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="36" column="25"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="22" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4553864876864152565">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="57" column="25"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="22" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="12121240052893161548">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="79" column="25"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="22" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="6238802743166753128">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="54" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="17731064508607722361">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_06.cpp" line="76" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2424764525014979066">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_07.cpp" line="36" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="2821510542517810037">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_07.cpp" line="57" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="10183941817436903633">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_07.cpp" line="79" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="6368084950309766699">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_07.cpp" line="54" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="16400495809411539110">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_07.cpp" line="76" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="11387083412319749090">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_08.cpp" line="62" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="786144752607764995">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_08.cpp" line="84" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5142368441410121098">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_09.cpp" line="49" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="11597072802445017904">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_09.cpp" line="71" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5594548090779474984">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_10.cpp" line="49" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="9080139917780809648">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_10.cpp" line="71" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="14982241864160959905">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_11.cpp" line="49" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="14604143650226227612">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_11.cpp" line="71" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="1766598076848218084">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_12.cpp" line="55" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="14971358673473780267">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_13.cpp" line="49" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="15620053320646518657">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_13.cpp" line="71" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="10463286354553444460">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_14.cpp" line="49" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="7691032165450411819">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_14.cpp" line="71" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="10155245381090315293">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_16.cpp" line="50" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13158958559178097388">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_17.cpp" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="9268258170838391007">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_31.cpp" line="35" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_31.cpp" line="26" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="11945150814939429437">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_31.cpp" line="57" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_31.cpp" line="48" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="7568536341901176560">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_31.cpp" line="50" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="17631795651826617065">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="36" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="34" column="21" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="11129609442013244306">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="63" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="61" column="21" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="352757428509974201">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="34" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="26" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="5363955416886805781">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="40" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="26" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="815855613225484946">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="61" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="53" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="13564890289633553662">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="67" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="53" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr1" verbose="Uninitialized variable: *dataPtr1" cwe="457" hash="4399624413525197624">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="34" column="23"/>
+            <symbol>*dataPtr1</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr2" verbose="Uninitialized variable: *dataPtr2" cwe="457" hash="11563494324865024622">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="40" column="23"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="28" column="24" info="Assignment &apos;dataPtr2=&amp;data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>*dataPtr2</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr1" verbose="Uninitialized variable: *dataPtr1" cwe="457" hash="8482271559183242214">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="61" column="23"/>
+            <symbol>*dataPtr1</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr2" verbose="Uninitialized variable: *dataPtr2" cwe="457" hash="8446930734207023102">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="67" column="23"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="55" column="24" info="Assignment &apos;dataPtr2=&amp;data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>*dataPtr2</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;data&apos; is not assigned a value." verbose="Variable &apos;data&apos; is not assigned a value." cwe="665" hash="18396247903256126367">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="26" column="12"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="550624141471347334">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="57" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;data&apos; is not assigned a value." verbose="Variable &apos;data&apos; is not assigned a value." cwe="665" hash="12202887839447694076">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_32.cpp" line="53" column="12"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="15719452062713067188">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_33.cpp" line="35" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_33.cpp" line="26" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="4559483587444346472">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_33.cpp" line="57" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_33.cpp" line="48" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="2142307799043238233">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_33.cpp" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="13286237420734708930">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_34.cpp" line="42" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_34.cpp" line="32" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="4830876605099464131">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_34.cpp" line="65" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_34.cpp" line="55" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="17652229341724340286">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_34.cpp" line="58" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="367388131220839614">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_41.cpp" line="57" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="14539395152010274982">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_44.cpp" line="61" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="danglingLifetime" severity="error" msg="Non-local variable &apos;badData&apos; will use pointer to local variable &apos;dataBadBuffer&apos;." verbose="Non-local variable &apos;badData&apos; will use pointer to local variable &apos;dataBadBuffer&apos;." cwe="562" hash="17199198481804728859">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_45.cpp" line="43" column="5"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_45.cpp" line="38" column="9" info="Variable created here."/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_45.cpp" line="42" column="12" info="Address of variable taken here."/>
+        </error>
+        <error id="danglingLifetime" severity="error" msg="Non-local variable &apos;goodG2BData&apos; will use pointer to local variable &apos;dataGoodBuffer&apos;." verbose="Non-local variable &apos;goodG2BData&apos; will use pointer to local variable &apos;dataGoodBuffer&apos;." cwe="562" hash="3236699468729673658">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_45.cpp" line="68" column="5"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_45.cpp" line="62" column="18" info="Variable created here."/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_45.cpp" line="67" column="12" info="Address of variable taken here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5075864911217467313">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_45.cpp" line="63" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="908896034435584422">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_51a.cpp" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="17421518695675969908">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_52a.cpp" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="15977102538555820344">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_53a.cpp" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="17493087997829287123">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_54a.cpp" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="11581578786347693344">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_63a.cpp" line="50" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="10335912851420502101">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_64a.cpp" line="50" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="932786187564896488">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_65a.cpp" line="54" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="18326241291274830346">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_66a.cpp" line="56" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="8569888967238355092">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_67a.cpp" line="58" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13793810599749693969">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_68a.cpp" line="55" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="1272034813264332246">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_72a.cpp" line="61" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="12308151410869245825">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_73a.cpp" line="61" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="7541618221409378375">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_74a.cpp" line="61" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15810282218795970071">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13377487535862954704">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4907866016326422146">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="10622930948884690871">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="4571292137695482878">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="376822947563643922">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5377643049753126104">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_81a.cpp" line="47" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11237829573857382711">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="9127623635120905354">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11059294895474220771">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6783612678865820884">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="17418311983932656251">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="22" column="1"/>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_base</symbol>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="4003930964535701748">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="22" column="1"/>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_base</symbol>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="14065751344766993448">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="1777694044878110935">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="184240710571765196">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__class_82a.cpp" line="48" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="3173911603748084290">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_01.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="9573611440100253967">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_01.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5871799044800539215">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_01.c" line="43" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="2090242775106955340">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_02.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="747718981363220326">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_02.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="9573327662989071410">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_02.c" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="2871783824389030472">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_02.c" line="68" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="17668618852710030618">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_03.c" line="28" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;!=&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="9065289982762038455">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_03.c" line="49" column="9"/>
+        </error>
+        <error id="duplicateExpression" severity="style" msg="Same expression on both sides of &apos;==&apos;." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5862677718323276931">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_03.c" line="71" column="9"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="3453123217104103472">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_03.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="16260173098061435515">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_03.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="6843581404738471786">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_03.c" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="10846329217703868385">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_03.c" line="68" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="7753037476228978964">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_04.c" line="33" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="11260940901398128790">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_04.c" line="34" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="9940122108441744004">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_04.c" line="53" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5357350563533812225">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_04.c" line="75" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="17312829258130588995">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_05.c" line="33" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="6194929444036108181">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_05.c" line="34" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="11256531853180074817">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_05.c" line="53" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5824830013381759394">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_05.c" line="75" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="4739199350756539896">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="32" column="25"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE != 5&apos; is always false." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="11095337707693456198">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="53" column="25"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="The comparison &apos;STATIC_CONST_FIVE == 5&apos; is always true." verbose="Finding the same expression on both sides of an operator is suspicious and might indicate a cut and paste or logic error. Please examine this code carefully to determine if it is correct." cwe="398" hash="5426796900315341702">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="75" column="25"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="21" column="38" info="&apos;STATIC_CONST_FIVE&apos; is assigned value &apos;5&apos; here."/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="18438869646228483149">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="14512160520078683701">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="31" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="15157870802517848704">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="50" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="16957032745685727830">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_06.c" line="72" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="11878856567694251040">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_07.c" line="34" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive!=5&apos; is always false" verbose="Condition &apos;staticFive!=5&apos; is always false" cwe="570" hash="12593082610179898975">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_07.c" line="55" column="18" info="Condition &apos;staticFive!=5&apos; is always false"/>
+        </error>
+        <error id="knownConditionTrueFalse" severity="style" msg="Condition &apos;staticFive==5&apos; is always true" verbose="Condition &apos;staticFive==5&apos; is always true" cwe="571" hash="2086654842129122757">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_07.c" line="77" column="18" info="Condition &apos;staticFive==5&apos; is always true"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="14558118766315577636">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_07.c" line="32" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="17841557760519746325">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_07.c" line="33" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="18386716564889666609">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_07.c" line="52" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="18199524244089737488">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_07.c" line="74" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="15302337043331732062">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_08.c" line="40" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="11848414094006592812">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_08.c" line="41" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="6409806559716360343">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_08.c" line="60" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5289772325727470723">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_08.c" line="82" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="8101476230867757517">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_09.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="18358442269935682349">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_09.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="16609823710047386941">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_09.c" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="9934504308777575001">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_09.c" line="68" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="1693912206652572736">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_10.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="9427283534484665894">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_10.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13827664058081873910">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_10.c" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="16573894423840473134">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_10.c" line="68" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="9498619593758166217">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_11.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="11504890766365120989">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_11.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="8009397958446570040">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_11.c" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="12540622792697524450">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_11.c" line="68" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="2185105370762115522">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_12.c" line="52" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="2660977205397231644">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_13.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="2211074022986630392">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_13.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="1882790825424106037">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_13.c" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5011543920826627127">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_13.c" line="68" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="13189014488482568694">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_14.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="8761279829050437165">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_14.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="189326080712216298">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_14.c" line="46" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13475781151071828557">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_14.c" line="68" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="5434312403804570756">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_16.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="3137114778203229414">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_16.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13925254079609693312">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_16.c" line="47" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="8260778327787425089">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_17.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="13690761757452380910">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_17.c" line="28" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="11361009336169004248">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_17.c" line="48" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="16898523533384325480">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_31.c" line="32" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_31.c" line="23" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="2674280528790825599">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_31.c" line="54" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_31.c" line="45" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="6913452151030540228">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_31.c" line="26" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="10575285177616354664">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_31.c" line="27" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="7320286657339324426">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_31.c" line="47" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="6320659075483070280">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="33" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="31" column="21" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="redundantInitialization" severity="style" msg="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." verbose="Redundant initialization for &apos;data&apos;. The initialized value is overwritten before it is read." cwe="563" hash="5317398912618605651">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="60" column="14" info="data is overwritten"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="58" column="21" info="data is initialized"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="8525295294269815085">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="31" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="23" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="1944271332542477756">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="37" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="23" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="14849371237286054695">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="58" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="50" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="1194966140065847208">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="64" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="50" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr1" verbose="Uninitialized variable: *dataPtr1" cwe="457" hash="3131088493703688325">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="31" column="23"/>
+            <symbol>*dataPtr1</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr2" verbose="Uninitialized variable: *dataPtr2" cwe="457" hash="4623940302234570085">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="37" column="23"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="25" column="24" info="Assignment &apos;dataPtr2=&amp;data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>*dataPtr2</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr1" verbose="Uninitialized variable: *dataPtr1" cwe="457" hash="12098417454794731833">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="58" column="23"/>
+            <symbol>*dataPtr1</symbol>
+        </error>
+        <error id="uninitvar" severity="error" msg="Uninitialized variable: *dataPtr2" verbose="Uninitialized variable: *dataPtr2" cwe="457" hash="7896412121318370604">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="64" column="23"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="52" column="24" info="Assignment &apos;dataPtr2=&amp;data&apos;, assigned value is &lt;Uninit&gt;"/>
+            <symbol>*dataPtr2</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="11374949155976446357">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="28" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="11327655878051675506">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="29" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;data&apos; is not assigned a value." verbose="Variable &apos;data&apos; is not assigned a value." cwe="665" hash="16821320832254784384">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="23" column="12"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="18224439549049851840">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="54" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unassignedVariable" severity="style" msg="Variable &apos;data&apos; is not assigned a value." verbose="Variable &apos;data&apos; is not assigned a value." cwe="665" hash="12447577458345721296">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_32.c" line="50" column="12"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="2921148480211652385">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_33.cpp" line="35" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_33.cpp" line="26" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="12527162562830800874">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_33.cpp" line="57" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_33.cpp" line="48" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="6861732346544423612">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_33.cpp" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="5867449142934270798">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_34.c" line="39" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_34.c" line="29" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;data&apos; shadows outer variable" verbose="Local variable &apos;data&apos; shadows outer variable" cwe="398" hash="9148718294438010279">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_34.c" line="62" column="16" info="Shadow variable"/>
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_34.c" line="52" column="12" info="Shadowed declaration"/>
+            <symbol>data</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="992152299966215199">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_34.c" line="33" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="9694449441501609536">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_34.c" line="34" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13191717802380862221">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_34.c" line="55" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="14432809564246083167">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_41.c" line="32" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="7812703881753139363">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_41.c" line="33" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13885445384723833482">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_41.c" line="54" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="14245581942035576750">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_44.c" line="34" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="10794814528499514447">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_44.c" line="35" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="10259124348477564515">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_44.c" line="58" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="7016763372566172543">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_45.c" line="36" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="2308742357370711277">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_45.c" line="37" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="8632685953051400095">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_45.c" line="60" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="5539459396644360975">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_51a.c" line="29" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="7274075525791910709">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_51a.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="2486717828481197307">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_51a.c" line="48" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="18384320829652856080">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_52a.c" line="29" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="1448668558537369695">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_52a.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="806385102042113438">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_52a.c" line="48" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="17585556896211018162">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_53a.c" line="29" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="13379891760835277963">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_53a.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="1097649613187560166">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_53a.c" line="48" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="5476641200290163219">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_54a.c" line="29" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="82694525214396918">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_54a.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="5508256663474057154">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_54a.c" line="48" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="2414108875589126513">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_63a.c" line="29" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="6460010880585138757">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_63a.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="14363318242075409718">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_63a.c" line="47" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="6922743891560554409">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_64a.c" line="29" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="9383089764614540635">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_64a.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="16757586180136548467">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_64a.c" line="47" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="12907045737557837904">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_65a.c" line="31" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="409240723702842003">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_65a.c" line="32" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="11703622132541031826">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_65a.c" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="15824330670342667054">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_66a.c" line="30" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="11245823128768271585">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_66a.c" line="31" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="3345680503413523196">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_66a.c" line="51" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="2741471961960986509">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_67a.c" line="35" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="13670738378226971537">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_67a.c" line="36" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="4764237622686544011">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_67a.c" line="55" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intOne&apos; is assigned a value that is never used." cwe="563" hash="11140005169511399356">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_68a.c" line="32" column="27"/>
+            <symbol>dataGoodBuffer.intOne</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." verbose="Variable &apos;dataGoodBuffer.intTwo&apos; is assigned a value that is never used." cwe="563" hash="2040693051584145413">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_68a.c" line="33" column="27"/>
+            <symbol>dataGoodBuffer.intTwo</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="1693008390105703833">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_68a.c" line="52" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="12569512935036242446">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_72a.cpp" line="61" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="13356717328501065514">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_73a.cpp" line="61" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="9589570192837643803">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_74a.cpp" line="61" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="16021439185777848608">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13314339480872845163">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11698591111509315668">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="15577965417040541597">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3678066442810851379">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="34" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="17929056718701894225">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="44" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81.h" line="26" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="8251623264599843973">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_81a.cpp" line="47" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="3590078167878785132">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="33" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="7290657654225810734">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="43" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_bad.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="11493313917385777570">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="33" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13639035887359625196">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="43" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_goodG2B.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_bad&apos; does not have a virtual destructor." verbose="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_bad&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="8548457528372174599">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="21" column="1"/>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_base</symbol>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_bad</symbol>
+        </error>
+        <error id="virtualDestructor" severity="error" msg="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_goodG2B&apos; does not have a virtual destructor." verbose="Class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_base&apos; which is inherited by class &apos;CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_goodG2B&apos; does not have a virtual destructor. If you destroy instances of the derived class by deleting a pointer that points to the base class, only the destructor of the base class is executed. Thus, dynamic memory that is managed by the derived class could leak. This can be avoided by adding a virtual destructor to the base class." cwe="404" hash="8148658878266424910">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="21" column="1"/>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_base</symbol>
+            <symbol>CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82_goodG2B</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="13103054912860043964">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="33" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="missingOverride" severity="style" msg="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." verbose="The function &apos;action&apos; overrides a function in a base class but is not marked with a &apos;override&apos; specifier." hash="6635513206616757970">
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="43" column="10" info="Function in derived class"/>
+            <location file0="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82a.cpp" file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82.h" line="25" column="18" info="Virtual function in base class"/>
+            <symbol>action</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." verbose="Variable &apos;dataBadBuffer&apos; is assigned a value that is never used." cwe="563" hash="1501444605304501947">
+            <location file="/home/input/C/testcases/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer/CWE588_Attempt_to_Access_Child_of_Non_Structure_Pointer__struct_82a.cpp" line="48" column="23"/>
+            <symbol>dataBadBuffer</symbol>
+        </error>
+        <error id="missingInclude" severity="information" msg="Cppcheck cannot find all the include files (use --check-config for details)" verbose="Cppcheck cannot find all the include files. Cppcheck can check the code without the include files found. But the results will probably be more accurate if all the include files are found. Please check your project&apos;s include directories and add all of them as include directories for Cppcheck. To see what files Cppcheck cannot find use --check-config."/>
+    </errors>
+</results>
