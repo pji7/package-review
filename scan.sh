@@ -23,7 +23,7 @@ for PROJECT_DIR in "$ROOT_DIR"/*; do
     mkdir -p "$OUTPUT_DIR"
 
     echo "[1/5] Running Cppcheck..."
-    cppcheck --enable=all --inconclusive --quiet --xml \
+    cppcheck --enable=all  --inconclusive --quiet --xml \
       "$PROJECT_DIR" 2> "$OUTPUT_DIR/cppcheck.xml"
 
     # [2/5] Run Flawfinder
@@ -37,7 +37,7 @@ for PROJECT_DIR in "$ROOT_DIR"/*; do
       for f; do
         if ! iconv -f utf-8 -t utf-8 "$f" > /dev/null 2>&1; then
           echo "🛠️ Converting encoding: $f"
-          iconv -f ISO-8859-1 -t UTF-8 "$f" -o "$f.utf8" && mv "$f.utf8" "$f"
+          iconv -f ISO-8859-1 - UTF-8 "$f" -o "$f.utf8" && mv "$f.utf8" "$f"
         fi
       done
     ' bash {} +
