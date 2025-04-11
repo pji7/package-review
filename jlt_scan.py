@@ -39,7 +39,7 @@ def run_flawfinder(target_path, output_path):
     print(f"[→] flawfinder: {target_path}")
     try:
         subprocess.run(
-            [FLAWFINDER_BIN, "--xml", target_path],
+            [FLAWFINDER_BIN, "--csv", target_path],
             stdout=open(output_path, "w"),
             stderr=subprocess.DEVNULL
         )
