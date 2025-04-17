@@ -35,6 +35,7 @@ RUN apt install -y \
   python3-pip \
   flawfinder \
   cppcheck \
+  clang-tidy \
   clang-tools
 #  tree
 #  vim 
