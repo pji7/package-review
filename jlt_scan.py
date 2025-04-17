@@ -8,6 +8,7 @@ OUTPUT_CPPCHECK = "/home/jip/output/cppcheck"
 OUTPUT_FLAWFINDER = "/home/jip/output/flawfinder"
 OUTPUT_CLANGTIDY = "/home/jip/output/clangtidy"
 OUTPUT_SEMGREP = "/home/jip/output/semgrep"
+OUTPUT_CLANGSA = "/home/jip/output/clangsa"
 
 SEMGREP_RULES = "/home/jip/semgrep_ruleset"
 
@@ -19,6 +20,7 @@ os.makedirs(OUTPUT_CPPCHECK, exist_ok=True)
 os.makedirs(OUTPUT_FLAWFINDER, exist_ok=True)
 os.makedirs(OUTPUT_CLANGTIDY, exist_ok=True)
 os.makedirs(OUTPUT_SEMGREP, exist_ok=True)
+os.makedirs(OUTPUT_CLANGSA, exist_ok=True)
 
 def has_source_files(path):
     for file in os.listdir(path):
@@ -112,6 +114,39 @@ def run_semgrep(source_dir, output_prefix):
     except Exception as e:
         print(f"[✗] semgrep error: {e}")
 
+def run_clang_sa(project_dir, project_name):
+    html_output_dir = os.path.join("/home/jip/output", project_name)
+
+    print(f"[→] clang-sa: {project_dir}")
+
+    if not os.path.exists(os.path.join(project_dir, "Makefile")):
+        print(f"[!] No Makefile in {project_dir}, skipping clang-sa")
+        return
+
+    try:
+        os.makedirs(html_output_dir, exist_ok=True)
+
+        cmd = [
+            "scan-build",
+            "--use-cc=clang",
+            "--use-c++=clang++",
+            "-o", html_output_dir,
+            "make", "clean", "all"
+        ]
+
+        subprocess.run(
+            cmd,
+            cwd=project_dir,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            text=True
+        )
+
+        print(f"[✔] clang-sa HTML report → {html_output_dir}")
+    except Exception as e:
+        print(f"[✗] clang-sa error in {project_dir}: {e}")
+
+
 
 for cwe_folder in os.listdir(INPUT_DIR):
     cwe_path = os.path.join(INPUT_DIR, cwe_folder)
@@ -126,7 +161,8 @@ for cwe_folder in os.listdir(INPUT_DIR):
             #run_cppcheck(cwe_path, os.path.join(OUTPUT_CPPCHECK, f"{base_name}.xml"))
             #run_flawfinder(cwe_path, os.path.join(OUTPUT_FLAWFINDER, f"{base_name}.xml"))
             #run_clang_tidy(cwe_path, os.path.join(OUTPUT_CLANGTIDY, f"{base_name}.txt"))
-            run_semgrep(cwe_path, os.path.join(OUTPUT_SEMGREP, base_name))
+            #run_semgrep(cwe_path, os.path.join(OUTPUT_SEMGREP, base_name))
+            run_clang_sa(cwe_path, base_name)
     else:
         for sub in subdirs:
             sub_path = os.path.join(cwe_path, sub)
@@ -135,5 +171,6 @@ for cwe_folder in os.listdir(INPUT_DIR):
                 #run_cppcheck(sub_path, os.path.join(OUTPUT_CPPCHECK, f"{base_name}.xml"))
                 #run_flawfinder(sub_path, os.path.join(OUTPUT_FLAWFINDER, f"{base_name}.csv"))
                 #run_clang_tidy(sub_path, os.path.join(OUTPUT_CLANGTIDY, f"{base_name}.txt"))
-                run_semgrep(sub_path, os.path.join(OUTPUT_SEMGREP, base_name))
+                #run_semgrep(sub_path, os.path.join(OUTPUT_SEMGREP, base_name))
+                run_clang_sa(sub_path, base_name)
 
