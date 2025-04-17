@@ -88,7 +88,6 @@ def run_semgrep(source_dir, output_prefix):
         config = SEMGREP_RULES
 
     json_out = f"{output_prefix}.json"
-    summary_out = f"{output_prefix}_summary.txt"
     log_out = f"{output_prefix}.log"
 
     print(f"[→] semgrep: {source_dir}")
@@ -110,40 +109,36 @@ def run_semgrep(source_dir, output_prefix):
             stderr=subprocess.STDOUT
         )
         print(f"[✔] semgrep → {json_out}")
-
-        if os.path.exists(json_out):
-            csv_out = f"{output_prefix}_summary.csv"
-            write_semgrep_csv(json_out, csv_out)
     except Exception as e:
         print(f"[✗] semgrep error: {e}")
 
-def clean_cwe_list(cwe_list):
-    return ", ".join([entry.split(":")[0].strip() for entry in cwe_list if "CWE-" in entry])
+# def clean_cwe_list(cwe_list):
+#     return ", ".join([entry.split(":")[0].strip() for entry in cwe_list if "CWE-" in entry])
 
-def write_semgrep_summary_csv(json_path, csv_path):
-    try:
-        with open(json_path, "r") as f:
-            data = json.load(f)
+# def write_semgrep_summary_csv(json_path, csv_path):
+#     try:
+#         with open(json_path, "r") as f:
+#             data = json.load(f)
 
-        with open(csv_path, "w", newline="") as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=[
-                "check_id", "file", "start_line", "end_line", "severity", "cwe", "code"
-            ])
-            writer.writeheader()
+#         with open(csv_path, "w", newline="") as csvfile:
+#             writer = csv.DictWriter(csvfile, fieldnames=[
+#                 "check_id", "file", "start_line", "end_line", "severity", "cwe", "code"
+#             ])
+#             writer.writeheader()
 
-            for result in data.get("results", []):
-                writer.writerow({
-                    "check_id": result.get("check_id", ""),
-                    "file": result.get("path", ""),
-                    "start_line": result.get("start", {}).get("line", ""),
-                    "end_line": result.get("end", {}).get("line", ""),
-                    "severity": result.get("extra", {}).get("severity", ""),
-                    "cwe": clean_cwe_list(result.get("extra", {}).get("metadata", {}).get("cwe", [])),
-                    "code": result.get("extra", {}).get("lines", "").strip()
-                })
-        print(f"[✔] semgrep summary CSV → {csv_path}")
-    except Exception as e:
-        print(f"[✗] Failed to write semgrep summary CSV: {e}")
+#             for result in data.get("results", []):
+#                 writer.writerow({
+#                     "check_id": result.get("check_id", ""),
+#                     "file": result.get("path", ""),
+#                     "start_line": result.get("start", {}).get("line", ""),
+#                     "end_line": result.get("end", {}).get("line", ""),
+#                     "severity": result.get("extra", {}).get("severity", ""),
+#                     "cwe": clean_cwe_list(result.get("extra", {}).get("metadata", {}).get("cwe", [])),
+#                     "code": result.get("extra", {}).get("lines", "").strip()
+#                 })
+#         print(f"[✔] semgrep summary CSV → {csv_path}")
+#     except Exception as e:
+#         print(f"[✗] Failed to write semgrep summary CSV: {e}")
 
 
 for cwe_folder in os.listdir(INPUT_DIR):
