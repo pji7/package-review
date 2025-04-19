@@ -1,0 +1,148 @@
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_17.c:29:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   29 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_17.c:29:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_07.c:33:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   33 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_07.c:33:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_01.c:26:20: warning: if statement has empty body [clang-diagnostic-empty-body]
+   26 |         if (x == 0);
+      |                    ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_01.c:26:20: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_11.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_11.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_03.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_03.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_02.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_02.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__if_without_braces_single_line_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__if_without_braces_single_line_01.c:15:5: warning: Value stored to 'y' is never read [clang-analyzer-deadcode.DeadStores]
+   15 |     y = 0;
+      |     ^   ~
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__if_without_braces_single_line_01.c:15:5: note: Value stored to 'y' is never read
+   15 |     y = 0;
+      |     ^   ~
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_08.c:41:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   41 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_08.c:41:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_12.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_12.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_10.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_10.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_04.c:34:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   34 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_04.c:34:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_15.c:29:20: warning: if statement has empty body [clang-diagnostic-empty-body]
+   29 |         if (x == 0);
+      |                    ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_15.c:29:20: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_13.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_13.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01.c:15:5: warning: Value stored to 'y' is never read [clang-analyzer-deadcode.DeadStores]
+   15 |     y = 0;
+      |     ^   ~
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__if_without_braces_multiple_lines_01.c:15:5: note: Value stored to 'y' is never read
+   15 |     y = 0;
+      |     ^   ~
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_06.c:33:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   33 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_06.c:33:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_05.c:34:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   34 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_05.c:34:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_16.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_16.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_14.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_14.c:28:24: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_18.c:28:20: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |         if (x == 0);
+      |                    ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_18.c:28:20: note: put the semicolon on a separate line to silence this warning
+
+===== /home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_09.c:28:24: warning: if statement has empty body [clang-diagnostic-empty-body]
+   28 |             if (x == 0);
+      |                        ^
+/home/jip/input/C/testcases/CWE483_Incorrect_Block_Delimitation/CWE483_Incorrect_Block_Delimitation__semicolon_09.c:28:24: note: put the semicolon on a separate line to silence this warning

@@ -1,0 +1,1246 @@
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c:176:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c:176:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c:245:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_03.c:245:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_03.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_03.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c:89:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   89 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c:89:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   89 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c:106:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+  106 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c:189:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  189 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c:189:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  189 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c:258:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  258 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_08.c:258:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  258 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_18.c:64:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_18.c:64:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c:161:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c:161:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c:230:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_09.c:230:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_05.c:69:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_05.c:69:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c:77:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   77 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c:77:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   77 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c:94:78: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   94 |             if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                              ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c:182:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  182 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c:182:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  182 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c:253:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  253 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_15.c:253:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  253 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_17.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_17.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_10.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_10.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c:161:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c:161:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c:230:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_03.c:230:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_01.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_01.c:66:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   66 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_01.c:66:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   66 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_01.c:83:78: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   83 |             if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                              ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_01.c:150:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  150 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_01.c:150:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  150 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_05.c:70:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_05.c:70:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_17.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_17.c:69:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_17.c:69:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_17.c:86:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   86 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_17.c:158:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  158 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_17.c:158:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  158 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c:73:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   73 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c:73:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   73 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c:90:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   90 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c:166:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  166 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c:166:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  166 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c:235:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  235 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_06.c:235:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  235 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_03.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_03.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_11.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_11.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_13.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_13.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c:161:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c:161:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c:230:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_10.c:230:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_14.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_14.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_16.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_16.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_08.c:72:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_08.c:72:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   72 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_04.c:69:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_04.c:69:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_16.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_16.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c =====
+5 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:162:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  162 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:162:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  162 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:235:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  235 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:235:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  235 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:299:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  299 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_12.c:299:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  299 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.c:157:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  157 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_16.c:157:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  157 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_07.c:70:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_07.c:70:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_02.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_02.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_14.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_14.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c:176:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c:176:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c:245:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_10.c:245:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c:74:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   74 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c:74:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   74 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c:91:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   91 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c:167:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  167 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c:167:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  167 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c:236:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  236 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_04.c:236:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  236 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_08.c:73:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   73 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_08.c:73:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   73 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_07.c:69:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_07.c:69:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_01.c:62:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_01.c:62:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   62 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c =====
+5 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:147:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  147 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:147:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  147 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:220:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  220 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:220:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  220 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:284:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  284 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_12.c:284:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  284 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_11.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_11.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_18.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_18.c:76:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_18.c:76:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_18.c:93:78: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |             if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                              ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_18.c:170:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  170 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_18.c:170:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  170 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c:82:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   82 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c:82:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   82 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c:99:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   99 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c:182:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  182 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c:182:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  182 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c:251:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  251 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_05.c:251:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  251 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.c:172:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  172 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_16.c:172:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  172 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c:69:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c:69:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   69 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c:86:78: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   86 |             if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                              ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c:167:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  167 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c:167:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  167 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c:238:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  238 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_15.c:238:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  238 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c:176:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c:176:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c:245:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_13.c:245:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_09.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_09.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_01.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_01.c:74:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   74 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_01.c:74:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   74 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_01.c:91:78: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   91 |             if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                              ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_01.c:165:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  165 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_01.c:165:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  165 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_06.c:69:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_06.c:69:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   69 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_02.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_02.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c:161:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c:161:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c:230:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_13.c:230:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c:98:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   98 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c:181:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  181 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c:181:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  181 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c:250:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  250 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_07.c:250:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  250 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_15.c:66:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   66 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_15.c:66:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   66 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_17.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_17.c:77:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   77 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_17.c:77:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   77 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_17.c:94:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   94 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_17.c:173:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  173 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_17.c:173:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  173 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c:73:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   73 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c:73:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   73 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c:90:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   90 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c:166:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  166 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c:166:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  166 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c:235:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  235 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_07.c:235:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  235 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c:98:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   98 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c:181:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  181 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c:181:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  181 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c:250:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  250 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_06.c:250:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  250 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_17.c:66:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   66 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_17.c:66:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   66 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_18.c:65:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_18.c:65:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_01.c:63:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   63 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_01.c:63:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   63 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_10.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_10.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c:176:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c:176:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c:245:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_09.c:245:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c:74:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   74 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c:74:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   74 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c:91:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   91 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c:167:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  167 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c:167:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  167 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c:236:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  236 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_05.c:236:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  236 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c:176:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c:176:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c:245:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_02.c:245:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c:161:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c:161:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c:230:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_11.c:230:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c:176:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c:176:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c:245:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_11.c:245:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c:161:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c:161:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c:230:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_14.c:230:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_06.c:70:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_06.c:70:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c:82:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   82 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c:82:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   82 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c:99:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   99 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c:182:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  182 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c:182:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  182 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c:251:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  251 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_04.c:251:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  251 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_18.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_18.c:68:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_18.c:68:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_18.c:85:78: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |             if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                              ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_18.c:155:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  155 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_18.c:155:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  155 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c:98:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   98 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c:174:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  174 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c:174:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  174 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c:243:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  243 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_08.c:243:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  243 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_04.c:70:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_04.c:70:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   70 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c:76:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c:76:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   76 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c:93:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   93 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c:176:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c:176:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  176 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c:245:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__hostname_based_logic_14.c:245:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  245 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_09.c:65:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_listen_09.c:65:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_15.c:65:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   65 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_15.c:65:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   65 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_13.c:64:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__network_connection_13.c:64:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   64 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c:68:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c:68:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   68 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c:85:82: warning: passing 'int *' to parameter of type 'socklen_t *' (aka 'unsigned int *') converts between pointers to integer types with different sign [clang-diagnostic-pointer-sign]
+   85 |                 if (getsockname(acceptSocket, (struct sockaddr *)&acceptService, &acceptServiceLen) == -1)
+      |                                                                                  ^~~~~~~~~~~~~~~~~
+/usr/include/aarch64-linux-gnu/sys/socket.h:117:26: note: passing argument to parameter '__len' here
+  117 |                         socklen_t *__restrict __len) __THROW;
+      |                                               ^
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c:161:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c:161:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  161 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c:230:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE510_Trapdoor/CWE510_Trapdoor__ip_based_logic_02.c:230:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  230 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~

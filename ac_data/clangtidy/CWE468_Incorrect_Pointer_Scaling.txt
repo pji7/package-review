@@ -1,0 +1,288 @@
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:22:8: note: Assuming the condition is true
+   22 |     if(globalReturnsTrue())
+      |        ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:22:5: note: Taking true branch
+   22 |     if(globalReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_11.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:22:8: note: Assuming 'globalFive' is equal to 5
+   22 |     if(globalFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:22:5: note: Taking true branch
+   22 |     if(globalFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_14.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:22:5: note: Taking true branch
+   22 |     if(1)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_02.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_10.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:30:9: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   30 |         int toPrint = (int) (*(charPointer+2));
+      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:22:5: note: Control jumps to 'case 6:'  at line 24
+   22 |     switch(6)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_15.c:30:9: note: Assigned value is garbage or undefined
+   30 |         int toPrint = (int) (*(charPointer+2));
+      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_18.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:30:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   30 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:23:5: note: Loop condition is true.  Entering loop body
+   23 |     for(j = 0; j < 1; j++)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_17.c:30:13: note: Assigned value is garbage or undefined
+   30 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_12.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_16.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:42:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   42 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:35:5: note: Taking true branch
+   35 |     if(staticReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_08.c:42:13: note: Assigned value is garbage or undefined
+   42 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_11.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_05.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_17.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_02.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:22:8: note: 5 is equal to 5
+   22 |     if(5==5)
+      |        ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:22:5: note: Taking true branch
+   22 |     if(5==5)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_03.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_14.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_04.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:34:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   34 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:27:8: note: Assuming 'staticFive' is equal to 5
+   27 |     if(staticFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:27:5: note: Taking true branch
+   27 |     if(staticFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_07.c:34:13: note: Assigned value is garbage or undefined
+   34 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_07.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:22:8: note: Assuming 'globalTrue' is not equal to 0
+   22 |     if(globalTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:22:5: note: Taking true branch
+   22 |     if(globalTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_10.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:22:8: note: Assuming 'GLOBAL_CONST_TRUE' is not equal to 0
+   22 |     if(GLOBAL_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:22:5: note: Taking true branch
+   22 |     if(GLOBAL_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_09.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:34:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   34 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:27:8: note: 'STATIC_CONST_FIVE' is equal to 5
+   27 |     if(STATIC_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:27:5: note: Taking true branch
+   27 |     if(STATIC_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_06.c:34:13: note: Assigned value is garbage or undefined
+   34 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:35:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   35 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:28:8: note: Assuming 'staticTrue' is not equal to 0
+   28 |     if(staticTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:28:5: note: Taking true branch
+   28 |     if(staticTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_05.c:35:13: note: Assigned value is garbage or undefined
+   35 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:35:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   35 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:28:8: note: 'STATIC_CONST_TRUE' is 1
+   28 |     if(STATIC_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:28:5: note: Taking true branch
+   28 |     if(STATIC_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_04.c:35:13: note: Assigned value is garbage or undefined
+   35 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:22:5: note: Loop condition is true.  Entering loop body
+   22 |     while(1)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_16.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_01.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_03.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:22:8: note: Assuming 'GLOBAL_CONST_FIVE' is equal to 5
+   22 |     if(GLOBAL_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:22:5: note: Taking true branch
+   22 |     if(GLOBAL_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_13.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_08.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:29:9: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |         int toPrint = (int) (*(charPointer+2));
+      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:22:5: note: Control jumps to line 25
+   22 |     goto sink;
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_18.c:29:9: note: Assigned value is garbage or undefined
+   29 |         int toPrint = (int) (*(charPointer+2));
+      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_06.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:29:13: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:22:8: note: Assuming the condition is true
+   22 |     if(globalReturnsTrueOrFalse())
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:22:5: note: Taking true branch
+   22 |     if(globalReturnsTrueOrFalse())
+      |     ^
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_12.c:29:13: note: Assigned value is garbage or undefined
+   29 |             int toPrint = (int) (*(charPointer+2));
+      |             ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_13.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c:27:9: warning: Assigned value is garbage or undefined [clang-analyzer-core.uninitialized.Assign]
+   27 |         int toPrint = (int) (*(charPointer+2));
+      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__char_ptr_to_int_01.c:27:9: note: Assigned value is garbage or undefined
+   27 |         int toPrint = (int) (*(charPointer+2));
+      |         ^             ~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_09.c =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__class_01.cpp =====
+
+===== /home/jip/input/C/testcases/CWE468_Incorrect_Pointer_Scaling/CWE468_Incorrect_Pointer_Scaling__int_15.c =====

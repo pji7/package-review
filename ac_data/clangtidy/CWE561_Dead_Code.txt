@@ -1,0 +1,8 @@
+
+===== /home/jip/input/C/testcases/CWE561_Dead_Code/CWE561_Dead_Code__unused_function_01.c =====
+
+===== /home/jip/input/C/testcases/CWE561_Dead_Code/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE561_Dead_Code/CWE561_Dead_Code__return_before_code_01.c =====
+
+===== /home/jip/input/C/testcases/CWE561_Dead_Code/main.cpp =====

@@ -1,0 +1,36 @@
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__global_return_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__one_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__two_equals_two_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__global_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__global_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_return_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_const_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__string_equals_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__n_equals_m_minus_one_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__global_const_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__unsigned_int_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__global_const_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__static_const_01.c =====
+
+===== /home/jip/input/C/testcases/CWE571_Expression_Always_True/CWE571_Expression_Always_True__n_less_int_max_01.c =====

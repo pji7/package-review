@@ -1,0 +1,1250 @@
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_18.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_18.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_34.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_34.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_41.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_41.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_03.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_03.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52c.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54d.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54d.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54c.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_15.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_15.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_42.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_42.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_13.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_13.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53c.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_05.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_05.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_33.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_33.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_33.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_33.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_62b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_62b.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_62a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_62a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_03.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_03.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_44.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_44.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_62a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_62a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_01.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_01.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_13.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_13.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_61b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_61b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54c.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_44.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_44.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_16.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_16.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_01.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_01.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_61b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_61b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_08.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_08.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_21.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_21.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_32.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_52a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_41.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_41.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53d.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53d.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_04.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_04.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_06.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_22b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_22b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_14.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_14.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52c.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_09.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_09.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_14.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_14.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_61a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_61a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_12.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_12.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_72a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_10.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_10.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54e.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_54e.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_45.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_45.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_31.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_31.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_65a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_15.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_15.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_11.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_11.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_34.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_34.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_67a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_18.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_18.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_64b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_72a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_73a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_12.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_12.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_32.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_02.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_02.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_22a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_22a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_64a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_05.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_05.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_17.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_17.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_52a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_51a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_22a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_22a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_43.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_43.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_65b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53c.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_53c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_62b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_62b.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_66a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_63b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_67b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53d.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_53d.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_42.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_42.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_22b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_22b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54e.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54e.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54d.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54d.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63b.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_63b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_04.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_04.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_21.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_21.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_16.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_16.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_54a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_11.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_11.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_45.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_45.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74b.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_74b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_02.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_02.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_43.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_43.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_68a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_61a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_61a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_51a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_06.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_74a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73a.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_73a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_31.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_31.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_17.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_17.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_10.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_10.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_09.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_09.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_07.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_07.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82_bad.cpp.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_08.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_08.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_66a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_07.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_char_07.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68a.c.
+/home/jip/input/C/testcases/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory/CWE591_Sensitive_Data_Storage_in_Improperly_Locked_Memory__w32_wchar_t_68a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

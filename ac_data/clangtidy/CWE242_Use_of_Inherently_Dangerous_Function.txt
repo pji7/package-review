@@ -1,0 +1,202 @@
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_16.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_16.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_16.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_16.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_14.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_14.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_14.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_14.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_05.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_05.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_05.c:38:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   38 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_05.c:38:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   38 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_13.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_13.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_13.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_13.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_09.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_09.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_09.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_09.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_08.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_08.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_08.c:45:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   45 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_08.c:45:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   45 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_10.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_10.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_10.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_10.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_15.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_15.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_15.c:33:16: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   33 |         result = gets(dest);
+      |                ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_15.c:33:18: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   33 |         result = gets(dest);
+      |                  ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_03.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_03.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_03.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_03.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_01.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_01.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_01.c:30:16: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   30 |         result = gets(dest);
+      |                ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_01.c:30:18: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   30 |         result = gets(dest);
+      |                  ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_04.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_04.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_04.c:38:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   38 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_04.c:38:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   38 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_06.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_06.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_06.c:37:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   37 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_06.c:37:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   37 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_11.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_11.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_11.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_11.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_17.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_17.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_17.c:33:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   33 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_17.c:33:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   33 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_18.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_18.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_18.c:32:16: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |         result = gets(dest);
+      |                ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_18.c:32:18: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |         result = gets(dest);
+      |                  ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_12.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_12.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_12.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_12.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_07.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_07.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_07.c:37:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   37 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_07.c:37:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   37 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_02.c =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_02.c.
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_02.c:32:20: error: incompatible integer to pointer conversion assigning to 'char *' from 'int' [clang-diagnostic-int-conversion]
+   32 |             result = gets(dest);
+      |                    ^ ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE242_Use_of_Inherently_Dangerous_Function/CWE242_Use_of_Inherently_Dangerous_Function__basic_02.c:32:22: error: call to undeclared function 'gets'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             result = gets(dest);
+      |                      ^
+Found compiler error(s).

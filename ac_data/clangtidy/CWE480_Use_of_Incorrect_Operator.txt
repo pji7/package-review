@@ -1,0 +1,256 @@
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_15.c:55:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   55 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_15.c:55:12: note: prefix with the address-of operator to silence this warning
+   55 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_15.c:55:12: note: suffix with parentheses to turn this into a function call
+   55 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_16.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_16.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_16.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_14.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_14.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_14.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_06.c:59:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   59 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_06.c:59:12: note: prefix with the address-of operator to silence this warning
+   59 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_06.c:59:12: note: suffix with parentheses to turn this into a function call
+   59 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_03.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_03.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_03.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_01.c:52:8: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   52 |     if(helperBad == NULL)
+      |        ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_01.c:52:8: note: prefix with the address-of operator to silence this warning
+   52 |     if(helperBad == NULL)
+      |        ^
+      |        &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_01.c:52:8: note: suffix with parentheses to turn this into a function call
+   52 |     if(helperBad == NULL)
+      |        ^
+      |                 ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_05.c:60:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   60 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_05.c:60:12: note: prefix with the address-of operator to silence this warning
+   60 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_05.c:60:12: note: suffix with parentheses to turn this into a function call
+   60 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_07.c:59:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   59 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_07.c:59:12: note: prefix with the address-of operator to silence this warning
+   59 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_07.c:59:12: note: suffix with parentheses to turn this into a function call
+   59 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_08.c:67:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   67 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_08.c:67:12: note: prefix with the address-of operator to silence this warning
+   67 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_08.c:67:12: note: suffix with parentheses to turn this into a function call
+   67 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_17.c:55:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   55 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_17.c:55:12: note: prefix with the address-of operator to silence this warning
+   55 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_17.c:55:12: note: suffix with parentheses to turn this into a function call
+   55 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_09.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_09.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_09.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_18.c:54:8: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |     if(helperBad == NULL)
+      |        ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_18.c:54:8: note: prefix with the address-of operator to silence this warning
+   54 |     if(helperBad == NULL)
+      |        ^
+      |        &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_18.c:54:8: note: suffix with parentheses to turn this into a function call
+   54 |     if(helperBad == NULL)
+      |        ^
+      |                 ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_12.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_12.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_12.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_04.c:60:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   60 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_04.c:60:12: note: prefix with the address-of operator to silence this warning
+   60 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_04.c:60:12: note: suffix with parentheses to turn this into a function call
+   60 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_10.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_10.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_10.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_13.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_13.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_13.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_11.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_11.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_11.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()
+
+===== /home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_02.c:54:12: warning: comparison of function 'helperBad' equal to a null pointer is always false [clang-diagnostic-tautological-pointer-compare]
+   54 |         if(helperBad == NULL)
+      |            ^~~~~~~~~
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_02.c:54:12: note: prefix with the address-of operator to silence this warning
+   54 |         if(helperBad == NULL)
+      |            ^
+      |            &
+/home/jip/input/C/testcases/CWE480_Use_of_Incorrect_Operator/CWE480_Use_of_Incorrect_Operator__basic_02.c:54:12: note: suffix with parentheses to turn this into a function call
+   54 |         if(helperBad == NULL)
+      |            ^
+      |                     ()

@@ -1,0 +1,658 @@
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_42.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_42.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_03.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_03.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_68b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_68b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_14.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_14.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_06.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_06.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53d.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53d.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_65b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_65b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_21.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_21.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_67a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_67a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_34.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_34.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_02.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_02.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_04.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_04.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_73b.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_73b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_09.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_09.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_51b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_51b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54c.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_31.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_31.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_74b.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_74b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_63a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_63a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_74a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_74a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_10.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_10.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_62b.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_62b.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_73a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_73a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_72b.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_72b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_17.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_17.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_41.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_41.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83_bad.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_45.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_45.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_01.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_01.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_65a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_65a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52c.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_52c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_22b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_22b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_18.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_18.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_64a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_64a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_11.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_11.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_32.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_32.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53c.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53c.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_61a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_61a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_08.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_08.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_43.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_43.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_66b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_66b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_68a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_68a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_72a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_72a.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_61b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_61b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_63b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_63b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_05.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_05.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54e.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54e.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_62a.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_62a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54d.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54d.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_67b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_67b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_13.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_13.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81_bad.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_81.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_83.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_15.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_15.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_64b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_64b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_66a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_66a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_33.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_33.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_07.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_07.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_12.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_12.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84_bad.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_84.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_54b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_51a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_51a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_44.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_44.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82_bad.cpp.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_82.h:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_22a.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_22a.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_16.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_16.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53b.c.
+/home/jip/input/C/testcases/CWE176_Improper_Handling_of_Unicode_Encoding/CWE176_Improper_Handling_of_Unicode_Encoding__w32_53b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

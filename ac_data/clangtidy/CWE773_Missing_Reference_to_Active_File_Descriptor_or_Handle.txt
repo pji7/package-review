@@ -1,0 +1,1987 @@
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_83_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_68b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_68b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54c.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54c.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_84_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_34.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_34.c:36:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   36 |         FILE * data = myUnion.unionSecond;
+      |                ^~~~   ~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_34.c:36:16: note: Value stored to 'data' during its initialization is never read
+   36 |         FILE * data = myUnion.unionSecond;
+      |                ^~~~   ~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_52a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_52a.c:37:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_52a.c:37:5: note: Value stored to 'data' is never read
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_52a.c:55:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   55 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_52a.c:55:5: note: Value stored to 'data' is never read
+   55 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_44.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:87:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   87 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_10.c:87:5: note: Value stored to 'data' is never read
+   87 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83_bad.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_12.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_17.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_17.c:35:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   35 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_17.c:35:5: note: Value stored to 'data' is never read
+   35 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_17.c:37:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   37 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_17.c:37:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_17.c:60:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   60 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_17.c:60:5: note: Value stored to 'data' is never read
+   60 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73a.cpp:44:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   44 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73a.cpp:44:5: note: Value stored to 'data' is never read
+   44 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73a.cpp:66:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   66 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73a.cpp:66:5: note: Value stored to 'data' is never read
+   66 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:87:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   87 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_13.c:87:5: note: Value stored to 'data' is never read
+   87 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66b.c:33:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   33 |     int data = dataArray[2];
+      |         ^~~~   ~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66b.c:33:9: note: Value stored to 'data' during its initialization is never read
+   33 |     int data = dataArray[2];
+      |         ^~~~   ~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_72b.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_72b.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_01.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_07.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_13.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_13.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54e.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54e.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_66b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_66b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_43.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_43.cpp:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_67b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_67b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_67b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_67b.c:28:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   28 |     FILE * data = myStruct.structFirst;
+      |            ^~~~   ~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_67b.c:28:12: note: Value stored to 'data' during its initialization is never read
+   28 |     FILE * data = myStruct.structFirst;
+      |            ^~~~   ~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_10.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_06.c:31:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   31 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_06.c:31:5: note: Value stored to 'data' is never read
+   31 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82a.cpp:33:5: warning: delete called on 'CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82::CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   33 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82a.cpp:49:5: warning: delete called on 'CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82::CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   49 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_42.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_42.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_61a.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_61a.c:38:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   38 |     data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_61b_badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_61a.c:38:5: note: Value stored to 'data' is never read
+   38 |     data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_61b_badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_72b.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_72b.cpp:30:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |     FILE * data = dataVector[2];
+      |            ^~~~   ~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_72b.cpp:30:12: note: Value stored to 'data' during its initialization is never read
+   30 |     FILE * data = dataVector[2];
+      |            ^~~~   ~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_61a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_61a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:40:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   40 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:40:5: note: Value stored to 'data' is never read
+   40 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:42:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   42 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:42:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:64:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   64 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:64:5: note: Value stored to 'data' is never read
+   64 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:93:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   93 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_04.c:93:5: note: Value stored to 'data' is never read
+   93 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_64a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_64a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_74b.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_74b.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_81_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_68b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_68b.c:27:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   27 |     FILE * data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_68_badDataForBadSink;
+      |            ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_68b.c:27:12: note: Value stored to 'data' during its initialization is never read
+   27 |     FILE * data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_68_badDataForBadSink;
+      |            ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53a.c:37:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53a.c:37:5: note: Value stored to 'data' is never read
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53a.c:55:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   55 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53a.c:55:5: note: Value stored to 'data' is never read
+   55 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_34.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_34.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_64b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_64b.c:35:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   35 |     int data = (*dataPtr);
+      |         ^~~~   ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_64b.c:35:9: note: Value stored to 'data' during its initialization is never read
+   35 |     int data = (*dataPtr);
+      |         ^~~~   ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53d.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53d.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68b.c:36:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     int data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68_badDataForBadSink;
+      |         ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68b.c:36:9: note: Value stored to 'data' during its initialization is never read
+   36 |     int data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68_badDataForBadSink;
+      |         ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:87:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   87 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_14.c:87:5: note: Value stored to 'data' is never read
+   87 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:87:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   87 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_03.c:87:5: note: Value stored to 'data' is never read
+   87 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:40:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   40 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:40:5: note: Value stored to 'data' is never read
+   40 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:42:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   42 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:42:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:64:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   64 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:64:5: note: Value stored to 'data' is never read
+   64 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:93:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   93 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_05.c:93:5: note: Value stored to 'data' is never read
+   93 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_33.cpp =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_33.cpp:30:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   30 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_33.cpp:30:5: note: Value stored to 'data' is never read
+   30 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_33.cpp:32:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   32 |         FILE * data = dataRef;
+      |                ^~~~   ~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_33.cpp:32:16: note: Value stored to 'data' during its initialization is never read
+   32 |         FILE * data = dataRef;
+      |                ^~~~   ~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_33.cpp:54:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   54 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_33.cpp:54:5: note: Value stored to 'data' is never read
+   54 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_67a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_67a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_32.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_32.c:38:13: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   38 |         int data = *dataPtr1;
+      |             ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_32.c:38:13: note: Value stored to 'data' during its initialization is never read
+   38 |         int data = *dataPtr1;
+      |             ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_32.c:44:13: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   44 |         int data = *dataPtr2;
+      |             ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_32.c:44:13: note: Value stored to 'data' during its initialization is never read
+   44 |         int data = *dataPtr2;
+      |             ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_32.c:68:13: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   68 |         int data = *dataPtr1;
+      |             ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_32.c:68:13: note: Value stored to 'data' during its initialization is never read
+   68 |         int data = *dataPtr1;
+      |             ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_63b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_63b.c:32:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   32 |     int data = *dataPtr;
+      |         ^~~~   ~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_63b.c:32:9: note: Value stored to 'data' during its initialization is never read
+   32 |     int data = *dataPtr;
+      |         ^~~~   ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_42.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_42.c:32:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   32 |     data = badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_42.c:32:5: note: Value stored to 'data' is never read
+   32 |     data = badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_74b.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_74b.cpp:30:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |     FILE * data = dataMap[2];
+      |            ^~~~   ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_74b.cpp:30:12: note: Value stored to 'data' during its initialization is never read
+   30 |     FILE * data = dataMap[2];
+      |            ^~~~   ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_61b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_16.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_16.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_05.c:32:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   32 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_05.c:32:5: note: Value stored to 'data' is never read
+   32 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_08.c:39:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_08.c:39:5: note: Value stored to 'data' is never read
+   39 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_84_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_32.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_32.c:28:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   28 |         FILE * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_32.c:28:16: note: Value stored to 'data' during its initialization is never read
+   28 |         FILE * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_32.c:34:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   34 |         FILE * data = *dataPtr2;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_32.c:34:16: note: Value stored to 'data' during its initialization is never read
+   34 |         FILE * data = *dataPtr2;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_32.c:57:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   57 |         FILE * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_32.c:57:16: note: Value stored to 'data' during its initialization is never read
+   57 |         FILE * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_61a.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_61a.c:28:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   28 |     data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_61b_badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_61a.c:28:5: note: Value stored to 'data' is never read
+   28 |     data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_61b_badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_01.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_01.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_83_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_06.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_31.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_31.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:39:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:39:5: note: Value stored to 'data' is never read
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:41:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   41 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:41:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:63:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   63 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:63:5: note: Value stored to 'data' is never read
+   63 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:92:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   92 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_06.c:92:5: note: Value stored to 'data' is never read
+   92 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_17.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_07.c:31:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   31 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_07.c:31:5: note: Value stored to 'data' is never read
+   31 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74a.cpp:44:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   44 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74a.cpp:44:5: note: Value stored to 'data' is never read
+   44 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74a.cpp:66:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   66 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74a.cpp:66:5: note: Value stored to 'data' is never read
+   66 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_73b.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_73b.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_61b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_34.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_34.c:41:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   41 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_34.c:41:5: note: Value stored to 'data' is never read
+   41 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_34.c:46:13: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   46 |         int data = myUnion.unionSecond;
+      |             ^~~~   ~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_34.c:46:13: note: Value stored to 'data' during its initialization is never read
+   46 |         int data = myUnion.unionSecond;
+      |             ^~~~   ~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_34.c:67:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   67 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_34.c:67:5: note: Value stored to 'data' is never read
+   67 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_18.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_18.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54a.c:37:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54a.c:37:5: note: Value stored to 'data' is never read
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54a.c:55:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   55 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54a.c:55:5: note: Value stored to 'data' is never read
+   55 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_14.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_14.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp =====
+5 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:38:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   38 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:38:5: note: Value stored to 'data' is never read
+   38 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:40:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   40 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:40:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:42:13: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   42 |         int data = dataRef;
+      |             ^~~~   ~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:42:13: note: Value stored to 'data' during its initialization is never read
+   42 |         int data = dataRef;
+      |             ^~~~   ~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:63:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   63 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:63:5: note: Value stored to 'data' is never read
+   63 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:65:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   65 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_33.cpp:65:5: note: Value stored to 'data' is never read
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_43.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_68a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_68a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:64:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   64 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:64:5: note: Value stored to 'data' is never read
+   64 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:94:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   94 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_15.c:94:5: note: Value stored to 'data' is never read
+   94 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_61b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_61b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_17.c:27:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   27 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_17.c:27:5: note: Value stored to 'data' is never read
+   27 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22a.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22a.c:39:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22a.c:39:5: note: Value stored to 'data' is never read
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22a.c:61:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   61 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22a.c:61:5: note: Value stored to 'data' is never read
+   61 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22a.c:75:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   75 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22a.c:75:5: note: Value stored to 'data' is never read
+   75 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81_bad.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_21.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_21.c:51:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   51 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_21.c:51:5: note: Value stored to 'data' is never read
+   51 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_21.c:94:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   94 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_21.c:94:5: note: Value stored to 'data' is never read
+   94 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_21.c:124:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+  124 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_21.c:124:5: note: Value stored to 'data' is never read
+  124 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_16.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_81.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_64b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_64b.c:26:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     FILE * data = (*dataPtr);
+      |            ^~~~   ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_64b.c:26:12: note: Value stored to 'data' during its initialization is never read
+   26 |     FILE * data = (*dataPtr);
+      |            ^~~~   ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_21.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_21.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_22b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_44.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_44.c:47:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   47 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_44.c:47:5: note: Value stored to 'data' is never read
+   47 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_44.c:79:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   79 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_44.c:79:5: note: Value stored to 'data' is never read
+   79 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_15.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_15.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_84_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_73a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_73a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_62a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_22b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66a.c:38:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   38 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66a.c:38:5: note: Value stored to 'data' is never read
+   38 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66a.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_66a.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:87:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   87 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_09.c:87:5: note: Value stored to 'data' is never read
+   87 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_41.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_62a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_62a.cpp:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_09.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_09.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_02.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_13.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82a.cpp =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82a.cpp:29:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   29 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82a.cpp:29:5: note: Value stored to 'data' is never read
+   29 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82a.cpp:34:5: warning: delete called on 'CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82::CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   34 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82a.cpp:46:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   46 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82a.cpp:46:5: note: Value stored to 'data' is never read
+   46 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82a.cpp:51:5: warning: delete called on 'CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82::CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   51 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_45.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_45.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_51a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_51a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72b.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72b.cpp:39:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     int data = dataVector[2];
+      |         ^~~~   ~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72b.cpp:39:9: note: Value stored to 'data' during its initialization is never read
+   39 |     int data = dataVector[2];
+      |         ^~~~   ~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_05.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52c.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52c.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_31.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_31.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_31.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_31.c:39:13: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   39 |         int data = dataCopy;
+      |             ^~~~   ~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_31.c:39:13: note: Value stored to 'data' during its initialization is never read
+   39 |         int data = dataCopy;
+      |             ^~~~   ~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_31.c:59:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   59 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_31.c:59:5: note: Value stored to 'data' is never read
+   59 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:87:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   87 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_02.c:87:5: note: Value stored to 'data' is never read
+   87 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_51a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_51a.c:37:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_51a.c:37:5: note: Value stored to 'data' is never read
+   37 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_51a.c:55:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   55 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_51a.c:55:5: note: Value stored to 'data' is never read
+   55 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_41.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_41.c:45:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   45 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_41.c:45:5: note: Value stored to 'data' is never read
+   45 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_41.c:75:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   75 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_41.c:75:5: note: Value stored to 'data' is never read
+   75 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_22a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_22a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_09.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_83_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74b.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74b.cpp:39:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     int data = dataMap[2];
+      |         ^~~~   ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_74b.cpp:39:9: note: Value stored to 'data' during its initialization is never read
+   39 |     int data = dataMap[2];
+      |         ^~~~   ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_72a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_72a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_21.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_63b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_63b.c:23:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   23 |     FILE * data = *dataPtr;
+      |            ^~~~   ~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_63b.c:23:12: note: Value stored to 'data' during its initialization is never read
+   23 |     FILE * data = *dataPtr;
+      |            ^~~~   ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_32.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_32.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_12.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_83_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_14.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_66b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_66b.c:24:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     FILE * data = dataArray[2];
+      |            ^~~~   ~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_66b.c:24:12: note: Value stored to 'data' during its initialization is never read
+   24 |     FILE * data = dataArray[2];
+      |            ^~~~   ~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_11.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_11.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68a.c:41:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   41 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68a.c:41:5: note: Value stored to 'data' is never read
+   41 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68a.c:60:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   60 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_68a.c:60:5: note: Value stored to 'data' is never read
+   60 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_51b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_51b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c:55:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   55 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_01.c:55:5: note: Value stored to 'data' is never read
+   55 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_62b.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_62b.cpp:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54d.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_54d.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_03.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_03.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:47:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   47 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:47:5: note: Value stored to 'data' is never read
+   47 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:49:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   49 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:49:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:71:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   71 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:71:5: note: Value stored to 'data' is never read
+   71 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:100:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+  100 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_08.c:100:5: note: Value stored to 'data' is never read
+  100 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_65a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_65a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72a.cpp:44:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   44 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72a.cpp:44:5: note: Value stored to 'data' is never read
+   44 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72a.cpp:66:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   66 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_72a.cpp:66:5: note: Value stored to 'data' is never read
+   66 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_08.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_74a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_74a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_44.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_44.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_31.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_31.c:29:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   29 |         FILE * data = dataCopy;
+      |                ^~~~   ~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_31.c:29:16: note: Value stored to 'data' during its initialization is never read
+   29 |         FILE * data = dataCopy;
+      |                ^~~~   ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_10.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_10.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_64b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_64b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_18.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_11.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_03.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_15.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_63a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_63a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_82_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53c.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_53c.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_73b.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_73b.cpp:30:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |     FILE * data = dataList.back();
+      |            ^~~~   ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_73b.cpp:30:12: note: Value stored to 'data' during its initialization is never read
+   30 |     FILE * data = dataList.back();
+      |            ^~~~   ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_65b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_65b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84_bad.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_84.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_52a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:39:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:39:5: note: Value stored to 'data' is never read
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:41:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   41 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:41:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:63:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   63 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:63:5: note: Value stored to 'data' is never read
+   63 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:92:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   92 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_07.c:92:5: note: Value stored to 'data' is never read
+   92 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_02.c:26:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_02.c:26:5: note: Value stored to 'data' is never read
+   26 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_66a.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_66a.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_22b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_22b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_84_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_04.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_83.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_04.c:32:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   32 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_04.c:32:5: note: Value stored to 'data' is never read
+   32 |     data = fopen("BadSource_fopen.txt", "w+");
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_42.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_42.c:42:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   42 |     data = badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_42.c:42:5: note: Value stored to 'data' is never read
+   42 |     data = badSource(data);
+      |     ^      ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_18.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_18.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_18.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_18.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_18.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_18.c:57:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   57 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_18.c:57:5: note: Value stored to 'data' is never read
+   57 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_81a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_81a.cpp:29:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   29 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_81a.cpp:29:5: note: Value stored to 'data' is never read
+   29 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_81a.cpp:45:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   45 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_81a.cpp:45:5: note: Value stored to 'data' is never read
+   45 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_62a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45.c:35:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   35 |     int data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45_badData;
+      |         ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45.c:35:9: note: Value stored to 'data' during its initialization is never read
+   35 |     int data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45_badData;
+      |         ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45.c:49:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   49 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45.c:49:5: note: Value stored to 'data' is never read
+   49 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45.c:81:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   81 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_45.c:81:5: note: Value stored to 'data' is never read
+   81 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82a.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_63b.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_63b.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_41.c.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_41.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67a.c:43:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   43 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67a.c:43:5: note: Value stored to 'data' is never read
+   43 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67a.c:62:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   62 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67a.c:62:5: note: Value stored to 'data' is never read
+   62 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_43.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_16.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_16.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_16.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_16.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_16.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_16.c:59:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   59 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_16.c:59:5: note: Value stored to 'data' is never read
+   59 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_22a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_45.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_45.c:26:12: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   26 |     FILE * data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_45_badData;
+      |            ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_45.c:26:12: note: Value stored to 'data' during its initialization is never read
+   26 |     FILE * data = CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_45_badData;
+      |            ^~~~   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_33.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_33.cpp:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67b.c:37:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   37 |     int data = myStruct.structFirst;
+      |         ^~~~   ~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_67b.c:37:9: note: Value stored to 'data' during its initialization is never read
+   37 |     int data = myStruct.structFirst;
+      |         ^~~~   ~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_12.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_12.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_12.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_12.c:73:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   73 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_12.c:73:5: note: Value stored to 'data' is never read
+   73 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82_bad.cpp.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__w32CreateFile_82.h:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73b.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73b.cpp:39:9: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     int data = dataList.back();
+      |         ^~~~   ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_73b.cpp:39:9: note: Value stored to 'data' during its initialization is never read
+   39 |     int data = dataList.back();
+      |         ^~~~   ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_81_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__fopen_53a.c =====
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:34:5: note: Value stored to 'data' is never read
+   34 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:36:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |     data = OPEN("BadSource_open.txt", O_RDWR|O_CREAT, S_IREAD|S_IWRITE);
+      |     ^
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:36:5: note: Value stored to 'data' is never read
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:87:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   87 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_11.c:87:5: note: Value stored to 'data' is never read
+   87 |     data = -1;
+      |     ^      ~~
+
+===== /home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_65a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_65a.c:39:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_65a.c:39:5: note: Value stored to 'data' is never read
+   39 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_65a.c:58:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   58 |     data = -1;
+      |     ^      ~~
+/home/jip/input/C/testcases/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle/CWE773_Missing_Reference_to_Active_File_Descriptor_or_Handle__open_65a.c:58:5: note: Value stored to 'data' is never read
+   58 |     data = -1;
+      |     ^      ~~

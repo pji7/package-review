@@ -1,0 +1,2018 @@
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegOpenKeyEx_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_14.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_02.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_04.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegOpenUSKey_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKey_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_01.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_09.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_SHRegCreateUSKey_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegOpenKeyEx_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_18.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcess_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_17.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcess_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_15.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_12.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_RegCreateKeyEx_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_07.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_13.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_08.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_CreateProcessAsUser_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_10.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_05.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegCreateUSKey_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_CreateProcessAsUser_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_16.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKey_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_11.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_wchar_t_RegCreateKeyEx_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_03.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c.
+/home/jip/input/C/testcases/CWE272_Least_Privilege_Violation/CWE272_Least_Privilege_Violation__w32_char_SHRegOpenUSKey_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

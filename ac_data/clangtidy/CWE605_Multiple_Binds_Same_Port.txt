@@ -1,0 +1,364 @@
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_15.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_15.c:87:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   87 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_15.c:87:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   87 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_15.c:190:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  190 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_15.c:190:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  190 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_15.c:281:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  281 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_15.c:281:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  281 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_02.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_02.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_02.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_02.c:184:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_02.c:184:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_02.c:273:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_02.c:273:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_04.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_04.c:92:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   92 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_04.c:92:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   92 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_04.c:190:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  190 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_04.c:190:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  190 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_04.c:279:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  279 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_04.c:279:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  279 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_13.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_13.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_13.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_13.c:184:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_13.c:184:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_13.c:273:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_13.c:273:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_01.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_01.c:84:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   84 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_01.c:84:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   84 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_01.c:173:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  173 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_01.c:173:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  173 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_14.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_14.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_14.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_14.c:184:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_14.c:184:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_14.c:273:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_14.c:273:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_05.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_05.c:92:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   92 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_05.c:92:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   92 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_05.c:190:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  190 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_05.c:190:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  190 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_05.c:279:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  279 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_05.c:279:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  279 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c:91:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c:91:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c:189:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  189 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c:189:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  189 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c:278:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  278 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_07.c:278:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  278 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_09.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_09.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_09.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_09.c:184:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_09.c:184:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_09.c:273:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_09.c:273:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c:91:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c:91:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c:189:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  189 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c:189:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  189 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c:278:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  278 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_06.c:278:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  278 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_11.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_11.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_11.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_11.c:184:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_11.c:184:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_11.c:273:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_11.c:273:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_17.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_17.c:87:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   87 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_17.c:87:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   87 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_17.c:181:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  181 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_17.c:181:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  181 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c:184:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c:184:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c:273:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_03.c:273:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_16.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_16.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_16.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_16.c:180:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  180 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_16.c:180:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  180 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:170:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  170 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:170:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  170 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:263:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  263 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:263:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  263 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:347:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  347 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_12.c:347:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  347 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_10.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_10.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_10.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_10.c:184:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_10.c:184:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  184 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_10.c:273:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_10.c:273:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  273 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_08.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_08.c:99:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   99 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_08.c:99:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   99 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_08.c:197:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  197 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_08.c:197:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  197 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_08.c:286:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  286 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_08.c:286:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  286 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_18.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_18.c:86:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_18.c:86:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_18.c:178:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+  178 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE605_Multiple_Binds_Same_Port/CWE605_Multiple_Binds_Same_Port__basic_18.c:178:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+  178 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~

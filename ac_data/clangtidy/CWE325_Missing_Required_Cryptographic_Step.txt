@@ -1,0 +1,578 @@
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_13.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_09.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_18.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_15.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_17.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_18.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_16.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_01.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_02.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_04.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_07.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_03.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_01.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_18.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_07.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_01.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_11.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_15.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_14.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_08.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_11.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_13.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_12.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_07.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_09.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_13.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_10.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_03.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_10.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_17.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_04.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_18.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_07.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_16.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_12.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_03.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_15.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_14.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_15.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_10.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_08.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_05.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_13.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_16.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_14.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_09.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_04.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_05.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_10.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_17.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_12.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_14.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_08.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_11.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_01.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_02.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_12.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_17.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_02.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_05.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_11.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_03.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_16.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptDeriveKey_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_09.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptCreateHash_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_05.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_02.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptHashData_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_08.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_04.c.
+/home/jip/input/C/testcases/CWE325_Missing_Required_Cryptographic_Step/CWE325_Missing_Required_Cryptographic_Step__w32_CryptEncrypt_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

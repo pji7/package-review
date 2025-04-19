@@ -1,0 +1,184 @@
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_17.c:30:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   30 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_17.c:30:24: note: use '=' to turn this equality comparison into an assignment
+   30 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_13.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_13.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_01.c:27:20: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   27 |         intBadSink == 5;
+      |         ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_01.c:27:20: note: use '=' to turn this equality comparison into an assignment
+   27 |         intBadSink == 5;
+      |                    ^~
+      |                    =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_05.c:35:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   35 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_05.c:35:24: note: use '=' to turn this equality comparison into an assignment
+   35 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_08.c:42:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   42 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_08.c:42:24: note: use '=' to turn this equality comparison into an assignment
+   42 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_10.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_10.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_04.c:35:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   35 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_04.c:35:24: note: use '=' to turn this equality comparison into an assignment
+   35 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_02.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_02.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_07.c:34:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   34 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_07.c:34:24: note: use '=' to turn this equality comparison into an assignment
+   34 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_16.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_16.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_09.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_09.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_18.c:29:20: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |         intBadSink == 5;
+      |         ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_18.c:29:20: note: use '=' to turn this equality comparison into an assignment
+   29 |         intBadSink == 5;
+      |                    ^~
+      |                    =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_03.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_03.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_15.c:30:20: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   30 |         intBadSink == 5;
+      |         ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_15.c:30:20: note: use '=' to turn this equality comparison into an assignment
+   30 |         intBadSink == 5;
+      |                    ^~
+      |                    =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_11.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_11.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_06.c:34:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   34 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_06.c:34:24: note: use '=' to turn this equality comparison into an assignment
+   34 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_14.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_14.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =
+
+===== /home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_12.c:29:24: warning: equality comparison result unused [clang-diagnostic-unused-comparison]
+   29 |             intBadSink == 5;
+      |             ~~~~~~~~~~~^~~~
+/home/jip/input/C/testcases/CWE482_Comparing_Instead_of_Assigning/CWE482_Comparing_Instead_of_Assigning__basic_12.c:29:24: note: use '=' to turn this equality comparison into an assignment
+   29 |             intBadSink == 5;
+      |                        ^~
+      |                        =

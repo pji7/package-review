@@ -1,0 +1,1030 @@
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c:36:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c:36:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c:61:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   61 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c:61:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   61 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c:77:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   77 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_06.c:77:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   77 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_15.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_15.c:32:9: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   32 |         memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_15.c:32:9: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   32 |         memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_15.c:62:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_15.c:62:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_15.c:80:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   80 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_15.c:80:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   80 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:54:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:54:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:70:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:70:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_13.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_09.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_09.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_09.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_09.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_09.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_09.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_09.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:29:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:29:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:31:9: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |         memcpy(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:31:9: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |         memcpy(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:48:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   48 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:48:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   48 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:50:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   50 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_18.c:50:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   50 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:54:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:54:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:70:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:70:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_09.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_18.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_18.c:31:9: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |         memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_18.c:31:9: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |         memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_18.c:50:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   50 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_18.c:50:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   50 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:30:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   30 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:30:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   30 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:32:9: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   32 |         memcpy(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:32:9: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   32 |         memcpy(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:60:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   60 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:60:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   60 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:62:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:62:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:78:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   78 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:78:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   78 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:80:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   80 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_15.c:80:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   80 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:34:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   34 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:34:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   34 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:36:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:36:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:59:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   59 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:59:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   59 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:61:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   61 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:61:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   61 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:75:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   75 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:75:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   75 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:77:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   77 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_06.c:77:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   77 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_17.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_17.c:32:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   32 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_17.c:32:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   32 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_17.c:53:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_17.c:53:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   53 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_13.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_13.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_13.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_13.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_13.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_13.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_13.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:54:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:54:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:70:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:70:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_10.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_08.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_08.c:44:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   44 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_08.c:44:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   44 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_08.c:69:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_08.c:69:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   69 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_08.c:85:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   85 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_08.c:85:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   85 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:34:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   34 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:34:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   34 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:36:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:36:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:59:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   59 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:59:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   59 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:61:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   61 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:61:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   61 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:75:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   75 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:75:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   75 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:77:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   77 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_07.c:77:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   77 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_05.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_05.c:37:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_05.c:37:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_05.c:62:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_05.c:62:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_05.c:78:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   78 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_05.c:78:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   78 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:27:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   27 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:27:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   27 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:29:9: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   29 |         memcpy(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:29:9: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   29 |         memcpy(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:43:9: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   43 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:43:9: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   43 |         strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:45:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   45 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_01.c:45:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   45 |         memmove(data + 6, data + 4, 10*sizeof(char));
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_01.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_01.c:29:9: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   29 |         memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_01.c:29:9: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   29 |         memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_01.c:45:9: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   45 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_01.c:45:9: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   45 |         memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c =====
+8 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:40:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   40 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:40:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   40 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:42:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   42 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:42:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   42 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:60:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   60 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:60:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   60 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:62:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:62:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:71:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   71 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:71:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   71 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:73:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   73 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_12.c:73:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   73 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:54:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:54:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:70:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:70:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_03.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_04.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_04.c:37:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_04.c:37:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_04.c:62:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_04.c:62:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_04.c:78:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   78 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_04.c:78:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   78 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c:36:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c:36:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   36 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c:61:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   61 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c:61:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   61 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c:77:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   77 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_07.c:77:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   77 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_03.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_11.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_11.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_11.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_11.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_11.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_11.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_11.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:42:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   42 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:42:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   42 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:62:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:62:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:73:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   73 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_12.c:73:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   73 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:30:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   30 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:30:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   30 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:32:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   32 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:32:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   32 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:51:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   51 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:51:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   51 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:53:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_17.c:53:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   53 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:50:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   50 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:50:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   50 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:52:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   52 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_16.c:52:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   52 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:35:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   35 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:35:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   35 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:37:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:37:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:60:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   60 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:60:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   60 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:62:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:62:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:76:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   76 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:76:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   76 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:78:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   78 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_05.c:78:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   78 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_10.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_10.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_10.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_10.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_10.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_10.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_10.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_14.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_14.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_14.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_14.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_14.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_14.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_14.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:54:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:54:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:70:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:70:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_02.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:35:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   35 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:35:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   35 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:37:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:37:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   37 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:60:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   60 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:60:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   60 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:62:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   62 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:62:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   62 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:76:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   76 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:76:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   76 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:78:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   78 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_04.c:78:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   78 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_16.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_16.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_16.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_16.c:52:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   52 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_16.c:52:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   52 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:54:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:54:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:70:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:70:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_11.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:42:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   42 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:42:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   42 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:44:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   44 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:44:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   44 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:67:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   67 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:67:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   67 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:69:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   69 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:69:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   69 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:83:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   83 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:83:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   83 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:85:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   85 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_08.c:85:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   85 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c =====
+6 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:29:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:29:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   29 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:54:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:54:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   54 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:70:13: warning: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119 [clang-analyzer-security.insecureAPI.strcpy]
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:70:13: note: Call to function 'strcpy' is insecure as it does not provide bounding of the memory buffer. Replace unbounded copy functions with analogous functions that support length arguments such as 'strlcpy'. CWE-119
+   70 |             strcpy(data, "abcdefghijklmnopqrstuvwxyz");
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__char_14.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(char));
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_02.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_02.c:31:13: warning: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_02.c:31:13: note: Call to function 'memcpy' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memcpy_s' in case of C11
+   31 |             memcpy(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_02.c:56:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_02.c:56:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   56 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_02.c:72:13: warning: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE475_Undefined_Behavior_for_Input_to_API/CWE475_Undefined_Behavior_for_Input_to_API__wchar_t_02.c:72:13: note: Call to function 'memmove' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memmove_s' in case of C11
+   72 |             memmove(data + 6, data + 4, 10*sizeof(wchar_t));
+      |             ^~~~~~~

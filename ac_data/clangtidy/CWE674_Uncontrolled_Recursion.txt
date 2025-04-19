@@ -1,0 +1,8 @@
+
+===== /home/jip/input/C/testcases/CWE674_Uncontrolled_Recursion/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE674_Uncontrolled_Recursion/CWE674_Uncontrolled_Recursion__unbounded_recursive_call_01.c =====
+
+===== /home/jip/input/C/testcases/CWE674_Uncontrolled_Recursion/CWE674_Uncontrolled_Recursion__infinite_recursive_call_01.c =====
+
+===== /home/jip/input/C/testcases/CWE674_Uncontrolled_Recursion/main.cpp =====

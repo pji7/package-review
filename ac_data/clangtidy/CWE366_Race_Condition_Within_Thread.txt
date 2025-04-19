@@ -1,0 +1,76 @@
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_09.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_17.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_16.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_14.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_11.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_12.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_17.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_06.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_15.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_02.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_02.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_10.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_06.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_16.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_08.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_14.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_18.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_03.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_04.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_01.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_13.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_18.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_07.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_07.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_08.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_03.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_13.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_05.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_10.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_04.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_12.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_05.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_01.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__global_int_09.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_11.c =====
+
+===== /home/jip/input/C/testcases/CWE366_Race_Condition_Within_Thread/CWE366_Race_Condition_Within_Thread__int_byref_15.c =====

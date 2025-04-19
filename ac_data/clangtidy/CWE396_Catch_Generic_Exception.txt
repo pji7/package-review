@@ -1,0 +1,238 @@
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_14.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_15.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_02.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_18.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_11.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_01.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_08.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_04.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_17.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_18.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_10.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_04.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_15.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_16.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_13.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_17.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_17.cpp:49:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   49 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_17.cpp:43:16: note: for type 'exception &'
+   43 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_10.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_07.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_11.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_14.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_14.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_14.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_08.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_08.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_08.cpp:61:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   61 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_08.cpp:55:16: note: for type 'exception &'
+   55 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_03.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_16.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_16.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_16.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_04.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_04.cpp:54:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   54 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_04.cpp:48:16: note: for type 'exception &'
+   48 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_01.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_01.cpp:46:12: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   46 |     catch (domain_error &)
+      |            ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_01.cpp:40:12: note: for type 'exception &'
+   40 |     catch (exception &)
+      |            ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_02.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_05.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_05.cpp:54:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   54 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_05.cpp:48:16: note: for type 'exception &'
+   48 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_05.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_14.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_01.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_09.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_09.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_09.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_09.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_13.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_13.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_13.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_10.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_10.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_10.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_16.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_06.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_03.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_07.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_07.cpp:53:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   53 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_07.cpp:47:16: note: for type 'exception &'
+   47 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp:53:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   53 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_06.cpp:47:16: note: for type 'exception &'
+   47 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_02.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_02.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_02.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_12.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_06.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_17.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_12.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__dotdotdot_05.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_18.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_18.cpp:48:12: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |     catch (domain_error &)
+      |            ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_18.cpp:42:12: note: for type 'exception &'
+   42 |     catch (exception &)
+      |            ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_07.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_03.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_03.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_03.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_09.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_13.cpp =====
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_11.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_11.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_11.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_15.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_15.cpp:49:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   49 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_15.cpp:43:16: note: for type 'exception &'
+   43 |         catch (exception &)
+      |                ^
+
+===== /home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_12.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_12.cpp:48:16: warning: exception of type 'domain_error &' will be caught by earlier handler [clang-diagnostic-exceptions]
+   48 |         catch (domain_error &)
+      |                ^
+/home/jip/input/C/testcases/CWE396_Catch_Generic_Exception/CWE396_Catch_Generic_Exception__exception_and_domain_error_12.cpp:42:16: note: for type 'exception &'
+   42 |         catch (exception &)
+      |                ^

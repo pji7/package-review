@@ -1,0 +1,1302 @@
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_02.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_02.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_14.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_02.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_02.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_15.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_08.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_11.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_18.c:81:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_18.c:81:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_13.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_13.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_10.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_07.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_14.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_14.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_04.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_04.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_09.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_09.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_04.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_04.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_03.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_03.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_03.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_17.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_16.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_01.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_11.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_11.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_13.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_13.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_14.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_14.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_17.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_08.c:89:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   89 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_08.c:89:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   89 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_01.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_08.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_15.c:82:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   82 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_15.c:82:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   82 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_11.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_11.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_13.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_17.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_10.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_10.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_09.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_02.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_09.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_09.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_04.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_03.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_05.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_05.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_13.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_16.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_16.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_06.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_06.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_02.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_08.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_18.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_16.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_01.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_18.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_17.c:80:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   80 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_17.c:80:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   80 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_10.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_07.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_07.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_09.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_15.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_06.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_06.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_04.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_07.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_13.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_14.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_07.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_07.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_01.c:79:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_01.c:79:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_04.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_08.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_08.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_05.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_07.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_05.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_05.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_04.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_01.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_14.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_14.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_11.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_03.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_08.c:87:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   87 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_08.c:87:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   87 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_06.c:84:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_06.c:84:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_01.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_13.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_04.c:84:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_04.c:84:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_09.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_07.c:84:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_07.c:84:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_11.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_11.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_01.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_14.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_04.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_10.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_10.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_11.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_16.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_15.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_04.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_17.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_02.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_12.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_15.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_15.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_10.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_10.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_11.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_09.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_09.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_02.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_03.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_03.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_01.c:77:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   77 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_01.c:77:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   77 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_07.c:86:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_07.c:86:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   86 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_15.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_01.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_01.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_08.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_18.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_18.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_15.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_03.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_03.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_16.c:79:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_16.c:79:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_10.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_09.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_16.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_14.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_11.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_11.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_03.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_02.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_16.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_16.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_16.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_17.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_18.c:79:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   79 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_18.c:79:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   79 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_05.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_07.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_12.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_03.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_15.c:80:13: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   80 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_15.c:80:13: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   80 |             memset(&service, 0, sizeof(service));
+      |             ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_08.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_09.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_09.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_05.c:84:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_connect_socket_05.c:84:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   84 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_12.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_17.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_email_17.c:18:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   18 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_13.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_13.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_16.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_03.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_18.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_08.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_10.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_02.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_13.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_05.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_06.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_14.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_18.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_12.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_15.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_10.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_base64_encoded_payload_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_18.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_10.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_14.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_modified_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_18.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_17.c:82:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   82 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_17.c:82:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   82 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_17.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_13.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_05.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_screen_capture_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include "windows.h"
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_02.c:81:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__file_transfer_listen_socket_02.c:81:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   81 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_05.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_created_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_12.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_file_attrib_accessed_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_05.c.
+/home/jip/input/C/testcases/CWE506_Embedded_Malicious_Code/CWE506_Embedded_Malicious_Code__w32_aes_encrypted_payload_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

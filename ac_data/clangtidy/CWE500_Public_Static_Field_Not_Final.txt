@@ -1,0 +1,8 @@
+
+===== /home/jip/input/C/testcases/CWE500_Public_Static_Field_Not_Final/CWE500_Public_Static_Field_Not_Final__int_01_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE500_Public_Static_Field_Not_Final/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE500_Public_Static_Field_Not_Final/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE500_Public_Static_Field_Not_Final/CWE500_Public_Static_Field_Not_Final__int_01_good1.cpp =====

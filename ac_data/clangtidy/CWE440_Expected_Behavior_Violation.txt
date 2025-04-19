@@ -1,0 +1,22 @@
+
+===== /home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/CWE440_Expected_Behavior_Violation__exception_01.cpp =====
+1 warning and 1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/CWE440_Expected_Behavior_Violation__exception_01.cpp.
+/home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/CWE440_Expected_Behavior_Violation__exception_01.cpp:21:2: warning: 'bad' has a non-throwing exception specification but can still throw [clang-diagnostic-exceptions]
+   21 |         throw range_error("Test"); 
+      |         ^
+/home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/CWE440_Expected_Behavior_Violation__exception_01.cpp:19:6: note: function declared non-throwing here
+   19 | void bad() throw () /* FLAW: Declare that the function does not throw any exceptions, when it actually does */
+      |      ^     ~~~~~~~~
+/home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/CWE440_Expected_Behavior_Violation__exception_01.cpp:30:21: error: ISO C++17 does not allow dynamic exception specifications [clang-diagnostic-dynamic-exception-spec]
+   30 | static void good1() throw (range_error) /* FIX: Declare that function throws an  exception */
+      |                     ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE440_Expected_Behavior_Violation/CWE440_Expected_Behavior_Violation__exception_01.cpp:30:21: note: use 'noexcept(false)' instead
+   30 | static void good1() throw (range_error) /* FIX: Declare that function throws an  exception */
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     noexcept(false)
+Found compiler error(s).

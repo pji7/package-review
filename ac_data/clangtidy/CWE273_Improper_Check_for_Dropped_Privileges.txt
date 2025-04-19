@@ -1,0 +1,290 @@
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_04.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_15.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_11.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_03.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_06.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_07.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_12.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_11.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_10.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_09.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_10.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_08.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_12.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_02.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_06.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_01.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_14.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_04.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_13.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_17.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_08.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_18.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_18.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_17.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_01.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_16.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_05.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_14.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_16.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_07.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_05.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_15.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_09.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_02.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_03.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_RpcImpersonateClient_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_13.c.
+/home/jip/input/C/testcases/CWE273_Improper_Check_for_Dropped_Privileges/CWE273_Improper_Check_for_Dropped_Privileges__w32_ImpersonateNamedPipeClient_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

@@ -1,0 +1,2578 @@
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_05.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_05.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54e.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54e.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_51b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_51b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_45.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_45.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_62a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_62a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_33.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_33.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_74b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_74b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54e.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54e.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_51b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_51b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_65b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_65b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_44.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_44.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_73b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_73b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_64a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_64a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_09.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_09.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_65b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_65b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_16.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_16.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_65b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_65b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_62b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_62b.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_02.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_02.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_34.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_34.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_22a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_22a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_22a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_22a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_05.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_05.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_10.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_10.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_73b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_73b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_04.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_04.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_42.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_42.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_03.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_03.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_08.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_08.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_02.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_02.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_64b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_64b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_22b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_22b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_31.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_31.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_22a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_22a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_61a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_61a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_22a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_22a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_61b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_61b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_66b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_66b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_72a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_72a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_67b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_67b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_34.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_34.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_07.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_07.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_68b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_68b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_66b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_66b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54e.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54e.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_65a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_65a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_17.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_17.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_72a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_72a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_13.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_13.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_16.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_16.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_41.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_41.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_17.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_17.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_61a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_61a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_62a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_62a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_45.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_45.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_51b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_51b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_62b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_62b.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_68a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_68a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_42.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_42.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_13.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_13.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_31.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_31.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_74a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_74a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_73a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_73a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_66b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_66b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_66b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_66b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_68b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_68b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_62a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_62a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_83_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_68b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_68b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_04.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_04.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_42.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_42.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_43.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_43.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_72b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_72b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_67b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_67b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_64b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_64b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_62b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_62b.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_67a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_67a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_73a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_73a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_21.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_21.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_13.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_13.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_08.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_08.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_61b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_61b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_63a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_63a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_05.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_05.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_51a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_51a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_44.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_44.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_61a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_61a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_01.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_01.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_62a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_62a.cpp:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_21.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_21.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_03.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_03.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_15.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_15.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_41.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_41.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_01.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_01.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_53d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_43.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_43.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_74a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_74a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_74a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_74a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_16.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_16.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_15.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_15.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_18.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_18.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_68a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_68a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_61b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_61b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_54c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_65b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_65b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_81_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_51a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_51a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_63b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_63b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_65a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_65a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_65a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_65a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_32.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_32.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_04.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_04.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_02.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_02.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_81_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_74a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_74a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_74a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_22b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_22b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_11.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_11.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_43.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_43.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_06.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_06.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_83_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_68b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_68b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_34.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_34.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_45.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_45.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_11.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_11.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_12.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_12.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_72a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_72a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_64a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_64a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_01.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_01.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_67a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_67a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_11.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_11.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_32.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_32.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_31.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_31.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_52b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_05.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_05.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_02.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_02.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_09.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_09.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_45.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_45.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_66a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_66a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_52c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_08.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_08.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_43.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_43.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_52b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_74b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_74b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_32.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_32.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_33.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_33.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54e.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54e.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_44.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_44.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_66a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_66a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_83_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_10.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_10.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_64a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_64a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_14.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_14.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_16.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_16.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82_bad.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_32.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_32.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_14.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_14.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_07.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_07.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_22b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_22b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_51a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_51a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_82a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_53b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_63a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_63a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_34.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_34.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_06.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_06.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_15.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_15.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_10.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_10.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_63b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_63b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_72b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_72b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_03.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_03.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_51a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_51a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_10.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_10.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_09.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_09.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_66a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_66a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_18.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_18.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_12.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_12.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_42.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_42.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_51b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_51b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_44.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_44.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_82_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_14.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_14.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_17.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_17.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_81a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_52a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_33.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_33.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_84_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_68a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_68a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53c.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_53c.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_12.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_12.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_67b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_67b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_67b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_67b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_07.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_07.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_54b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_63b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_63b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_72a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_72a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_72a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_07.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_07.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_goodB2G.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_63a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_63a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_74b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_74b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_72b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_72b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_01.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_01.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_67a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_67a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_67a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_67a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_65a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_65a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_13.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_13.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_11.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_11.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_63a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_63a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_31.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_31.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_68a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_68a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_64b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_64b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_21.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_21.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_14.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_14.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_72b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_72b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_61a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_61a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_03.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_03.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_66a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_66a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_bad.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_84_bad.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_18.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_18.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_84_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_22b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_22b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_22b.c:20:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   20 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_09.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_09.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_41.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_41.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_64b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_64b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_15.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_15.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_73a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_73a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_73a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_73a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_73a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_82_goodG2B.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_63b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_63b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_54a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_18.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_18.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_84_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_62b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_62b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_62b.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_08.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_08.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_33.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_33.cpp:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_73b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_73b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_04.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_04.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_12.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_12.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_64a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_64a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_06.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_06.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_41.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_41.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_74b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_74b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_06.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_06.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54d.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54d.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_61b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_61b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_17.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_17.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_83_goodG2B.cpp:22:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   22 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82a.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_82a.cpp:21:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   21 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_goodB2G.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_goodB2G.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_listen_socket_81_goodB2G.cpp:22:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   22 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_73b.cpp.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_listen_socket_73b.cpp:21:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   21 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53a.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_wchar_t_connect_socket_53a.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_21.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_21.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54b.c.
+/home/jip/input/C/testcases/CWE319_Cleartext_Tx_Sensitive_Info/CWE319_Cleartext_Tx_Sensitive_Info__w32_char_connect_socket_54b.c:20:10: error: 'winsock2.h' file not found [clang-diagnostic-error]
+   20 | #include <winsock2.h>
+      |          ^~~~~~~~~~~~
+Found compiler error(s).

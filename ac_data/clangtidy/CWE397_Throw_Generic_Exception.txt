@@ -1,0 +1,78 @@
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_05.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_18.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_15.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_02.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_07.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_04.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_08.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_exception_01.cpp =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_exception_01.cpp.
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_exception_01.cpp:19:12: error: ISO C++17 does not allow dynamic exception specifications [clang-diagnostic-dynamic-exception-spec]
+   19 | void bad() throw (exception) /* FLAW: Declare function as throws the top-level STL exception class, which is very generic */
+      |            ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_exception_01.cpp:19:12: note: use 'noexcept(false)' instead
+   19 | void bad() throw (exception) /* FLAW: Declare function as throws the top-level STL exception class, which is very generic */
+      |            ^~~~~~~~~~~~~~~~~
+      |            noexcept(false)
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_exception_01.cpp:30:21: error: ISO C++17 does not allow dynamic exception specifications [clang-diagnostic-dynamic-exception-spec]
+   30 | static void good1() throw (range_error) /* FIX: Declare that function throws a specific exception */
+      |                     ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_exception_01.cpp:30:21: note: use 'noexcept(false)' instead
+   30 | static void good1() throw (range_error) /* FIX: Declare that function throws a specific exception */
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     noexcept(false)
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_11.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_10.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_01.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_14.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_13.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_12.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_06.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_09.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_dotdotdot_w32_01.cpp =====
+2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_dotdotdot_w32_01.cpp.
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_dotdotdot_w32_01.cpp:20:12: error: ISO C++17 does not allow dynamic exception specifications [clang-diagnostic-dynamic-exception-spec]
+   20 | void bad() throw (...) /* FLAW: declaring that you throw some type of exception, but without specifics */
+      |            ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_dotdotdot_w32_01.cpp:20:12: note: use 'noexcept(false)' instead
+   20 | void bad() throw (...) /* FLAW: declaring that you throw some type of exception, but without specifics */
+      |            ^~~~~~~~~~~
+      |            noexcept(false)
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_dotdotdot_w32_01.cpp:32:21: error: ISO C++17 does not allow dynamic exception specifications [clang-diagnostic-dynamic-exception-spec]
+   32 | static void good1() throw (range_error) /* FIX: Declare that function throws a specific exception */
+      |                     ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__declare_dotdotdot_w32_01.cpp:32:21: note: use 'noexcept(false)' instead
+   32 | static void good1() throw (range_error) /* FIX: Declare that function throws a specific exception */
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     noexcept(false)
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_16.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_17.cpp =====
+
+===== /home/jip/input/C/testcases/CWE397_Throw_Generic_Exception/CWE397_Throw_Generic_Exception__throw_exception_03.cpp =====

@@ -1,0 +1,2338 @@
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_64a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_64a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_32.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_32.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_42.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_42.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_31.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_31.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_67b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_67b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_06.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_06.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_83_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_83_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_83_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_04.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_04.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_74b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_74b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_33.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_33.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_61b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_61b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82a.cpp:132:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  132 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82a.cpp:149:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  149 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_81_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_81_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_73b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_73b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_67b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_67b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_72b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_72b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_22b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_22b.c:91:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_22b.c:91:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_07.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_07.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_16.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_16.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_65b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_65b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_66a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_66a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_13.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_13.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_09.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_09.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_64a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_64a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_07.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_07.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_83_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_83_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_01.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_01.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_66b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_66b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_72b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_72b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_65a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_65a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54e.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54e.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_12.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_12.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_51b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_51b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_02.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_02.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_12.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_12.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_83_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_67b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_67b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_45.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_45.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_81_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_81_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_14.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_14.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_81_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_34.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_34.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_61b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_61b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_14.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_14.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_66a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_66a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_09.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_09.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_06.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_06.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_18.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_18.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_02.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_02.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_17.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_17.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_05.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_05.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_09.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_09.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_66b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_66b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_44.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_44.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_06.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_06.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_65b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_65b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_11.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_11.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_22a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_22a.c:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_68a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_68a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_63b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_63b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_51a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_51a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_44.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_44.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_65b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_65b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_08.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_08.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_73b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_73b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_22a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_22a.c:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_11.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_11.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_13.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_13.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_81_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_81_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_22a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_22a.c:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_51b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_51b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_64b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_64b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_66a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_66a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_42.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_42.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_01.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_01.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_05.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_05.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_41.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_41.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_61a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_61a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_65a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_65a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_62a.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_62a.cpp:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_01.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_01.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_83_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_45.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_45.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_61a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_61a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_09.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_09.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_11.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_11.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_17.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_17.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_41.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_41.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_02.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_02.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_61a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_61a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_64a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_64a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_41.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_41.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_67a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_67a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_65b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_65b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_65b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_63a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_63a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_63b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_63b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_72b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_72b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_84_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_84_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_45.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_45.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_15.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_15.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_63a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_63a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_82_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_18.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_18.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_33.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_33.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_65a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_65a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_14.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_14.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_81_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_11.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_11.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_41.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_41.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_41.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_84_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_84_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_16.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_16.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_04.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_04.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_54d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_15.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_15.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_67a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_67a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_67b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_67b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_67b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54e.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54e.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_73b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_73b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_10.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_10.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_67a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_67a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_68a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_68a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_61a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_61a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_61a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_43.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_43.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_22b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_22b.c:91:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_22b.c:91:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_63a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_63a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_43.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_43.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_62a.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_62a.cpp:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_08.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_08.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_42.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_42.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_83_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_83_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_32.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_32.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_08.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_08.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_67a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_67a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_67a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_12.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_12.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_84_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_07.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_07.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_64a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_64a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_64a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_84_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_84_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82a.cpp:132:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  132 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82a.cpp:149:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  149 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_51a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_51a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_31.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_31.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_84_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_84_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_84_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_84_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_10.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_10.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_12.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_12.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_34.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_34.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_68b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_68b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_15.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_15.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54e.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54e.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_42.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_42.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_42.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_43.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_43.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_01.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_01.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_68a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_68a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_32.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_32.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_51a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_51a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_64b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_64b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_22a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_22a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_22a.c:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_52b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_64b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_64b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_66b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_66b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82a.cpp:132:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  132 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82a.cpp:149:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  149 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_44.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_44.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_63b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_63b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_62a.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_62a.cpp:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_03.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_03.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_66b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_66b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_66b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_53d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_03.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_03.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_61b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_61b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_17.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_17.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_32.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_32.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_32.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_62a.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_62a.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_62a.cpp:36:10: error: 'process.h' file not found [clang-diagnostic-error]
+   36 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_13.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_13.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_07.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_07.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_74b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_74b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_68b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_68b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_82_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_33.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_33.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_31.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_31.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_03.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_03.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_16.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_16.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_81_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_66a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_66a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_66a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_68b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_68b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_03.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_03.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_72b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_72b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_72b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_45.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_45.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_45.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_44.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_44.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_44.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_73b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_73b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_73b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_74b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_74b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_10.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_10.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54e.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54e.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54e.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_53c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_21.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_21.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_65a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_65a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_65a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_22b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_22b.c:91:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_22b.c:91:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_51b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_51b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_54d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_21.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_21.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82a.cpp:132:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  132 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82a.cpp:149:5: warning: delete called on 'CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82::CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+  149 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_83_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_83_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_83_bad.cpp:42:10: error: 'process.h' file not found [clang-diagnostic-error]
+   42 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_52a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_31.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_31.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_31.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_43.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_43.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_43.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_16.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_16.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_34.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_34.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_68b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_68b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_68b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_10.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_10.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_64b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_64b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_64b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53d.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53d.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53d.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_33.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_33.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_33.cpp:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_52a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_61b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_61b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_61b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_51b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_51b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_51b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_84_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_83_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_83_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_83_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_63a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_63a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_63a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_18.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_18.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_81_bad.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_81_bad.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_81_bad.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_53c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_81_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_81_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_81_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54c.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54c.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_54c.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_02.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_02.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_22b.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_22b.c:91:17: warning: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_22b.c:91:17: note: Call to function 'memset' is insecure as it does not provide security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'memset_s' in case of C11
+   91 |                 memset(&service, 0, sizeof(service));
+      |                 ^~~~~~
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_17.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_17.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_13.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_13.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_74b.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_74b.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_74b.cpp:37:10: error: 'process.h' file not found [clang-diagnostic-error]
+   37 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_68a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_68a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_68a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_06.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_06.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_18.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_18.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_04.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_04.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_08.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_08.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_63b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_63b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_63b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_21.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_21.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_15.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_15.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_04.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnv_04.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_21.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_21.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_21.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_84_goodG2B.cpp =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_84_goodG2B.cpp.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_84_goodG2B.cpp:21:10: error: 'process.h' file not found [clang-diagnostic-error]
+   21 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_05.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_05.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52b.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52b.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_52b.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_34.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_34.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_34.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_05.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_05.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_14.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnvp_14.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_51a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_51a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_51a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_spawnlp_54a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53a.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53a.c.
+/home/jip/input/C/testcases/CWE78_OS_Command_Injection/s09/CWE78_OS_Command_Injection__wchar_t_listen_socket_w32_execv_53a.c:56:10: error: 'process.h' file not found [clang-diagnostic-error]
+   56 | #include <process.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

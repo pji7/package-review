@@ -1,0 +1,256 @@
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_01.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_10.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_17.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_04.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_10.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_08.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_17.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_01.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_18.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_13.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_13.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_10.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_01.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_15.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_06.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_06.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_03.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_08.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_08.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_05.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_13.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_05.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_09.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_09.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_15.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_06.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_13.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_12.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_10.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_10.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_02.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_11.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_14.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_08.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_09.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_16.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_04.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_14.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_08.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_09.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_02.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_04.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_16.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_01.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_01.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_02.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_02.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_07.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_17.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_17.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_03.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_17.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_12.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_12.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_16.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_16.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_09.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_07.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_07.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_12.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_16.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_02.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_15.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_18.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_07.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_07.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_12.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_11.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_15.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_15.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_11.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_11.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_06.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_13.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_03.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_04.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_04.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_06.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_18.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_18.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_11.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__time_05.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_14.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_14.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__rand_14.c =====
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_03.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_03.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_05.c.
+/home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__w32CompareFileTime_05.c:25:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   25 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE511_Logic_Time_Bomb/CWE511_Logic_Time_Bomb__counter_18.c =====

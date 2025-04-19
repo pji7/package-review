@@ -1,0 +1,585 @@
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c:27:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c:27:5: note: Value stored to 'data' is never read
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c:50:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   50 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54a.c:50:5: note: Value stored to 'data' is never read
+   50 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c:37:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   37 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c:37:5: note: Value stored to 'data' is never read
+   37 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c:70:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   70 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_41.c:70:5: note: Value stored to 'data' is never read
+   70 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c:29:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   29 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c:29:5: note: Value stored to 'data' is never read
+   29 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c:53:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   53 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_65a.c:53:5: note: Value stored to 'data' is never read
+   53 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c:31:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   31 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c:31:5: note: Value stored to 'data' is never read
+   31 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c:64:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   64 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_34.c:64:5: note: Value stored to 'data' is never read
+   64 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp:34:5: note: Value stored to 'data' is never read
+   34 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp:63:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   63 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73a.cpp:63:5: note: Value stored to 'data' is never read
+   63 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_18.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_18.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_18.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_18.c:54:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   54 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_18.c:54:5: note: Value stored to 'data' is never read
+   54 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_17.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp:34:5: note: Value stored to 'data' is never read
+   34 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp:63:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   63 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72a.cpp:63:5: note: Value stored to 'data' is never read
+   63 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c:27:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c:27:5: note: Value stored to 'data' is never read
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c:50:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   50 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51a.c:50:5: note: Value stored to 'data' is never read
+   50 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_11.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp:28:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp:28:5: note: Value stored to 'data' is never read
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp:39:5: warning: delete called on 'CWE464_Addition_of_Data_Structure_Sentinel__basic_82::CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   39 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp:50:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   50 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp:50:5: note: Value stored to 'data' is never read
+   50 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82a.cpp:55:5: warning: delete called on 'CWE464_Addition_of_Data_Structure_Sentinel__basic_82::CWE464_Addition_of_Data_Structure_Sentinel__basic_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   55 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_43.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_10.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_14.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_61b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_22b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c:28:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c:28:5: note: Value stored to 'data' is never read
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c:59:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   59 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c:59:5: note: Value stored to 'data' is never read
+   59 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c:85:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   85 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_06.c:85:5: note: Value stored to 'data' is never read
+   85 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_15.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_15.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_15.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_15.c:61:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   61 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_15.c:61:5: note: Value stored to 'data' is never read
+   61 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_15.c:88:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   88 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_15.c:88:5: note: Value stored to 'data' is never read
+   88 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_16.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_16.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_16.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_16.c:56:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   56 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_16.c:56:5: note: Value stored to 'data' is never read
+   56 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c:52:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   52 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_01.c:52:5: note: Value stored to 'data' is never read
+   52 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c:55:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   55 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c:55:5: note: Value stored to 'data' is never read
+   55 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c:81:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   81 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_03.c:81:5: note: Value stored to 'data' is never read
+   81 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c:61:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   61 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_12.c:61:5: note: Value stored to 'data' is never read
+   61 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp:28:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp:28:5: note: Value stored to 'data' is never read
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp:49:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   49 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_81a.cpp:49:5: note: Value stored to 'data' is never read
+   49 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c:56:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   56 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_31.c:56:5: note: Value stored to 'data' is never read
+   56 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c:39:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   39 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c:39:5: note: Value stored to 'data' is never read
+   39 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c:74:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   74 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_44.c:74:5: note: Value stored to 'data' is never read
+   74 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_21.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c:28:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c:28:5: note: Value stored to 'data' is never read
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c:53:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   53 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_66a.c:53:5: note: Value stored to 'data' is never read
+   53 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp:34:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   34 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp:34:5: note: Value stored to 'data' is never read
+   34 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp:63:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   63 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74a.cpp:63:5: note: Value stored to 'data' is never read
+   63 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_61a.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_22a.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_08.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_09.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c:27:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c:27:5: note: Value stored to 'data' is never read
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c:50:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   50 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53a.c:50:5: note: Value stored to 'data' is never read
+   50 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c:33:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   33 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c:33:5: note: Value stored to 'data' is never read
+   33 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c:57:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   57 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_67a.c:57:5: note: Value stored to 'data' is never read
+   57 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_05.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:28:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:28:5: note: Value stored to 'data' is never read
+   28 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:35:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   35 |         data = (char)atoi(charArraySource);
+      |         ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:35:9: note: Value stored to 'data' is never read
+   35 |         data = (char)atoi(charArraySource);
+      |         ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:60:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   60 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:60:5: note: Value stored to 'data' is never read
+   60 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:62:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   62 |     data = 'a';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_33.cpp:62:5: note: Value stored to 'data' is never read
+   62 |     data = 'a';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c:27:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c:27:5: note: Value stored to 'data' is never read
+   27 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c:50:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   50 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_52a.c:50:5: note: Value stored to 'data' is never read
+   50 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c:30:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   30 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c:30:5: note: Value stored to 'data' is never read
+   30 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c:54:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   54 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_68a.c:54:5: note: Value stored to 'data' is never read
+   54 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_84_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_42.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_02.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_02.c:24:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_02.c:24:5: note: Value stored to 'data' is never read
+   24 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_02.c:55:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   55 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_02.c:55:5: note: Value stored to 'data' is never read
+   55 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_02.c:81:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   81 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_02.c:81:5: note: Value stored to 'data' is never read
+   81 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c:41:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   41 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c:41:5: note: Value stored to 'data' is never read
+   41 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c:76:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   76 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_45.c:76:5: note: Value stored to 'data' is never read
+   76 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_07.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_62a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_13.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_04.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_04.c:31:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   31 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_04.c:31:5: note: Value stored to 'data' is never read
+   31 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_04.c:62:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   62 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_04.c:62:5: note: Value stored to 'data' is never read
+   62 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_04.c:88:5: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   88 |     data = ' ';
+      |     ^      ~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_04.c:88:5: note: Value stored to 'data' is never read
+   88 |     data = ' ';
+      |     ^      ~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c:28:14: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   28 |         char data = *dataPtr1;
+      |              ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c:28:14: note: Value stored to 'data' during its initialization is never read
+   28 |         char data = *dataPtr1;
+      |              ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c:65:14: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   65 |         char data = *dataPtr1;
+      |              ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_32.c:65:14: note: Value stored to 'data' during its initialization is never read
+   65 |         char data = *dataPtr1;
+      |              ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE464_Addition_of_Data_Structure_Sentinel/CWE464_Addition_of_Data_Structure_Sentinel__basic_64b.c =====

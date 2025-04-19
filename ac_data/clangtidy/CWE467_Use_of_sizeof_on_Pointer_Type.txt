@@ -1,0 +1,490 @@
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:32:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   32 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_06.c:32:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   32 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_13.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:28:29: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   28 |         badShort = (short *)malloc(sizeof(badShort));
+      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_15.c:28:29: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   28 |         badShort = (short *)malloc(sizeof(badShort));
+      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_16.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:28:25: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   28 |         badInt = (int *)malloc(sizeof(badInt));
+      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_15.c:28:25: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   28 |         badInt = (int *)malloc(sizeof(badInt));
+      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_12.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_12.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:33:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   33 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_05.c:33:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   33 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:25:25: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   25 |         badInt = (int *)malloc(sizeof(badInt));
+      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_01.c:25:25: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   25 |         badInt = (int *)malloc(sizeof(badInt));
+      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:28:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   28 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_17.c:28:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   28 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:33:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   33 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_04.c:33:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   33 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_09.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_14.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:25:29: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   25 |         badShort = (short *)malloc(sizeof(badShort));
+      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_01.c:25:29: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   25 |         badShort = (short *)malloc(sizeof(badShort));
+      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:33:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   33 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_05.c:33:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   33 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:32:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   32 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_07.c:32:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   32 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_12.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_13.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:28:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   28 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_17.c:28:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   28 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_09.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:32:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   32 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_06.c:32:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   32 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_03.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_14.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_02.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:32:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   32 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_07.c:32:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   32 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_11.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_16.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:27:25: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |         badInt = (int *)malloc(sizeof(badInt));
+      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_18.c:27:25: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |         badInt = (int *)malloc(sizeof(badInt));
+      |                   ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_11.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:33:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   33 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_04.c:33:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   33 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:40:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   40 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_08.c:40:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   40 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:28:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   28 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_17.c:28:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   28 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:32:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   32 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_07.c:32:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   32 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_11.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:32:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   32 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_06.c:32:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   32 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_16.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_14.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_03.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |         badShort = (short *)malloc(sizeof(badShort));
+      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_18.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |         badShort = (short *)malloc(sizeof(badShort));
+      |                     ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:28:27: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   28 |         badChar = (char *)malloc(sizeof(badChar));
+      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_15.c:28:27: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   28 |         badChar = (char *)malloc(sizeof(badChar));
+      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:25:27: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   25 |         badChar = (char *)malloc(sizeof(badChar));
+      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_01.c:25:27: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   25 |         badChar = (char *)malloc(sizeof(badChar));
+      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_10.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_02.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_09.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_02.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:33:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   33 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_04.c:33:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   33 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:40:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   40 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_08.c:40:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   40 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_03.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:27:27: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |         badChar = (char *)malloc(sizeof(badChar));
+      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_18.c:27:27: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |         badChar = (char *)malloc(sizeof(badChar));
+      |                    ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:40:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   40 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_08.c:40:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   40 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:27:31: warning: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__char_10.c:27:31: note: Result of 'malloc' is converted to a pointer of type 'char', which is incompatible with sizeof operand type 'char *'
+   27 |             badChar = (char *)malloc(sizeof(badChar));
+      |                        ~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:27:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_10.c:27:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   27 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:33:29: warning: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *' [clang-analyzer-unix.MallocSizeof]
+   33 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__int_05.c:33:29: note: Result of 'malloc' is converted to a pointer of type 'int', which is incompatible with sizeof operand type 'int *'
+   33 |             badInt = (int *)malloc(sizeof(badInt));
+      |                       ~~~~~ ^~~~~~ ~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:27:33: warning: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *' [clang-analyzer-unix.MallocSizeof]
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE467_Use_of_sizeof_on_Pointer_Type/CWE467_Use_of_sizeof_on_Pointer_Type__short_13.c:27:33: note: Result of 'malloc' is converted to a pointer of type 'short', which is incompatible with sizeof operand type 'short *'
+   27 |             badShort = (short *)malloc(sizeof(badShort));
+      |                         ~~~~~~~ ^~~~~~ ~~~~~~~~~~~~~~~~

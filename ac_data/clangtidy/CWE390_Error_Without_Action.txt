@@ -1,0 +1,988 @@
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_06.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_17.c:33:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   33 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_17.c:23:5: note: Loop condition is true.  Entering loop body
+   23 |     for(j = 0; j < 1; j++)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_17.c:27:13: note: Value assigned to 'fileDesc'
+   27 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_17.c:29:17: note: Assuming 'fileDesc' is equal to NULL
+   29 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_17.c:29:13: note: Taking true branch
+   29 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_17.c:33:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   33 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_04.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c:37:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   37 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c:27:8: note: Assuming 'staticFive' is equal to 5
+   27 |     if(staticFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c:27:5: note: Taking true branch
+   27 |     if(staticFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c:31:13: note: Value assigned to 'fileDesc'
+   31 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c:33:17: note: Assuming 'fileDesc' is equal to NULL
+   33 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c:33:13: note: Taking true branch
+   33 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_07.c:37:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   37 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c:22:8: note: Assuming 'GLOBAL_CONST_FIVE' is equal to 5
+   22 |     if(GLOBAL_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c:22:5: note: Taking true branch
+   22 |     if(GLOBAL_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_13.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_03.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_02.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_02.c:22:5: note: Taking true branch
+   22 |     if(1)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_02.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_02.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_02.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_02.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_01.c =====
+2 warnings and 2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_01.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_01.c:29:13: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   29 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_01.c:29:13: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_01.c:29:38: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   29 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_01.c:50:13: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   50 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_01.c:50:38: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   50 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c:61:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c:61:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c:83:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_13.c:83:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c:22:8: note: Assuming 'GLOBAL_CONST_TRUE' is not equal to 0
+   22 |     if(GLOBAL_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c:22:5: note: Taking true branch
+   22 |     if(GLOBAL_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_09.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_14.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_10.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c:37:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   37 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c:37:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c:37:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   37 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c:67:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   67 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c:67:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   67 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c:89:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   89 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_04.c:89:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   89 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_07.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c:44:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   44 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c:44:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c:44:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   44 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c:74:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   74 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c:74:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   74 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c:96:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   96 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_08.c:96:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   96 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_05.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_04.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_13.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_15.c:33:9: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   33 |         fclose(fileDesc);
+      |         ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_15.c:22:5: note: Control jumps to 'case 6:'  at line 24
+   22 |     switch(6)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_15.c:27:9: note: Value assigned to 'fileDesc'
+   27 |         fileDesc = fopen("file.txt", "w+");
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_15.c:29:13: note: Assuming 'fileDesc' is equal to NULL
+   29 |         if (fileDesc == NULL)
+      |             ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_15.c:29:9: note: Taking true branch
+   29 |         if (fileDesc == NULL)
+      |         ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_15.c:33:9: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   33 |         fclose(fileDesc);
+      |         ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c:37:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   37 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c:27:8: note: 'STATIC_CONST_FIVE' is equal to 5
+   27 |     if(STATIC_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c:27:5: note: Taking true branch
+   27 |     if(STATIC_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c:31:13: note: Value assigned to 'fileDesc'
+   31 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c:33:17: note: Assuming 'fileDesc' is equal to NULL
+   33 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c:33:13: note: Taking true branch
+   33 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_06.c:37:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   37 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_17.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_12.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_09.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_17.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_11.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_06.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c:22:8: note: Assuming the condition is true
+   22 |     if(globalReturnsTrueOrFalse())
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c:22:5: note: Taking true branch
+   22 |     if(globalReturnsTrueOrFalse())
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_12.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c:61:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c:61:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c:83:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_11.c:83:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_01.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_17.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_10.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_14.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c:61:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c:61:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c:83:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_10.c:83:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_01.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_11.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_18.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_11.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_08.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c:32:13: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c:32:13: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c:32:38: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   32 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c:67:13: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   67 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c:67:38: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   67 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c:91:13: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   91 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_15.c:91:38: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   91 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c:22:8: note: Assuming the condition is true
+   22 |     if(globalReturnsTrue())
+      |        ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c:22:5: note: Taking true branch
+   22 |     if(globalReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_11.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_07.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_16.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c:61:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c:61:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c:83:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_09.c:83:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_08.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_09.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_12.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c:22:8: note: Assuming 'globalFive' is equal to 5
+   22 |     if(globalFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c:22:5: note: Taking true branch
+   22 |     if(globalFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_14.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_17.c =====
+2 warnings and 2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_17.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_17.c:32:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   32 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_17.c:32:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_17.c:32:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   32 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_17.c:58:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   58 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_17.c:58:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   58 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_02.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c:61:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c:61:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c:83:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_03.c:83:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_08.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c:22:8: note: Assuming 'globalTrue' is not equal to 0
+   22 |     if(globalTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c:22:5: note: Taking true branch
+   22 |     if(globalTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_10.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c:38:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   38 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c:28:8: note: 'STATIC_CONST_TRUE' is 1
+   28 |     if(STATIC_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c:28:5: note: Taking true branch
+   28 |     if(STATIC_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c:32:13: note: Value assigned to 'fileDesc'
+   32 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c:34:17: note: Assuming 'fileDesc' is equal to NULL
+   34 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c:34:13: note: Taking true branch
+   34 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_04.c:38:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   38 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_18.c:32:9: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |         fclose(fileDesc);
+      |         ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_18.c:22:5: note: Control jumps to line 25
+   22 |     goto sink;
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_18.c:26:9: note: Value assigned to 'fileDesc'
+   26 |         fileDesc = fopen("file.txt", "w+");
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_18.c:28:13: note: Assuming 'fileDesc' is equal to NULL
+   28 |         if (fileDesc == NULL)
+      |             ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_18.c:28:9: note: Taking true branch
+   28 |         if (fileDesc == NULL)
+      |         ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_18.c:32:9: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |         fclose(fileDesc);
+      |         ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c:36:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   36 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c:36:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c:36:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   36 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c:66:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   66 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c:66:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   66 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c:88:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   88 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_07.c:88:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   88 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c =====
+4 warnings and 4 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:47:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   47 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:47:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   47 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:73:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   73 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:73:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   73 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:90:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   90 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_12.c:90:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   90 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_16.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_16.c =====
+2 warnings and 2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_16.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_16.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_16.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_16.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_16.c:57:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   57 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_16.c:57:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   57 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_04.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_03.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_14.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c:22:8: note: 5 is equal to 5
+   22 |     if(5==5)
+      |        ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c:22:5: note: Taking true branch
+   22 |     if(5==5)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_03.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_07.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_18.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_15.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_09.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c:36:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   36 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c:36:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c:36:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   36 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c:66:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   66 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c:66:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   66 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c:88:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   88 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_06.c:88:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   88 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_16.c:32:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_16.c:22:5: note: Loop condition is true.  Entering loop body
+   22 |     while(1)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_16.c:26:13: note: Value assigned to 'fileDesc'
+   26 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_16.c:28:17: note: Assuming 'fileDesc' is equal to NULL
+   28 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_16.c:28:13: note: Taking true branch
+   28 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_16.c:32:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   32 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_13.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_01.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_03.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_12.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_18.c =====
+2 warnings and 2 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_18.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_18.c:31:13: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_18.c:31:13: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_18.c:31:38: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_18.c:55:13: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   55 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_18.c:55:38: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   55 |         if (fgetws(data, 100, stdin) == NULL)
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_13.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_02.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_05.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_02.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c:61:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c:61:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c:83:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_02.c:83:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c:38:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   38 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c:28:8: note: Assuming 'staticTrue' is not equal to 0
+   28 |     if(staticTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c:28:5: note: Taking true branch
+   28 |     if(staticTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c:32:13: note: Value assigned to 'fileDesc'
+   32 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c:34:17: note: Assuming 'fileDesc' is equal to NULL
+   34 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c:34:13: note: Taking true branch
+   34 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_05.c:38:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   38 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_06.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_10.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c:37:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   37 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c:37:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c:37:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   37 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c:67:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   67 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c:67:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   67 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c:89:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   89 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_05.c:89:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   89 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_18.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_char_15.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_16.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__sqrt_05.c =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c =====
+3 warnings and 3 errors generated.
+Error while processing /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c:31:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c:31:17: note: did you mean 'fgets'?
+/usr/include/stdio.h:654:14: note: 'fgets' declared here
+  654 | extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+      |              ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c:31:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   31 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c:61:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c:61:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   61 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c:83:17: error: call to undeclared function 'fgetws'; ISO C99 and later do not support implicit function declarations [clang-diagnostic-implicit-function-declaration]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fgets_wchar_t_14.c:83:42: warning: comparison between pointer and integer ('int' and 'void *') [clang-diagnostic-pointer-integer-compare]
+   83 |             if (fgetws(data, 100, stdin) == NULL)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~ ^
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__empty_catch_15.cpp =====
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_01.c:30:9: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   30 |         fclose(fileDesc);
+      |         ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_01.c:24:9: note: Value assigned to 'fileDesc'
+   24 |         fileDesc = fopen("file.txt", "w+");
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_01.c:26:13: note: Assuming 'fileDesc' is equal to NULL
+   26 |         if (fileDesc == NULL)
+      |             ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_01.c:26:9: note: Taking true branch
+   26 |         if (fileDesc == NULL)
+      |         ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_01.c:30:9: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   30 |         fclose(fileDesc);
+      |         ^      ~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_08.c:45:13: warning: Null pointer passed to 1st parameter expecting 'nonnull' [clang-analyzer-core.NonNullParamChecker]
+   45 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_08.c:35:5: note: Taking true branch
+   35 |     if(staticReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_08.c:39:13: note: Value assigned to 'fileDesc'
+   39 |             fileDesc = fopen("file.txt", "w+");
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_08.c:41:17: note: Assuming 'fileDesc' is equal to NULL
+   41 |             if (fileDesc == NULL)
+      |                 ^~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_08.c:41:13: note: Taking true branch
+   41 |             if (fileDesc == NULL)
+      |             ^
+/home/jip/input/C/testcases/CWE390_Error_Without_Action/CWE390_Error_Without_Action__fopen_08.c:45:13: note: Null pointer passed to 1st parameter expecting 'nonnull'
+   45 |             fclose(fileDesc);
+      |             ^      ~~~~~~~~

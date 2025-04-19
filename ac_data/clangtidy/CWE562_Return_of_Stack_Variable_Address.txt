@@ -1,0 +1,58 @@
+
+===== /home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_local_class_member_01.cpp =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_local_class_member_01.cpp:38:5: warning: Address of stack memory associated with local variable 'HelperClass' returned to caller [clang-analyzer-core.StackAddressEscape]
+   38 |     return HelperClass.getIntArray(); /* this may generate a warning -- it's on purpose */
+      |     ^
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_local_class_member_01.cpp:43:19: note: Calling 'helperBad'
+   43 |     printIntLine(*helperBad());
+      |                   ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_local_class_member_01.cpp:38:5: note: Address of stack memory associated with local variable 'HelperClass' returned to caller
+   35 |     HelperClass HelperClass;
+      |     ~~~~~~~~~~~~~~~~~~~~~~~
+   36 | 
+   37 |     /* FLAW: returning stack-allocated buffer */
+   38 |     return HelperClass.getIntArray(); /* this may generate a warning -- it's on purpose */
+      |     ^      ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:17:5: warning: Address of stack memory associated with local variable 'charString' returned to caller [clang-analyzer-core.StackAddressEscape]
+   17 |     return charString; /* this may generate a warning -- it's on purpose */
+      |     ^
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:22:15: note: Calling 'helperBad'
+   22 |     printLine(helperBad());
+      |               ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:17:5: note: Address of stack memory associated with local variable 'charString' returned to caller
+   14 |     char charString[] = "helperBad string";
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   15 | 
+   16 |     /* FLAW: returning stack-allocated buffer */
+   17 |     return charString; /* this may generate a warning -- it's on purpose */
+      |     ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_buf_01.c:17:12: warning: address of stack memory associated with local variable 'charString' returned [clang-diagnostic-return-stack-address]
+   17 |     return charString; /* this may generate a warning -- it's on purpose */
+      |            ^~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:20:5: warning: Address of stack memory associated with local variable 'charString' returned to caller [clang-analyzer-core.StackAddressEscape]
+   20 |     return ptrCharString; /* this may generate a warning -- it's on purpose */
+      |     ^
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:25:15: note: Calling 'helperBad'
+   25 |     printLine(helperBad());
+      |               ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE562_Return_of_Stack_Variable_Address/CWE562_Return_of_Stack_Variable_Address__return_pointer_buf_01.c:20:5: note: Address of stack memory associated with local variable 'charString' returned to caller
+   14 |     char charString[] = "helperBad string";
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   15 |     char *ptrCharString;
+   16 | 
+   17 |     ptrCharString = &charString[1];
+   18 | 
+   19 |     /* FLAW: returning stack-allocated buffer */
+   20 |     return ptrCharString; /* this may generate a warning -- it's on purpose */
+      |     ^      ~~~~~~~~~~~~~

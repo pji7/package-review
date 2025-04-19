@@ -1,0 +1,16 @@
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__do_true_01.c =====
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__while_01.c =====
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_01.c =====
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__do_01.c =====
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__for_empty_01.c =====
+
+===== /home/jip/input/C/testcases/CWE835_Infinite_Loop/CWE835_Infinite_Loop__while_true_01.c =====

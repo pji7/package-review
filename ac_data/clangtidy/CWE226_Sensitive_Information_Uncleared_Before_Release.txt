@@ -1,0 +1,578 @@
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_09.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_17.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_06.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_03.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_08.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_03.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_15.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_06.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_02.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_02.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_02.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_01.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_12.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_18.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_05.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_11.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_15.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_01.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_17.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_10.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_04.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_07.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_06.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_01.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_06.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_08.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_14.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_18.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_08.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_13.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_15.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_12.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_13.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_10.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_01.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_04.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_09.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_11.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_11.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_07.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_15.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_14.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_14.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_12.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_03.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_02.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_16.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_16.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_10.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_07.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_04.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_09.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_11.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_16.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_17.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_13.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_18.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_05.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_03.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_05.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_18.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_10.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_14.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_declare_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_07.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_17.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_12.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_16.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_04.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_05.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_wchar_t_alloca_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_09.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_alloca_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_13.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_08.c.
+/home/jip/input/C/testcases/CWE226_Sensitive_Information_Uncleared_Before_Release/CWE226_Sensitive_Information_Uncleared_Before_Release__w32_char_declare_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

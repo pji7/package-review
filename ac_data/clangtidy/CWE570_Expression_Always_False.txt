@@ -1,0 +1,36 @@
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__n_equal_n_minus_one_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__global_const_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__zero_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__static_const_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__static_const_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__static_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__n_less_int_min_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__unsigned_int_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__global_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__global_return_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__two_equals_three_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__global_const_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__static_return_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__global_five_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__string_equals_01.c =====
+
+===== /home/jip/input/C/testcases/CWE570_Expression_Always_False/CWE570_Expression_Always_False__static_01.c =====

@@ -1,0 +1,418 @@
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c:53:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c:53:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c:67:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_02.c:67:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_18.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_18.c:30:9: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_18.c:30:9: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_18.c:30:28: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |                           ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_18.c:47:9: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   47 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_18.c:47:9: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   47 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c =====
+5 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:39:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   39 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:39:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   39 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:57:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   57 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:57:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   57 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:66:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   66 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_12.c:66:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   66 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_17.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_17.c:31:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_17.c:31:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   31 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_17.c:31:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   31 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_17.c:50:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   50 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_17.c:50:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   50 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c:53:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c:53:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c:67:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_03.c:67:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c:28:9: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   28 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c:28:9: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   28 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c:28:28: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   28 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |                           ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c:42:9: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   42 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_01.c:42:9: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   42 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c:53:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c:53:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c:67:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_10.c:67:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c:53:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c:53:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c:67:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_13.c:67:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c:31:9: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   31 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c:31:9: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   31 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c:31:28: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   31 |         sprintf(dest, "%s %s", SOURCE_STRING);
+      |                           ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c:59:9: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   59 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c:59:9: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   59 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c:75:9: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   75 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_15.c:75:9: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   75 |         sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |         ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_16.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_16.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_16.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_16.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_16.c:49:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   49 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_16.c:49:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   49 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c:36:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   36 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c:36:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   36 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c:36:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   36 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c:59:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   59 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c:59:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   59 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c:73:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   73 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_05.c:73:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   73 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c:35:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   35 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c:35:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   35 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c:35:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   35 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c:58:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   58 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c:58:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   58 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c:72:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_07.c:72:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   72 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c:53:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c:53:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c:67:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_09.c:67:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c:35:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   35 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c:35:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   35 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c:35:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   35 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c:58:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   58 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c:58:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   58 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c:72:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   72 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_06.c:72:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   72 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c:53:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c:53:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c:67:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_14.c:67:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c:36:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   36 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c:36:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   36 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c:36:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   36 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c:59:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   59 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c:59:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   59 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c:73:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   73 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_04.c:73:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   73 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c:30:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c:30:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c:30:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   30 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c:53:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c:53:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   53 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c:67:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11.c:67:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   67 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+
+===== /home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c =====
+4 warnings generated.
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c:43:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   43 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c:43:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   43 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c:43:32: warning: more '%' conversions than data arguments [clang-diagnostic-format-insufficient-args]
+   43 |             sprintf(dest, "%s %s", SOURCE_STRING);
+      |                               ~^
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c:66:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   66 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c:66:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   66 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c:80:13: warning: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11 [clang-analyzer-security.insecureAPI.DeprecatedOrUnsafeBufferHandling]
+   80 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~
+/home/jip/input/C/testcases/CWE685_Function_Call_With_Incorrect_Number_of_Arguments/CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_08.c:80:13: note: Call to function 'sprintf' is insecure as it does not provide bounding of the memory buffer or security checks introduced in the C11 standard. Replace with analogous functions that support length arguments or provides boundary checks such as 'sprintf_s' in case of C11
+   80 |             sprintf(dest, "%s %s", SOURCE_STRING, SOURCE_STRING);
+      |             ^~~~~~~

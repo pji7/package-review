@@ -1,0 +1,434 @@
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_02.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_03.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_05.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_10.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_11.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_14.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_07.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_04.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_01.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_13.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_03.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_13.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_03.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_15.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_01.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_02.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_17.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_11.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_10.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_16.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_18.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_12.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_04.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_08.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_17.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_04.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_17.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_10.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_18.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_15.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_09.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_18.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_02.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_09.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_07.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_08.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_14.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_15.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_16.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_14.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_05.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_12.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_01.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_07.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_12.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_RC5_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_09.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_11.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_3DES_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_08.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_05.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_13.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_16.c.
+/home/jip/input/C/testcases/CWE327_Use_Broken_Crypto/CWE327_Use_Broken_Crypto__w32_DES_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

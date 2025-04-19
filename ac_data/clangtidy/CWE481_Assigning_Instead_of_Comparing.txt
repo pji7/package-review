@@ -1,0 +1,472 @@
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_09.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c:25:13: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |         int intRand = rand();
+      |             ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c:25:13: note: Value stored to 'intRand' during its initialization is never read
+   25 |         int intRand = rand();
+      |             ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c:27:12: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |         if(intRand = 5)
+      |            ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c:27:12: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |         if(intRand = 5)
+      |            ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c:27:20: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |         if(intRand = 5)
+      |            ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c:27:20: note: place parentheses around the assignment to silence this warning
+   27 |         if(intRand = 5)
+      |                    ^  
+      |            (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_18.c:27:20: note: use '==' to turn this assignment into an equality comparison
+   27 |         if(intRand = 5)
+      |                    ^
+      |                    ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_10.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c:26:13: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   26 |         int intRand = rand();
+      |             ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c:26:13: note: Value stored to 'intRand' during its initialization is never read
+   26 |         int intRand = rand();
+      |             ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c:28:12: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   28 |         if(intRand = 5)
+      |            ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c:28:12: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   28 |         if(intRand = 5)
+      |            ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c:28:20: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   28 |         if(intRand = 5)
+      |            ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c:28:20: note: place parentheses around the assignment to silence this warning
+   28 |         if(intRand = 5)
+      |                    ^  
+      |            (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_15.c:28:20: note: use '==' to turn this assignment into an equality comparison
+   28 |         if(intRand = 5)
+      |                    ^
+      |                    ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_03.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c:30:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c:30:17: note: Value stored to 'intRand' during its initialization is never read
+   30 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c:32:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   32 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c:32:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   32 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c:32:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   32 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c:32:24: note: place parentheses around the assignment to silence this warning
+   32 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_07.c:32:24: note: use '==' to turn this assignment into an equality comparison
+   32 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c:30:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c:30:17: note: Value stored to 'intRand' during its initialization is never read
+   30 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c:32:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   32 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c:32:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   32 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c:32:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   32 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c:32:24: note: place parentheses around the assignment to silence this warning
+   32 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_06.c:32:24: note: use '==' to turn this assignment into an equality comparison
+   32 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_14.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_13.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c:31:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   31 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c:31:17: note: Value stored to 'intRand' during its initialization is never read
+   31 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c:33:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   33 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c:33:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   33 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c:33:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   33 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c:33:24: note: place parentheses around the assignment to silence this warning
+   33 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_05.c:33:24: note: use '==' to turn this assignment into an equality comparison
+   33 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c:31:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   31 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c:31:17: note: Value stored to 'intRand' during its initialization is never read
+   31 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c:33:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   33 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c:33:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   33 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c:33:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   33 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c:33:24: note: place parentheses around the assignment to silence this warning
+   33 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_04.c:33:24: note: use '==' to turn this assignment into an equality comparison
+   33 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c:23:13: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   23 |         int intRand = rand();
+      |             ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c:23:13: note: Value stored to 'intRand' during its initialization is never read
+   23 |         int intRand = rand();
+      |             ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c:25:12: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   25 |         if(intRand = 5)
+      |            ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c:25:12: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   25 |         if(intRand = 5)
+      |            ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c:25:20: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   25 |         if(intRand = 5)
+      |            ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c:25:20: note: place parentheses around the assignment to silence this warning
+   25 |         if(intRand = 5)
+      |                    ^  
+      |            (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_01.c:25:20: note: use '==' to turn this assignment into an equality comparison
+   25 |         if(intRand = 5)
+      |                    ^
+      |                    ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_12.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_02.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c:26:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   26 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c:26:17: note: Value stored to 'intRand' during its initialization is never read
+   26 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c:28:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   28 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c:28:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   28 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c:28:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   28 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c:28:24: note: place parentheses around the assignment to silence this warning
+   28 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_17.c:28:24: note: use '==' to turn this assignment into an equality comparison
+   28 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_16.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c:38:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   38 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c:38:17: note: Value stored to 'intRand' during its initialization is never read
+   38 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c:40:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   40 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c:40:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   40 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c:40:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   40 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c:40:24: note: place parentheses around the assignment to silence this warning
+   40 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_08.c:40:24: note: use '==' to turn this assignment into an equality comparison
+   40 |             if(intRand = 5)
+      |                        ^
+      |                        ==
+
+===== /home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c:25:17: warning: Value stored to 'intRand' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c:25:17: note: Value stored to 'intRand' during its initialization is never read
+   25 |             int intRand = rand();
+      |                 ^~~~~~~   ~~~~~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c:27:16: warning: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand' [clang-analyzer-deadcode.DeadStores]
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c:27:16: note: Although the value stored to 'intRand' is used in the enclosing expression, the value is never actually read from 'intRand'
+   27 |             if(intRand = 5)
+      |                ^         ~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c:27:24: warning: using the result of an assignment as a condition without parentheses [clang-diagnostic-parentheses]
+   27 |             if(intRand = 5)
+      |                ~~~~~~~~^~~
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c:27:24: note: place parentheses around the assignment to silence this warning
+   27 |             if(intRand = 5)
+      |                        ^  
+      |                (          )
+/home/jip/input/C/testcases/CWE481_Assigning_Instead_of_Comparing/CWE481_Assigning_Instead_of_Comparing__basic_11.c:27:24: note: use '==' to turn this assignment into an equality comparison
+   27 |             if(intRand = 5)
+      |                        ^
+      |                        ==

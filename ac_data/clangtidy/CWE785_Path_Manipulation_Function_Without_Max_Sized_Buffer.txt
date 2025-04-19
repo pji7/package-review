@@ -1,0 +1,146 @@
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_03.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_03.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_06.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_06.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_07.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_07.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_11.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_11.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_10.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_10.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_05.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_05.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_08.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_08.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_12.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_12.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_14.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_14.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_09.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_09.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_02.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_02.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_01.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_01.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_13.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_13.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_17.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_17.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_04.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_04.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_16.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_16.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_18.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_18.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_15.c.
+/home/jip/input/C/testcases/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer/CWE785_Path_Manipulation_Function_Without_Max_Sized_Buffer__w32_15.c:18:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   18 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

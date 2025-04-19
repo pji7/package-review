@@ -1,0 +1,2336 @@
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_32.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_32.c:30:25: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_32.c:30:25: note: Value stored to 'data' during its initialization is never read
+   30 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_32.c:66:25: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   66 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_32.c:66:25: note: Value stored to 'data' during its initialization is never read
+   66 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_01.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_01.c:36:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   36 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_01.c:36:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   36 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_64b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_05.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_34.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_34.c:74:9: warning: Potential leak of memory pointed to by 'myUnion.unionFirst' [clang-analyzer-unix.Malloc]
+   74 |         wchar_t * data = myUnion.unionSecond;
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_34.c:83:5: note: Calling 'goodG2B'
+   83 |     goodG2B();
+      |     ^~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_34.c:62:43: note: Memory is allocated
+   62 |         wchar_t * dataBuffer = (wchar_t *)malloc(100*sizeof(wchar_t));
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_34.c:63:13: note: Assuming 'dataBuffer' is not equal to NULL
+   63 |         if (dataBuffer == NULL)
+      |             ^~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_34.c:63:9: note: Taking false branch
+   63 |         if (dataBuffer == NULL)
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_34.c:74:9: note: Potential leak of memory pointed to by 'myUnion.unionFirst'
+   74 |         wchar_t * data = myUnion.unionSecond;
+      |         ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_09.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_10.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82a.cpp:44:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82::CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   44 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82a.cpp:76:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82::CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   76 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_41.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_13.c:39:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_13.c:27:8: note: Assuming 'GLOBAL_CONST_FIVE' is equal to 5
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_13.c:27:5: note: Taking true branch
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_13.c:39:5: note: Memory allocated by alloca() should not be deallocated
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_45.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_07.c:45:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   45 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_07.c:33:8: note: Assuming 'staticFive' is equal to 5
+   33 |     if(staticFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_07.c:33:5: note: Taking true branch
+   33 |     if(staticFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_07.c:45:5: note: Memory allocated by alloca() should not be deallocated
+   45 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82a.cpp:44:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82::CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   44 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82a.cpp:76:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82::CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   76 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_15.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_12.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_03.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_18.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_03.c:39:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_03.c:27:8: note: 5 is equal to 5
+   27 |     if(5==5)
+      |        ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_03.c:27:5: note: Taking true branch
+   27 |     if(5==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_03.c:39:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_45.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_53a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_17.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_17.c:40:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   40 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_17.c:28:5: note: Loop condition is true.  Entering loop body
+   28 |     for(i = 0; i < 1; i++)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_17.c:28:5: note: Loop condition is false. Execution continues on line 38
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_17.c:40:5: note: Memory allocated by alloca() should not be deallocated
+   40 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_05.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_08.c:53:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   53 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_08.c:41:5: note: Taking true branch
+   41 |     if(staticReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_08.c:53:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   53 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_64b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32.c:30:19: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32.c:30:19: note: Value stored to 'data' during its initialization is never read
+   30 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32.c:44:9: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   44 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32.c:44:9: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   44 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32.c:60:19: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   60 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_32.c:60:19: note: Value stored to 'data' during its initialization is never read
+   60 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_09.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_06.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_07.c:45:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   45 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_07.c:33:8: note: Assuming 'staticFive' is equal to 5
+   33 |     if(staticFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_07.c:33:5: note: Taking true branch
+   33 |     if(staticFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_07.c:45:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   45 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_02.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_32.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_32.c:30:25: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_32.c:30:25: note: Value stored to 'data' during its initialization is never read
+   30 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_32.c:66:25: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   66 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_32.c:66:25: note: Value stored to 'data' during its initialization is never read
+   66 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_09.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_06.c:43:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   43 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_06.c:31:8: note: 'STATIC_CONST_FIVE' is equal to 5
+   31 |     if(STATIC_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_06.c:31:5: note: Taking true branch
+   31 |     if(STATIC_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_06.c:43:5: note: Memory allocated by alloca() should not be deallocated
+   43 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_44.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_31.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_31.c:39:9: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_31.c:39:9: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |         free(data);
+      |         ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_18.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_45.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_45.c:31:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   31 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_45.c:46:5: note: Calling 'badSink'
+   46 |     badSink();
+      |     ^~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_45.c:31:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   31 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_33.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_33.cpp:42:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   42 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_33.cpp:42:9: note: Value stored to 'data' is never read
+   42 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_33.cpp:78:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   78 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_33.cpp:78:9: note: Value stored to 'data' is never read
+   78 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_34.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_15.c:45:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   45 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_15.c:27:5: note: Control jumps to 'case 6:'  at line 29
+   27 |     switch(6)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_15.c:37:5: note:  Execution continues on line 43
+   37 |     break;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_15.c:45:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   45 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_53a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_17.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_31.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_13.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:49:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   49 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:33:5: note: Null pointer value stored to 'data'
+   33 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:34:8: note: Assuming 'staticTrue' is 0
+   34 |     if(staticTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:34:5: note: Taking false branch
+   34 |     if(staticTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:49:19: note: Array access (from variable 'data') results in a null pointer dereference
+   49 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:88:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   88 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:125:5: note: Calling 'goodG2B1'
+  125 |     goodG2B1();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:62:5: note: Null pointer value stored to 'data'
+   62 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:63:8: note: Assuming 'staticFalse' is not equal to 0
+   63 |     if(staticFalse)
+      |        ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:63:5: note: Taking true branch
+   63 |     if(staticFalse)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:88:19: note: Array access (from variable 'data') results in a null pointer dereference
+   88 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:118:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+  118 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:126:5: note: Calling 'goodG2B2'
+  126 |     goodG2B2();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:97:5: note: Null pointer value stored to 'data'
+   97 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:98:8: note: Assuming 'staticTrue' is 0
+   98 |     if(staticTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:98:5: note: Taking false branch
+   98 |     if(staticTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_05.c:118:19: note: Array access (from variable 'data') results in a null pointer dereference
+  118 |     printLongLine(data[0]);
+      |                   ^~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_03.c:39:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_03.c:27:8: note: 5 is equal to 5
+   27 |     if(5==5)
+      |        ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_03.c:27:5: note: Taking true branch
+   27 |     if(5==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_03.c:39:5: note: Memory allocated by alloca() should not be deallocated
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_64b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_01.c:36:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   36 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_01.c:36:5: note: Memory allocated by alloca() should not be deallocated
+   36 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_11.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_02.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_34.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_34.c:74:9: warning: Potential leak of memory pointed to by 'myUnion.unionFirst' [clang-analyzer-unix.Malloc]
+   74 |         wchar_t * data = myUnion.unionSecond;
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_34.c:83:5: note: Calling 'goodG2B'
+   83 |     goodG2B();
+      |     ^~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_34.c:62:43: note: Memory is allocated
+   62 |         wchar_t * dataBuffer = (wchar_t *)malloc(100*sizeof(wchar_t));
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_34.c:63:13: note: Assuming 'dataBuffer' is not equal to NULL
+   63 |         if (dataBuffer == NULL)
+      |             ^~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_34.c:63:9: note: Taking false branch
+   63 |         if (dataBuffer == NULL)
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_34.c:74:9: note: Potential leak of memory pointed to by 'myUnion.unionFirst'
+   74 |         wchar_t * data = myUnion.unionSecond;
+      |         ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_18.c:38:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   38 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_18.c:27:5: note: Control jumps to line 31
+   27 |     goto source;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_18.c:38:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   38 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_13.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_10.c:39:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_10.c:27:8: note: Assuming 'globalTrue' is not equal to 0
+   27 |     if(globalTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_10.c:27:5: note: Taking true branch
+   27 |     if(globalTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_10.c:39:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_53a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_03.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_12.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_10.c:39:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_10.c:27:8: note: Assuming 'globalTrue' is not equal to 0
+   27 |     if(globalTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_10.c:27:5: note: Taking true branch
+   27 |     if(globalTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_10.c:39:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_12.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_53a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_31.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_16.c:40:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   40 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_16.c:27:5: note: Loop condition is true.  Entering loop body
+   27 |     while(1)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_16.c:36:9: note:  Execution continues on line 38
+   36 |         break;
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_16.c:40:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   40 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_34.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_34.c:74:9: warning: Potential leak of memory pointed to by 'myUnion.unionFirst' [clang-analyzer-unix.Malloc]
+   74 |         wchar_t * data = myUnion.unionSecond;
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_34.c:83:5: note: Calling 'goodG2B'
+   83 |     goodG2B();
+      |     ^~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_34.c:62:43: note: Memory is allocated
+   62 |         wchar_t * dataBuffer = (wchar_t *)malloc(100*sizeof(wchar_t));
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_34.c:63:13: note: Assuming 'dataBuffer' is not equal to NULL
+   63 |         if (dataBuffer == NULL)
+      |             ^~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_34.c:63:9: note: Taking false branch
+   63 |         if (dataBuffer == NULL)
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_34.c:74:9: note: Potential leak of memory pointed to by 'myUnion.unionFirst'
+   74 |         wchar_t * data = myUnion.unionSecond;
+      |         ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_33.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_33.cpp:41:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   41 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_33.cpp:41:9: note: Value stored to 'data' is never read
+   41 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_33.cpp:76:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   76 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_33.cpp:76:9: note: Value stored to 'data' is never read
+   76 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_08.c:53:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   53 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_08.c:41:5: note: Taking true branch
+   41 |     if(staticReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_08.c:53:5: note: Memory allocated by alloca() should not be deallocated
+   53 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_08.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_01.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_18.c:38:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   38 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_18.c:27:5: note: Control jumps to line 31
+   27 |     goto source;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_18.c:38:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   38 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_45.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_45.c:31:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   31 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_45.c:46:5: note: Calling 'badSink'
+   46 |     badSink();
+      |     ^~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_45.c:31:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   31 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_04.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_64b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_04.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_34.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_33.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_33.cpp:42:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   42 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_33.cpp:42:9: note: Value stored to 'data' is never read
+   42 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_33.cpp:78:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   78 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_33.cpp:78:9: note: Value stored to 'data' is never read
+   78 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_10.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_14.c:39:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_14.c:27:8: note: Assuming 'globalFive' is equal to 5
+   27 |     if(globalFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_14.c:27:5: note: Taking true branch
+   27 |     if(globalFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_14.c:39:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_45.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_45.c:31:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   31 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_45.c:46:5: note: Calling 'badSink'
+   46 |     badSink();
+      |     ^~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_45.c:31:5: note: Memory allocated by alloca() should not be deallocated
+   31 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_06.c:43:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   43 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_06.c:31:8: note: 'STATIC_CONST_FIVE' is equal to 5
+   31 |     if(STATIC_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_06.c:31:5: note: Taking true branch
+   31 |     if(STATIC_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_06.c:43:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   43 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_41.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_41.c:27:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   27 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_41.c:41:5: note: Calling 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_41_badSink'
+   41 |     CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_41_badSink(data);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_41.c:27:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   27 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_16.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_08.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_18.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_18.c:38:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   38 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_18.c:27:5: note: Control jumps to line 31
+   27 |     goto source;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_18.c:38:5: note: Memory allocated by alloca() should not be deallocated
+   38 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_07.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_05.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_14.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_11.c:39:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_11.c:27:8: note: Assuming the condition is true
+   27 |     if(globalReturnsTrue())
+      |        ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_11.c:27:5: note: Taking true branch
+   27 |     if(globalReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_11.c:39:5: note: Memory allocated by alloca() should not be deallocated
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_03.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_14.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_04.c:46:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   46 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_04.c:34:8: note: 'STATIC_CONST_TRUE' is 1
+   34 |     if(STATIC_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_04.c:34:5: note: Taking true branch
+   34 |     if(STATIC_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_04.c:46:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   46 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_04.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_33.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_33.cpp:42:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   42 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_33.cpp:42:9: note: Value stored to 'data' is never read
+   42 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_33.cpp:78:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   78 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_33.cpp:78:9: note: Value stored to 'data' is never read
+   78 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_32.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_32.c:30:25: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_32.c:30:25: note: Value stored to 'data' during its initialization is never read
+   30 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_32.c:66:25: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   66 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_32.c:66:25: note: Value stored to 'data' during its initialization is never read
+   66 |         twoIntsStruct * data = *dataPtr1;
+      |                         ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_06.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_03.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_03.c:39:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_03.c:27:8: note: 5 is equal to 5
+   27 |     if(5==5)
+      |        ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_03.c:27:5: note: Taking true branch
+   27 |     if(5==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_03.c:39:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_44.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_09.c:39:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_09.c:27:8: note: Assuming 'GLOBAL_CONST_TRUE' is not equal to 0
+   27 |     if(GLOBAL_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_09.c:27:5: note: Taking true branch
+   27 |     if(GLOBAL_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_09.c:39:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_16.c:40:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   40 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_16.c:27:5: note: Loop condition is true.  Entering loop body
+   27 |     while(1)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_16.c:36:9: note:  Execution continues on line 38
+   36 |         break;
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_16.c:40:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   40 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_64b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:42:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:26:5: note: Null pointer value stored to 'data'
+   26 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:27:8: note: Assuming 'globalTrue' is 0
+   27 |     if(globalTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:27:5: note: Taking false branch
+   27 |     if(globalTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:42:19: note: Array access (from variable 'data') results in a null pointer dereference
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:81:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   81 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:118:5: note: Calling 'goodG2B1'
+  118 |     goodG2B1();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:55:5: note: Null pointer value stored to 'data'
+   55 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:56:8: note: Assuming 'globalFalse' is not equal to 0
+   56 |     if(globalFalse)
+      |        ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:56:5: note: Taking true branch
+   56 |     if(globalFalse)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:81:19: note: Array access (from variable 'data') results in a null pointer dereference
+   81 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:111:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+  111 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:119:5: note: Calling 'goodG2B2'
+  119 |     goodG2B2();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:90:5: note: Null pointer value stored to 'data'
+   90 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:91:8: note: Assuming 'globalTrue' is 0
+   91 |     if(globalTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:91:5: note: Taking false branch
+   91 |     if(globalTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_10.c:111:19: note: Array access (from variable 'data') results in a null pointer dereference
+  111 |     printLongLine(data[0]);
+      |                   ^~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_11.c:39:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_11.c:27:8: note: Assuming the condition is true
+   27 |     if(globalReturnsTrue())
+      |        ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_11.c:27:5: note: Taking true branch
+   27 |     if(globalReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_11.c:39:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_11.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_17.c:40:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   40 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_17.c:28:5: note: Loop condition is true.  Entering loop body
+   28 |     for(i = 0; i < 1; i++)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_17.c:28:5: note: Loop condition is false. Execution continues on line 38
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_17.c:40:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   40 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_33.cpp =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_33.cpp:36:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_33.cpp:36:9: note: Value stored to 'data' is never read
+   36 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_33.cpp:42:9: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   42 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_33.cpp:42:9: note: Memory allocated by alloca() should not be deallocated
+   42 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_33.cpp:66:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   66 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_33.cpp:66:9: note: Value stored to 'data' is never read
+   66 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_52c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_16.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_07.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_08.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_64b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_11.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_03.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:48:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   48 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:32:5: note: Null pointer value stored to 'data'
+   32 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:33:8: note: Assuming 'staticFive' is not equal to 5
+   33 |     if(staticFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:33:5: note: Taking false branch
+   33 |     if(staticFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:48:19: note: Array access (from variable 'data') results in a null pointer dereference
+   48 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:87:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   87 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:124:5: note: Calling 'goodG2B1'
+  124 |     goodG2B1();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:61:5: note: Null pointer value stored to 'data'
+   61 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:62:8: note: Assuming 'staticFive' is not equal to 5
+   62 |     if(staticFive!=5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:62:5: note: Taking true branch
+   62 |     if(staticFive!=5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:87:19: note: Array access (from variable 'data') results in a null pointer dereference
+   87 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:117:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+  117 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:125:5: note: Calling 'goodG2B2'
+  125 |     goodG2B2();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:96:5: note: Null pointer value stored to 'data'
+   96 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:97:8: note: Assuming 'staticFive' is not equal to 5
+   97 |     if(staticFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:97:5: note: Taking false branch
+   97 |     if(staticFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_07.c:117:19: note: Array access (from variable 'data') results in a null pointer dereference
+  117 |     printLongLine(data[0]);
+      |                   ^~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_09.c:39:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_09.c:27:8: note: Assuming 'GLOBAL_CONST_TRUE' is not equal to 0
+   27 |     if(GLOBAL_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_09.c:27:5: note: Taking true branch
+   27 |     if(GLOBAL_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_09.c:39:5: note: Memory allocated by alloca() should not be deallocated
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_54c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_32.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_32.c:30:19: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_32.c:30:19: note: Value stored to 'data' during its initialization is never read
+   30 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_32.c:44:9: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   44 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_32.c:44:9: note: Memory allocated by alloca() should not be deallocated
+   44 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_32.c:60:19: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   60 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_32.c:60:19: note: Value stored to 'data' during its initialization is never read
+   60 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_15.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_12.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_82a.cpp:44:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_struct_static_82::CWE590_Free_Memory_Not_on_Heap__free_struct_static_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   44 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_82a.cpp:76:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_struct_static_82::CWE590_Free_Memory_Not_on_Heap__free_struct_static_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   76 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_16.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_44.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_08.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82a.cpp:38:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82::CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   38 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82a.cpp:64:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82::CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   64 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:42:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:26:5: note: Null pointer value stored to 'data'
+   26 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:27:8: note: Assuming 'GLOBAL_CONST_FIVE' is not equal to 5
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:27:5: note: Taking false branch
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:42:19: note: Array access (from variable 'data') results in a null pointer dereference
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:81:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   81 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:118:5: note: Calling 'goodG2B1'
+  118 |     goodG2B1();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:55:5: note: Null pointer value stored to 'data'
+   55 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:56:8: note: Assuming 'GLOBAL_CONST_FIVE' is not equal to 5
+   56 |     if(GLOBAL_CONST_FIVE!=5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:56:5: note: Taking true branch
+   56 |     if(GLOBAL_CONST_FIVE!=5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:81:19: note: Array access (from variable 'data') results in a null pointer dereference
+   81 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:111:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+  111 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:119:5: note: Calling 'goodG2B2'
+  119 |     goodG2B2();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:90:5: note: Null pointer value stored to 'data'
+   90 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:91:8: note: Assuming 'GLOBAL_CONST_FIVE' is not equal to 5
+   91 |     if(GLOBAL_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:91:5: note: Taking false branch
+   91 |     if(GLOBAL_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_13.c:111:19: note: Array access (from variable 'data') results in a null pointer dereference
+  111 |     printLongLine(data[0]);
+      |                   ^~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_02.c:39:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_02.c:27:5: note: Taking true branch
+   27 |     if(1)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_02.c:39:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_33.cpp =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_33.cpp:36:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_33.cpp:36:9: note: Value stored to 'data' is never read
+   36 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_33.cpp:42:9: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   42 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_33.cpp:42:9: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   42 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_33.cpp:66:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   66 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_33.cpp:66:9: note: Value stored to 'data' is never read
+   66 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_17.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_17.c:40:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   40 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_17.c:28:5: note: Loop condition is true.  Entering loop body
+   28 |     for(i = 0; i < 1; i++)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_17.c:28:5: note: Loop condition is false. Execution continues on line 38
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_17.c:40:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   40 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_08.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_08.c:53:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   53 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_08.c:41:5: note: Taking true branch
+   41 |     if(staticReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_08.c:53:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   53 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_10.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_10.c:39:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_10.c:27:8: note: Assuming 'globalTrue' is not equal to 0
+   27 |     if(globalTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_10.c:27:5: note: Taking true branch
+   27 |     if(globalTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_10.c:39:5: note: Memory allocated by alloca() should not be deallocated
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:42:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:26:5: note: Null pointer value stored to 'data'
+   26 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:27:8: note: Assuming 'globalFive' is not equal to 5
+   27 |     if(globalFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:27:5: note: Taking false branch
+   27 |     if(globalFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:42:19: note: Array access (from variable 'data') results in a null pointer dereference
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:81:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   81 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:118:5: note: Calling 'goodG2B1'
+  118 |     goodG2B1();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:55:5: note: Null pointer value stored to 'data'
+   55 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:56:8: note: Assuming 'globalFive' is not equal to 5
+   56 |     if(globalFive!=5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:56:5: note: Taking true branch
+   56 |     if(globalFive!=5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:81:19: note: Array access (from variable 'data') results in a null pointer dereference
+   81 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:111:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+  111 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:119:5: note: Calling 'goodG2B2'
+  119 |     goodG2B2();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:90:5: note: Null pointer value stored to 'data'
+   90 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:91:8: note: Assuming 'globalFive' is not equal to 5
+   91 |     if(globalFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:91:5: note: Taking false branch
+   91 |     if(globalFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_14.c:111:19: note: Array access (from variable 'data') results in a null pointer dereference
+  111 |     printLongLine(data[0]);
+      |                   ^~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_14.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_33.cpp =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_33.cpp:36:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   36 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_33.cpp:36:9: note: Value stored to 'data' is never read
+   36 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_33.cpp:42:9: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   42 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_33.cpp:42:9: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   42 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_33.cpp:66:9: warning: Value stored to 'data' is never read [clang-analyzer-deadcode.DeadStores]
+   66 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_33.cpp:66:9: note: Value stored to 'data' is never read
+   66 |         data = dataBuffer;
+      |         ^      ~~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_04.c:46:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   46 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_04.c:34:8: note: 'STATIC_CONST_TRUE' is 1
+   34 |     if(STATIC_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_04.c:34:5: note: Taking true branch
+   34 |     if(STATIC_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_04.c:46:5: note: Memory allocated by alloca() should not be deallocated
+   46 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_02.c:39:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_02.c:27:5: note: Taking true branch
+   27 |     if(1)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_02.c:39:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_09.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_09.c:39:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_09.c:27:8: note: Assuming 'GLOBAL_CONST_TRUE' is not equal to 0
+   27 |     if(GLOBAL_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_09.c:27:5: note: Taking true branch
+   27 |     if(GLOBAL_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_09.c:39:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_07.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_05.c:46:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   46 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_05.c:34:8: note: Assuming 'staticTrue' is not equal to 0
+   34 |     if(staticTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_05.c:34:5: note: Taking true branch
+   34 |     if(staticTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_05.c:46:5: note: Memory allocated by alloca() should not be deallocated
+   46 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_51b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_45.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_10.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_41.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_64b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_18.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_15.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_31.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_31.c:39:9: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_31.c:39:9: note: Memory allocated by alloca() should not be deallocated
+   39 |         free(data);
+      |         ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82a.cpp:38:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82::CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   38 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82a.cpp:64:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82::CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   64 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_63a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_04.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_04.c:46:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   46 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_04.c:34:8: note: 'STATIC_CONST_TRUE' is 1
+   34 |     if(STATIC_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_04.c:34:5: note: Taking true branch
+   34 |     if(STATIC_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_04.c:46:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   46 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_32.c =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_32.c:30:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |         long * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_32.c:30:16: note: Value stored to 'data' during its initialization is never read
+   30 |         long * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_32.c:65:16: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   65 |         long * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_32.c:65:16: note: Value stored to 'data' during its initialization is never read
+   65 |         long * data = *dataPtr1;
+      |                ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_44.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_44.c:27:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   27 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_44.c:44:5: note: Calling 'badSink'
+   44 |     funcPtr(data);
+      |     ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_44.c:27:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   27 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_45.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_54b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_17.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_06.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_06.c:43:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   43 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_06.c:31:8: note: 'STATIC_CONST_FIVE' is equal to 5
+   31 |     if(STATIC_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_06.c:31:5: note: Taking true branch
+   31 |     if(STATIC_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_06.c:43:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   43 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_06.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_01.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_13.c:39:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_13.c:27:8: note: Assuming 'GLOBAL_CONST_FIVE' is equal to 5
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_13.c:27:5: note: Taking true branch
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_13.c:39:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_12.c:54:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   54 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_12.c:27:8: note: Assuming the condition is true
+   27 |     if(globalReturnsTrueOrFalse())
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_12.c:27:5: note: Taking true branch
+   27 |     if(globalReturnsTrueOrFalse())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_12.c:54:5: note: Memory allocated by alloca() should not be deallocated
+   54 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_13.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_02.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_02.c:39:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_02.c:27:5: note: Taking true branch
+   27 |     if(1)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_02.c:39:5: note: Memory allocated by alloca() should not be deallocated
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_15.c:45:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   45 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_15.c:27:5: note: Control jumps to 'case 6:'  at line 29
+   27 |     switch(6)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_15.c:37:5: note:  Execution continues on line 43
+   37 |     break;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_15.c:45:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   45 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_53d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_02.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_18.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_31.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_02.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_05.c:46:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   46 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_05.c:34:8: note: Assuming 'staticTrue' is not equal to 0
+   34 |     if(staticTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_05.c:34:5: note: Taking true branch
+   34 |     if(staticTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_05.c:46:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   46 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_44.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_12.c:54:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   54 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_12.c:27:8: note: Assuming the condition is true
+   27 |     if(globalReturnsTrueOrFalse())
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_12.c:27:5: note: Taking true branch
+   27 |     if(globalReturnsTrueOrFalse())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_12.c:54:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   54 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_65b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_51a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_34.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_06.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_31.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_31.c:39:9: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_31.c:39:9: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |         free(data);
+      |         ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_53b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_16.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_16.c:40:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   40 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_16.c:27:5: note: Loop condition is true.  Entering loop body
+   27 |     while(1)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_16.c:36:9: note:  Execution continues on line 38
+   36 |         break;
+      |         ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_16.c:40:5: note: Memory allocated by alloca() should not be deallocated
+   40 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_54d.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_32.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_32.c:30:19: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   30 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_32.c:30:19: note: Value stored to 'data' during its initialization is never read
+   30 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_32.c:44:9: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   44 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_32.c:44:9: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   44 |         free(data);
+      |         ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_32.c:60:19: warning: Value stored to 'data' during its initialization is never read [clang-analyzer-deadcode.DeadStores]
+   60 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_32.c:60:19: note: Value stored to 'data' during its initialization is never read
+   60 |         wchar_t * data = *dataPtr1;
+      |                   ^~~~   ~~~~~~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_16.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_15.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_67a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_17.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_34.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_15.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_15.c:45:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   45 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_15.c:27:5: note: Control jumps to 'case 6:'  at line 29
+   27 |     switch(6)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_15.c:37:5: note:  Execution continues on line 43
+   37 |     break;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_15.c:45:5: note: Memory allocated by alloca() should not be deallocated
+   45 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_14.c:39:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_14.c:27:8: note: Assuming 'globalFive' is equal to 5
+   27 |     if(globalFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_14.c:27:5: note: Taking true branch
+   27 |     if(globalFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_14.c:39:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_44.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_44.c:27:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   27 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_44.c:44:5: note: Calling 'badSink'
+   44 |     funcPtr(data);
+      |     ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_44.c:27:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   27 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_68a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_05.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_05.c:46:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   46 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_05.c:34:8: note: Assuming 'staticTrue' is not equal to 0
+   34 |     if(staticTrue)
+      |        ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_05.c:34:5: note: Taking true branch
+   34 |     if(staticTrue)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_05.c:46:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   46 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_01.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_64a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_11.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_11.c:39:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_11.c:27:8: note: Assuming the condition is true
+   27 |     if(globalReturnsTrue())
+      |        ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_11.c:27:5: note: Taking true branch
+   27 |     if(globalReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_11.c:39:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_41.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_41.c:27:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   27 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_41.c:41:5: note: Calling 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_41_badSink'
+   41 |     CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_41_badSink(data);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_41.c:27:5: note: Memory allocated by alloca() should not be deallocated
+   27 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_41.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_31.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_44.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_44.c:27:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   27 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_44.c:44:5: note: Calling 'badSink'
+   44 |     funcPtr(data);
+      |     ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_44.c:27:5: note: Memory allocated by alloca() should not be deallocated
+   27 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_66b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_alloca_53a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_68b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_53a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_04.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_52b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_14.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_14.c:39:5: warning: Memory allocated by alloca() should not be deallocated [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_14.c:27:8: note: Assuming 'globalFive' is equal to 5
+   27 |     if(globalFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_14.c:27:5: note: Taking true branch
+   27 |     if(globalFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_14.c:39:5: note: Memory allocated by alloca() should not be deallocated
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_41.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_41.c:27:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   27 |     free(data);
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_41.c:41:5: note: Calling 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_41_badSink'
+   41 |     CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_41_badSink(data);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_41.c:27:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   27 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_53c.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_54e.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_13.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_13.c:39:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   39 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_13.c:27:8: note: Assuming 'GLOBAL_CONST_FIVE' is equal to 5
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_13.c:27:5: note: Taking true branch
+   27 |     if(GLOBAL_CONST_FIVE==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_13.c:39:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   39 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_82a.cpp:43:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_long_static_82::CWE590_Free_Memory_Not_on_Heap__free_long_static_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   43 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_82a.cpp:74:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_long_static_82::CWE590_Free_Memory_Not_on_Heap__free_long_static_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   74 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_63b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_alloca_67b.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_01.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_01.c:36:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   36 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_01.c:36:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   36 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_07.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_07.c:45:5: warning: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   45 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_07.c:33:8: note: Assuming 'staticFive' is equal to 5
+   33 |     if(staticFive==5)
+      |        ^~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_07.c:33:5: note: Taking true branch
+   33 |     if(staticFive==5)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_07.c:45:5: note: Argument to free() is the address of the local variable 'dataBuffer', which is not memory allocated by malloc()
+   45 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_declare_41.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_66a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_52a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_struct_static_54a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:42:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:26:5: note: Null pointer value stored to 'data'
+   26 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:27:8: note: Assuming the condition is false
+   27 |     if(globalReturnsTrue())
+      |        ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:27:5: note: Taking false branch
+   27 |     if(globalReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:42:19: note: Array access (from variable 'data') results in a null pointer dereference
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:81:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   81 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:118:5: note: Calling 'goodG2B1'
+  118 |     goodG2B1();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:55:5: note: Null pointer value stored to 'data'
+   55 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:56:8: note: Assuming the condition is true
+   56 |     if(globalReturnsFalse())
+      |        ^~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:56:5: note: Taking true branch
+   56 |     if(globalReturnsFalse())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:81:19: note: Array access (from variable 'data') results in a null pointer dereference
+   81 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:111:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+  111 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:119:5: note: Calling 'goodG2B2'
+  119 |     goodG2B2();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:90:5: note: Null pointer value stored to 'data'
+   90 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:91:8: note: Assuming the condition is false
+   91 |     if(globalReturnsTrue())
+      |        ^~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:91:5: note: Taking false branch
+   91 |     if(globalReturnsTrue())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_11.c:111:19: note: Array access (from variable 'data') results in a null pointer dereference
+  111 |     printLongLine(data[0]);
+      |                   ^~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:42:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:26:5: note: Null pointer value stored to 'data'
+   26 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:27:8: note: Assuming 'GLOBAL_CONST_TRUE' is 0
+   27 |     if(GLOBAL_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:27:5: note: Taking false branch
+   27 |     if(GLOBAL_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:42:19: note: Array access (from variable 'data') results in a null pointer dereference
+   42 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:81:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+   81 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:118:5: note: Calling 'goodG2B1'
+  118 |     goodG2B1();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:55:5: note: Null pointer value stored to 'data'
+   55 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:56:8: note: Assuming 'GLOBAL_CONST_FALSE' is not equal to 0
+   56 |     if(GLOBAL_CONST_FALSE)
+      |        ^~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:56:5: note: Taking true branch
+   56 |     if(GLOBAL_CONST_FALSE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:81:19: note: Array access (from variable 'data') results in a null pointer dereference
+   81 |     printLongLine(data[0]);
+      |                   ^~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:111:19: warning: Array access (from variable 'data') results in a null pointer dereference [clang-analyzer-core.NullDereference]
+  111 |     printLongLine(data[0]);
+      |                   ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:119:5: note: Calling 'goodG2B2'
+  119 |     goodG2B2();
+      |     ^~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:90:5: note: Null pointer value stored to 'data'
+   90 |     data = NULL; /* Initialize data */
+      |     ^~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:91:8: note: Assuming 'GLOBAL_CONST_TRUE' is 0
+   91 |     if(GLOBAL_CONST_TRUE)
+      |        ^~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:91:5: note: Taking false branch
+   91 |     if(GLOBAL_CONST_TRUE)
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_09.c:111:19: note: Array access (from variable 'data') results in a null pointer dereference
+  111 |     printLongLine(data[0]);
+      |                   ^~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_long_static_65a.c =====
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_12.c =====
+1 warning generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_12.c:54:5: warning: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc() [clang-analyzer-unix.Malloc]
+   54 |     free(data);
+      |     ^    ~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_12.c:27:8: note: Assuming the condition is true
+   27 |     if(globalReturnsTrueOrFalse())
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_12.c:27:5: note: Taking true branch
+   27 |     if(globalReturnsTrueOrFalse())
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_12.c:54:5: note: Argument to free() is the address of the static variable 'dataBuffer', which is not memory allocated by malloc()
+   54 |     free(data);
+      |     ^    ~~~~
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82a.cpp =====
+2 warnings generated.
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82a.cpp:38:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82::CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   38 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82a.cpp:64:5: warning: delete called on 'CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82::CWE590_Free_Memory_Not_on_Heap__free_wchar_t_static_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   64 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE590_Free_Memory_Not_on_Heap/s05/CWE590_Free_Memory_Not_on_Heap__free_wchar_t_declare_53a.c =====

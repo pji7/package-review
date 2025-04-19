@@ -1,0 +1,112 @@
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_12.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_16.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_11.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_12.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_14.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_04.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_15.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_10.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_07.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_06.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_18.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_13.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_15.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_11.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_08.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_18.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_05.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_05.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_06.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_09.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_04.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_12.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_17.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_02.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_13.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_17.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_16.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_10.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_16.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_08.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_02.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_07.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_01.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_01.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_03.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_03.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_14.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_15.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_11.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_07.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_17.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_06.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_05.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_10.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_18.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_08.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_09.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_03.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__doubleNaN2int_14.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_02.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_04.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_01.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2int_13.c =====
+
+===== /home/jip/input/C/testcases/CWE681_Incorrect_Conversion_Between_Numeric_Types/CWE681_Incorrect_Conversion_Between_Numeric_Types__double2float_09.c =====

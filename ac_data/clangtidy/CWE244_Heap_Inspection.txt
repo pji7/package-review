@@ -1,0 +1,578 @@
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_15.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_13.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_01.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_08.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_18.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_07.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_17.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_08.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_04.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_14.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_09.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_11.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_07.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_08.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_17.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_12.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_01.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_14.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_03.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_16.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_07.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_05.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_16.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_16.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_04.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_05.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_05.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_09.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_15.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_04.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_02.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_03.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_10.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_16.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_16.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_16.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_15.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_04.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_04.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_04.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_13.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_10.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_11.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_06.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_03.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_13.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_05.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_05.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_05.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_08.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_08.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_08.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_14.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_17.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_12.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_02.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_02.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_02.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_02.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_02.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_14.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_14.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_14.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_18.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_09.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_01.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_15.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_15.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_15.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_12.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_13.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_13.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_13.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_07.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_07.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_07.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_11.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_09.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_09.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_09.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_10.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_10.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_10.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_10.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_03.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_03.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_03.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_17.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_17.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_17.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_01.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_01.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_free_01.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_11.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_11.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_11.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_18.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_char_realloc_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_12.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_12.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_free_12.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).
+
+===== /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_18.c =====
+1 error generated.
+Error while processing /home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_18.c.
+/home/jip/input/C/testcases/CWE244_Heap_Inspection/CWE244_Heap_Inspection__w32_wchar_t_realloc_18.c:19:10: error: 'windows.h' file not found [clang-diagnostic-error]
+   19 | #include <windows.h>
+      |          ^~~~~~~~~~~
+Found compiler error(s).

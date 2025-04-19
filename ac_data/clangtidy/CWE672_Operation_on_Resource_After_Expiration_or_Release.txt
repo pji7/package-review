@@ -1,0 +1,176 @@
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_72a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_21.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_81_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_41.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_01.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_11.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_13.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_68b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_02.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_81_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_12.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82a.cpp =====
+3 warnings generated.
+/home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82a.cpp:34:5: warning: delete called on 'CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82::CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   34 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82a.cpp:50:5: warning: delete called on 'CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82::CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   50 |     delete baseObject;
+      |     ^
+/home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82a.cpp:62:5: warning: delete called on 'CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82::CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82_base' that is abstract but has non-virtual destructor [clang-diagnostic-delete-abstract-non-virtual-dtor]
+   62 |     delete baseObject;
+      |     ^
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_03.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_04.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_10.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_44.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_18.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_74a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_84_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_72b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/main_linux.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_65a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_53b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_61a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_62a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_33.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_64b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_63a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_83_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_22a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_32.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_84a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_67b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_83_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_15.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_52b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_74b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_42.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_52a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/main.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_54c.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_83_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_05.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_66a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_31.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_54e.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_06.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_67a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_54d.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_07.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_08.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_64a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_83a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_22b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_81a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_84_bad.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_45.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_82_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_63b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_51b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_65b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_73b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_81_goodG2B.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_51a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_53d.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_73a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_66b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_53c.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_14.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_16.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_17.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_43.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_68a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_53a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_54a.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_09.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_61b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_84_goodB2G.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_62b.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_52c.cpp =====
+
+===== /home/jip/input/C/testcases/CWE672_Operation_on_Resource_After_Expiration_or_Release/CWE672_Operation_on_Resource_After_Expiration_or_Release__list_int_54b.cpp =====
